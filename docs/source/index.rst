@@ -3,7 +3,7 @@ SunFounder ESP32 Camera Pro Kit
 
 Thanks for choosing our ESP32 Camera Pro Kit.
 
-This ESP32 kit is designed to empower a variety of projects, from robotics to IoT and Bluetooth applications. It features the powerful ESP32 WROOM 32E module, paired with an expansion board that supports easy experimentation and connectivity. The kit includes an OV2640 camera module for image processing tasks and a rechargeable battery interface for mobile applications. With slots for a MicroSD card and camera, this kit provides a comprehensive solution for developers looking to explore advanced electronics with ease and efficiency.
+This ESP32 Camera Pro kit is designed to empower a variety of projects, from robotics to IoT and Bluetooth applications. It features the powerful ESP32 WROOM 32E module, paired with an expansion board that supports easy experimentation and connectivity. The kit includes an OV2640 camera module for image processing tasks and a rechargeable battery interface for mobile applications. With slots for a MicroSD card and camera, this kit provides a comprehensive solution for developers looking to explore advanced electronics with ease and efficiency.
 
 .. note::
     This document is available in the following languages.

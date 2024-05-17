@@ -1,5 +1,5 @@
-# SunFounder ESP32 Starter Kit
-This repository is for ESP32 Starter Kit. you can buy it on [our website](https://www.sunfounder.com/), or search sunfounder in Amazon.
+# SunFounder ESP32 Camera Pro Kit
+This repository is for ESP32 Camera Pro Kit. you can buy it on [our website](https://www.sunfounder.com/), or search sunfounder in Amazon.
 
 Quick Links:
 
@@ -13,30 +13,14 @@ Quick Links:
 <a id="about_this_kit"></a>
 ## About this kit:
 
-Welcome to the ESP32 Learning Kit! This comprehensive package is designed to offer both beginners and seasoned developers a deep dive into the versatile world of the ESP32 microcontroller. With the ESP32 WROOM 32E at its core, and a range of accompanying components like LEDs, sensors, motors, and more, users can explore a vast array of projects.
+This ESP32 Camera Pro kit is designed to empower a variety of projects, from robotics to IoT and Bluetooth applications. It features the powerful ESP32 WROOM 32E module, paired with an expansion board that supports easy experimentation and connectivity. The kit includes an OV2640 camera module for image processing tasks and a rechargeable battery interface for mobile applications. With slots for a MicroSD card and camera, this kit provides a comprehensive solution for developers looking to explore advanced electronics with ease and efficiency.
+
 
 <a id="update"></a>
 ## Update:
-2023-12-15:
-- Add the Arduino video courses.
 
-2023-11-28:
-- Add images of inserting a USB cable into an ESP32 for various programming language projects.
-- Modify some errors.
-
-2023-10-31:
-- Add electronic component purchase link.
-
-2023-10-20:
-- Correct some errors.
-- Add an FAQ for 'Unknown COMxx'.
-
-2023-08-09:
-- Replace the TT motor with a 3V motor, and update the corresponding description and diagram.
-- Replace the L9110 module with the L293D, and update the corresponding description and diagram.
-
-2023-08-09:
-- change the name from esp32 ultimate kit to esp32 starter kit
+2024-05-17:
+- First Release
 
 <a id="trouble"></a>
 ## Trouble Shootings:
@@ -47,16 +31,16 @@ SunFounder is a company focused on STEAM education with products like open sourc
 
 <a id="license"></a>
 ## License
-This is the code for ESP32 Starter Kit.
+This is the code for ESP32 Camera Pro Kit.
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied wa rranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-esp32-starter-kit comes with ABSOLUTELY NO WARRANTY; for details run ./show w. This is free software, and you are welcome to redistribute it under certain conditions; run ./show c for details.
+esp32-camera-pro-kit comes with ABSOLUTELY NO WARRANTY; for details run ./show w. This is free software, and you are welcome to redistribute it under certain conditions; run ./show c for details.
 
-SunFounder, Inc., hereby disclaims all copyright interest in the program 'esp32-starter-kit' (which makes passes at compilers).
+SunFounder, Inc., hereby disclaims all copyright interest in the program 'esp32-camera-pro-kit' (which makes passes at compilers).
 
 Mike Huang, 21 August 2015
 
