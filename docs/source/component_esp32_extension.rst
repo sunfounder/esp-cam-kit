@@ -10,11 +10,60 @@ The board provides two types of GPIO headers - one with female headers, perfect 
 Additionally, you can power your project using a single 3.7V 18650 battery. If the battery runs low, you can conveniently charge it by simply plugging in a 5V Micro USB cable. This makes it a great tool for outdoor projects and remote applications.
 
 .. image:: img/esp32_camera_extension.jpg
-    :width: 600
+    :width: 400
     :align: center
 
-Interface Introduction
+.. image:: img/esp32_camera_extension_size.png
+    :width: 400
+    :align: center
+
+
+Specification Table
 ----------------------
+
+.. list-table::
+    :widths: 30 10 10 10 10
+    :header-rows: 1
+
+    *   - Parameter
+        - Minimum Value
+        - Typical Value
+        - Maximum Value
+        - Unit
+    *   - Battery Shutdown Current
+        - \-
+        - \-
+        - 60
+        - uA
+    *   - DC-DC Output Voltage
+        - 4.9129
+        - 5
+        - 5.0889
+        - V
+    *   - DC-DC Overtemperature Protection
+        - \-
+        - 150
+        - \-
+        - ℃
+    *   - Battery Charging Current
+        - \-
+        - \-
+        - 500
+        - mA
+    *   - Charging Overtemperature Protection
+        - \-
+        - 130
+        - \-
+        - ℃
+    *   - Input Low Voltage Switching Threshold
+        - \-
+        - 3.4
+        - \-
+        - V
+
+
+Interface Introduction
+-------------------------
 
 .. image:: img/esp32_camera_extension_pinout.jpg
     :width: 800
@@ -24,7 +73,7 @@ Interface Introduction
     * Controls the battery's power supply, toggling it on and off.
 
 * **Charging Port**
-    * Upon connecting a 5V Micro USB cable, the battery can be charged.
+    * Upon connecting a 5V/0.5A Micro USB cable, the battery can be charged.
 
 * **Battery Port**
     * Features a PH2.0-2P interface, compatible with 3.7V 18650 lithium batterry.
@@ -48,7 +97,7 @@ Interface Introduction
     * Designed for the OV2640 camera, making it suitable for various vision-related projects.
 
 
-ESP32 Camera Extension Pinout
+Pin Mapping Tables
 --------------------------------
 
 The ESP32 WROOM 32E's pinout diagram can be found in :ref:`esp32_pinout`. 
@@ -56,6 +105,10 @@ The ESP32 WROOM 32E's pinout diagram can be found in :ref:`esp32_pinout`.
 However, when the ESP32 WROOM 32E is inserted into the extension board, some of its pins may also be used to drive the Micro SD card or a camera. 
 
 Consequently, pull-up or pull-down resistors have be added to these pins. If you're using these pins as inputs, it's crucial to account for these resistors as they can affect input levels.
+
+.. note::
+
+    The onboard 8M PSRAM provides ample RAM for the camera. PSRAM occupies IO16 and IO17. Therefore, the expansion header and expansion screw terminal do not extend IO16 and IO17.
 
 Here's the pinout table for the right-side pins:
 
@@ -74,6 +127,112 @@ Here's the pinout table for the left-side pins:
         There are some specific constraints:
 
         * **IO33** is connected to a 4.7K pull-up resistor and a filtering capacitor, which prevents it from driving the WS2812 RGB Strip.
+
+**Micro SD Connector Pin Mapping Table**
+
+.. list-table::
+    :widths: 10 10
+    :header-rows: 1
+
+    *   - Micro SD Connector
+        - ESP32
+    *   - D0
+        - IO2
+    *   - D1
+        - IO4
+    *   - D2
+        - IO12
+    *   - D3
+        - IO13
+    *   - CLK
+        - IO14
+    *   - CMD
+        - IO15
+
+**FFC / FPC Connector Pin Mapping Table**
+
+The camera interface mainly uses the OV2640, compatible with the 8225 camera. The interface adopts an FFC connector with a 0.5mm pitch 24P flip-down connection.
+
+
+.. list-table::
+    :widths: 10 10 10
+    :header-rows: 1
+
+    *   - Number
+        - FFC / FPC Connector
+        - ESP32
+    *   - 1
+        - Y0
+        - NC
+    *   - 2
+        - Y1
+        - NC
+    *   - 3
+        - Y4
+        - IO19
+    *   - 4
+        - Y3
+        - IO18
+    *   - 5
+        - Y5
+        - IO21
+    *   - 6
+        - Y2
+        - IO5
+    *   - 7
+        - Y6
+        - IO36
+    *   - 8
+        - PCLK
+        - IO22
+    *   - 9
+        - Y7
+        - IO39
+    *   - 10
+        - DGND
+        - GND
+    *   - 11
+        - Y8
+        - IO34
+    *   - 12
+        - XCLK
+        - IO0
+    *   - 13
+        - Y9
+        - IO35
+    *   - 14
+        - DOVDD
+        - 3.3V
+    *   - 15
+        - DVDD
+        - 1.2V
+    *   - 16
+        - HREF
+        - IO23
+    *   - 17
+        - PWDN
+        - IO32
+    *   - 18
+        - VSYNC
+        - IO25
+    *   - 19
+        - RESET
+        - IO33
+    *   - 20
+        - SIO_C
+        - IO27
+    *   - 21
+        - VADD
+        - 2.8V
+    *   - 22
+        - SIO_D
+        - IO26
+    *   - 23
+        - AGND
+        - GND
+    *   - 24
+        - NC
+        - NC
 
 Interface Insertion Guide
 -------------------------------
@@ -114,7 +273,7 @@ Interface Insertion Guide
         :width: 500
         :align: center
 
-    If the battery is drained, plug in a 5V Micro USB to charge it.
+    If the battery is drained, plug in a 5V/0.5A Micro USB to charge it.
 
     .. image:: img/battery_charge.png
         :width: 500
