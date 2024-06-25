@@ -1,4 +1,4 @@
-.. note::
+ .. note::
 
     Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
 
@@ -12,6 +12,7 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
+ 
 Video 50: Temperature and Humidity Monitoring with Adafruit IO
 ======================================================================================
 
