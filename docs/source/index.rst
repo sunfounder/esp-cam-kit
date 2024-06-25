@@ -27,6 +27,7 @@ This ESP32 Camera Pro kit is designed to empower a variety of projects, from rob
     component_battery
     component_camera
     projects/projects
+    arduino_video_course/arduino_video_course
     faq/faq
 
 Copyright Notice

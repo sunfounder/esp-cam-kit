@@ -19,7 +19,7 @@ Additionally, you can power your project using a single 3.7V 18650 battery. If t
 
 
 Specification Table
-----------------------
+------------------------
 
 .. list-table::
     :widths: 30 10 10 10 10
