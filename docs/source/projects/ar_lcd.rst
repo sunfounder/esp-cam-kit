@@ -87,7 +87,7 @@
 
 **どのように動作しますか？**
 
-``LiquidCrystal_I2C.h``ライブラリを呼び出すことで、簡単にLCDを駆動できます。
+``LiquidCrystal_I2C.h`` ライブラリを呼び出すことで、簡単にLCDを駆動できます。
 
 .. code-block:: arduino
 

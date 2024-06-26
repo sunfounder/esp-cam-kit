@@ -33,7 +33,7 @@ Arduino IDE 2.0はオープンソースプロジェクトです。堅実な前�
 Arduino IDE 2.0のダウンロード
 -------------------------------
 
-#. |link_download_arduino|にアクセスします。
+#. |link_download_arduino| にアクセスします。
 
 #. お使いのOSバージョンに適したIDEをダウンロードします。
 

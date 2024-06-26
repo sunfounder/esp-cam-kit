@@ -63,7 +63,7 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
         
         <iframe src=https://create.arduino.cc/editor/sunfounder01/388f6d9d-65bf-4eaa-b29a-7cebf0b92f74/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-#. UUIDの競合を避けるために、|link_uuid|を使用して新しいUUIDを3つランダムに生成し、以下のコード行に入力することをお勧めします。
+#. UUIDの競合を避けるために、|link_uuid| を使用して新しいUUIDを3つランダムに生成し、以下のコード行に入力することをお勧めします。
 
     .. code-block:: arduino
 
@@ -81,7 +81,7 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
 
     .. image:: img/bluetooth_open.png
 
-#. **Scan** ページで **ESP32-Bluetooth** を見つけて **CONNECT** をクリックします。表示されない場合は、ページを数回更新してみてください。**"Connected to device!"**が表示されたら、Bluetooth接続は成功です。コードに設定した3つのUUIDを確認するためにスクロールダウンします。
+#. **Scan** ページで **ESP32-Bluetooth** を見つけて **CONNECT** をクリックします。表示されない場合は、ページを数回更新してみてください。 **"Connected to device!"** が表示されたら、Bluetooth接続は成功です。コードに設定した3つのUUIDを確認するためにスクロールダウンします。
 
     .. image:: img/bluetooth_connect.png
         :width: 800
@@ -142,7 +142,7 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
         // Bluetoothキャラクタリスティックの定義
         BLECharacteristic *pCharacteristic;
 
-* **セットアップ**: ``setup()``関数では、シリアルポートが115200のボーレートで初期化され、Bluetooth BLEを設定するために``setupBLE()``関数が呼び出されます。
+* **セットアップ**: ``setup()``関数では、シリアルポートが115200のボーレートで初期化され、Bluetooth BLEを設定するために ``setupBLE()`` 関数が呼び出されます。
 
     .. code-block:: arduino
     
@@ -150,8 +150,8 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
             Serial.begin(115200);  // シリアルポートの初期化
             setupBLE();            // Bluetooth BLEの初期化
         }
-
-* **メインループ**: ``loop()``関数では、BLEを介して文字列が受信され（``receivedText``が空でない場合）、最後のメッセージから少なくとも1秒が経過している場合、受信した文字列がシリアルモニタに表示され、キャラクタリスティックの値が受信した文字列に設定され、通知が送信され、受信した文字列がクリアされます。シリアルポートにデータがある場合は、改行文字が現れるまで文字列を読み取り、この文字列をキャラクタリスティックの値に設定し、通知を送信します。
+ 
+* **メインループ**: ``loop()`` 関数では、BLEを介して文字列が受信され（ ``receivedText`` が空でない場合）、最後のメッセージから少なくとも1秒が経過している場合、受信した文字列がシリアルモニタに表示され、キャラクタリスティックの値が受信した文字列に設定され、通知が送信され、受信した文字列がクリアされます。シリアルポートにデータがある場合は、改行文字が現れるまで文字列を読み取り、この文字列をキャラクタリスティックの値に設定し、通知を送信します。
 
     .. code-block:: arduino
 
@@ -175,7 +175,7 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
             }
         }
 
-* **コールバック**: Bluetooth通信に関連するイベントを処理するために、2つのコールバッククラス（``MyServerCallbacks``および``MyCharacteristicCallbacks``）が定義されています。``MyServerCallbacks``は、BLEサーバーの接続状態（接続または切断）に関連するイベントを処理するために使用されます。``MyCharacteristicCallbacks``は、BLEキャラクタリスティックに対する書き込みイベント、つまり接続されたデバイスがBLEを介してESP32に文字列を送信したときにキャプチャされ``receivedText``に保存され、現在の時間が``lastMessageTime``に記録されます。
+* **コールバック** : Bluetooth通信に関連するイベントを処理するために、2つのコールバッククラス（ ``MyServerCallbacks`` および ``MyCharacteristicCallbacks`` ）が定義されています。 ``MyServerCallbacks`` は、BLEサーバーの接続状態（接続または切断）に関連するイベントを処理するために使用されます。 ``MyCharacteristicCallbacks`` は、BLEキャラクタリスティックに対する書き込みイベント、つまり接続されたデバイスがBLEを介してESP32に文字列を送信したときにキャプチャされ ``receivedText`` に保存され、現在の時間が ``lastMessageTime`` に記録されます。
 
     .. code-block:: arduino
 
@@ -203,7 +203,7 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
             }
         };
 
-* **BLEのセットアップ**: ``setupBLE()``関数では、BLEデバイスとサーバーが初期化され、サーバーコールバックが設定され、定義されたUUIDを使用してBLEサービスが作成され、通知を送信するためのキャラクタリスティックとデータを受信するためのキャラクタリスティックが作成されてサービスに追加されます。最後に、サービスが開始され、サーバーがアドバタイズを開始します。
+* **BLEのセットアップ** : ``setupBLE()`` 関数では、BLEデバイスとサーバーが初期化され、サーバーコールバックが設定され、定義されたUUIDを使用してBLEサービスが作成され、通知を送信するためのキャラクタリスティックとデータを受信するためのキャラクタリスティックが作成されてサービスに追加されます。最後に、サービスが開始され、サーバーがアドバタイズを開始します。
 
     .. code-block:: arduino
 

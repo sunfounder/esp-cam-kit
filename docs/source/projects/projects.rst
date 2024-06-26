@@ -1,3 +1,4 @@
+
  .. note::
 
     こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Communityへようこそ！Facebookで仲間と一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
@@ -14,6 +15,10 @@
 
 関連プロジェクト
 =========================
+
+.. note::
+    
+    このキットには、ESP32カメラ拡張モジュール、ESP32 WROOM 32E、バッテリー、およびカメラのみが含まれています。プロジェクトに必要な他の部品はご自身で用意する必要があります。
 
 このキットには、ESP32 Camera Extension、ESP32 WROOM 32E、バッテリー、およびカメラのみが含まれています。
 プロジェクトに必要な他のコンポーネントはご自身で提供してください。このセクションでは、ESP32ボードの多様な
