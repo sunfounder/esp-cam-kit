@@ -15,6 +15,10 @@
 Related Projects
 =========================
 
+.. note::
+
+    This kit only includes the ESP32 Camera Extension, ESP32 WROOM 32E, a battery, and a camera. You'll need to provide any other components required for the project yourself.
+
 This kit only includes the ESP32 Camera Extension, ESP32 WROOM 32E, a battery, and a camera. You'll need to provide any other components required for the project yourself.
 This section provides a comprehensive guide to the diverse functionalities of the ESP32 board, showcasing how to harness its various interfaces for real-world applications. You will find detailed examples demonstrating the use of digital and analog inputs and outputs, DAC (Digital-to-Analog Converter) outputs, as well as advanced communication features such as Bluetooth and WiFi. Additionally, projects incorporating the use of a camera module and MicroSD card reading are also explored.By exploring these projects, you will gain a thorough understanding of how to:Interface with different sensors and actuators using digital and analog I/O.Convert digital signals to analog with the DAC feature for applications requiring precise voltage control.Establish wireless connections and network communication via Bluetooth and WiFi.Capture and process images with a camera module for visual applications.Store and retrieve data efficiently using a MicroSD card.These projects not only illustrate the versatile capabilities of the ESP32 but also equip you with the knowledge and skills to implement complex systems in your future endeavors.
 

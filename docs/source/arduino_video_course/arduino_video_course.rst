@@ -16,7 +16,10 @@
 Arduino Video Course
 =======================
 
-This kit only includes the ESP32 Camera Extension, ESP32 WROOM 32E, a battery, and a camera. You'll need to provide any other components required for the project yourself.
+.. note::
+
+    This kit only includes the ESP32 Camera Extension, ESP32 WROOM 32E, a battery, and a camera. You'll need to provide any other components required for the project yourself.
+
 Embark on a journey through the Arduino world with the comprehensive Arduino Video Course, using SunFounder's ESP32 Starter Kit. 
 This series begins with an introduction to the Arduino ecosystem and the capabilities of the ESP32 board, 
 setting the stage for a deep dive into practical applications and programming techniques. You'll learn the basics of controlling LEDs, 
