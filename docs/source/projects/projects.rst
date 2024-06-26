@@ -15,7 +15,10 @@
 Verwandte Projekte
 ======================
 
-Dieses Kit enthält nur die ESP32 Camera Extension, ESP32 WROOM 32E, eine Batterie und eine Kamera. Alle anderen für das Projekt erforderlichen Komponenten müssen Sie selbst bereitstellen.
+.. note::
+
+   Dieses Kit enthält nur die ESP32-Kameraerweiterung, ESP32 WROOM 32E, eine Batterie und eine Kamera. Alle anderen für das Projekt erforderlichen Komponenten müssen Sie selbst bereitstellen.
+
 Dieser Abschnitt bietet einen umfassenden Leitfaden zu den vielfältigen Funktionen des ESP32-Boards und zeigt, wie Sie dessen verschiedene Schnittstellen für praktische Anwendungen nutzen können. Sie finden detaillierte Beispiele, die die Verwendung von digitalen und analogen Eingängen und Ausgängen, DAC (Digital-to-Analog Converter) Ausgängen sowie fortschrittliche Kommunikationsfunktionen wie Bluetooth und WiFi demonstrieren. Zusätzlich werden Projekte, die die Verwendung eines Kameramoduls und das Lesen von MicroSD-Karten einbeziehen, ebenfalls untersucht. Durch die Erkundung dieser Projekte erhalten Sie ein umfassendes Verständnis dafür, wie Sie:
 
 - Mit verschiedenen Sensoren und Aktuatoren über digitale und analoge I/O-Schnittstellen interagieren.
