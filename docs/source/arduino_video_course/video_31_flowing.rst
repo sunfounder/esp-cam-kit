@@ -1,30 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 31: Flowing Light
+Video 31: Fließendes Licht
 ====================================================
 
-Learn how to create an interactive flowing light effect using a WS2812 LED strip, controlled by an ESP32 board and reacting to obstacles with color changes.
+Lerne, wie man einen interaktiven Fließlichteffekt mit einem WS2812-LED-Streifen erstellt, der von einem ESP32-Board gesteuert wird und auf Hindernisse mit Farbänderungen reagiert.
 
-* **WS2812 LED Strip Control**: Using ESP32 to individually control the colors and patterns of an LED strip.
-* **Infrared Obstacle Avoidance**: Integration of an obstacle sensor to dynamically change the light pattern upon detection.
-* **Arduino IDE and Libraries**: Guidance on installing the Adafruit NeoPixel library and setting up the Arduino environment for ESP32.
-* **Sensor Adjustment**: Detailed instructions on adjusting the infrared obstacle sensor for optimal performance.
-* **Dynamic Light Interaction**: Demonstrating how the LED strip changes direction and color based on obstacle detection.
-* **Code Customization**: Tips on modifying the code to customize the LED response, including setting specific colors for certain conditions.
-
+* **WS2812-LED-Streifensteuerung**: Verwendung des ESP32 zur individuellen Steuerung der Farben und Muster eines LED-Streifens.
+* **Infrarot-Hinderniserkennung**: Integration eines Hindernissensors, um das Lichtmuster bei Hinderniserkennung dynamisch zu ändern.
+* **Arduino IDE und Bibliotheken**: Anleitung zur Installation der Adafruit NeoPixel-Bibliothek und Einrichtung der Arduino-Umgebung für den ESP32.
+* **Sensoranpassung**: Detaillierte Anweisungen zur Anpassung des Infrarot-Hindernissensors für optimale Leistung.
+* **Dynamische Lichtinteraktion**: Demonstration, wie der LED-Streifen basierend auf der Hinderniserkennung die Richtung und Farbe ändert.
+* **Code-Anpassung**: Tipps zur Anpassung des Codes, um die LED-Reaktion zu personalisieren, einschließlich der Einstellung bestimmter Farben für bestimmte Bedingungen.
 
 **Video**
 
@@ -32,8 +30,6 @@ Learn how to create an interactive flowing light effect using a WS2812 LED strip
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/VRzX0PUZbLM?si=ImFHwfyEhez4LR1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_flowing_light`
-
-

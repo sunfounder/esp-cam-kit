@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 39: Bluetooth Audio Player
+Video 39: Bluetooth-Audioplayer
 ====================================================
 
-Learn how to build a Bluetooth audio player using ESP32, DAC, and an audio amplifier, from wiring to code setup and practical demonstration.
+Lerne, wie du einen Bluetooth-Audioplayer mit ESP32, DAC und einem Audioverstärker baust, von der Verkabelung über die Code-Einrichtung bis hin zur praktischen Demonstration.
 
-* **ESP32 Setup**: Utilizing ESP32 with a digital-to-analog converter (DAC) for audio output.
-* **Library Installation**: Installing the ESP32 A2DP library for Bluetooth audio functionality.
-* **Amplification**: Connecting an audio amplifier to enhance the audio signal.
-* **Wiring Configuration**: Detailed instructions on wiring ESP32, amplifier, and resistor.
-* **IDE Setup**: Setting up the Arduino IDE environment for programming.
-* **Bluetooth Pairing**: Pairing and connecting the ESP32 Bluetooth audio player with a mobile device for seamless audio playback.
+* **ESP32-Einrichtung**: Verwendung des ESP32 mit einem Digital-Analog-Wandler (DAC) für die Audioausgabe.
+* **Bibliotheksinstallation**: Installation der ESP32 A2DP-Bibliothek für die Bluetooth-Audio-Funktionalität.
+* **Verstärkung**: Anschließen eines Audioverstärkers zur Verbesserung des Audiosignals.
+* **Verkabelungskonfiguration**: Detaillierte Anweisungen zum Verdrahten von ESP32, Verstärker und Widerstand.
+* **IDE-Einrichtung**: Einrichten der Arduino IDE-Umgebung für die Programmierung.
+* **Bluetooth-Kopplung**: Koppeln und Verbinden des ESP32 Bluetooth-Audioplayers mit einem Mobilgerät für nahtlose Audiowiedergabe.
 
 **Video**
 
@@ -31,8 +30,6 @@ Learn how to build a Bluetooth audio player using ESP32, DAC, and an audio ampli
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/8_g_m9qkfp4?si=iyb8oj5_MYEBTt57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`bluetooth_audio_player`
-
-

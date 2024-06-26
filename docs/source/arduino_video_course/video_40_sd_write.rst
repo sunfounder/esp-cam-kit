@@ -1,28 +1,27 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 40: Reading and writing to Micro SD Card
-====================================================
+Video 40: Lesen und Schreiben auf Micro-SD-Karte
+======================================================
 
-Learn how to effectively utilize micro SD cards with the SunFounder ESP32 IoT Learning Kit, covering formatting, code implementation, and practical demonstrations.
+Lerne, wie du Micro-SD-Karten effektiv mit dem SunFounder ESP32 IoT Learning Kit verwendest, einschließlich Formatierung, Code-Implementierung und praktischen Demonstrationen.
 
-* **Introduction**: Get started with using micro SD cards in conjunction with the SunFounder ESP32 learning kit.
-* **Formatting SD Card**: Understand the requirements for formatting micro SD cards and ensure compatibility with the ESP32.
-* **Arduino Code**: Explore the Arduino code provided for reading and writing files to the SD card.
-* **Board Setup**: Learn how to select the ESP32 board and COM port in the Arduino IDE for seamless integration.
-* **Uploading and Testing**: Follow along with the process of uploading code to the ESP32 and monitoring serial output for file operations.
+* **Einführung**: Erhalte eine Einführung in die Verwendung von Micro-SD-Karten in Verbindung mit dem SunFounder ESP32 Learning Kit.
+* **Formatierung der SD-Karte**: Verstehe die Anforderungen zur Formatierung von Micro-SD-Karten und stelle die Kompatibilität mit dem ESP32 sicher.
+* **Arduino-Code**: Erforsche den bereitgestellten Arduino-Code zum Lesen und Schreiben von Dateien auf der SD-Karte.
+* **Board-Einrichtung**: Lerne, wie du das ESP32-Board und den COM-Port in der Arduino IDE für eine nahtlose Integration auswählst.
+* **Hochladen und Testen**: Folge dem Prozess des Hochladens des Codes auf den ESP32 und überwache die serielle Ausgabe für Dateioperationen.
 
 **Video**
 
@@ -30,8 +29,6 @@ Learn how to effectively utilize micro SD cards with the SunFounder ESP32 IoT Le
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/IoK1KvO2EwI?si=YEMa0se8Si2ln5-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_sd_write`
-
-

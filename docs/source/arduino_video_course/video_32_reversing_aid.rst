@@ -1,30 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 32: Reversing Aid
+Video 32: Einparkhilfe
 ====================================================
 
-Learn how to create a vehicle reversing aid using ESP32, featuring distance measurement with an ultrasonic sensor, visual feedback on an LCD, and audio alerts with a buzzer.
+Lerne, wie man eine Einparkhilfe für Fahrzeuge mit einem ESP32 erstellt, die Entfernungen mit einem Ultraschallsensor misst, visuelles Feedback auf einem LCD anzeigt und akustische Warnungen mit einem Summer ausgibt.
 
-* **Ultrasonic Sensor Integration**: Utilizing the sensor for accurate distance measurement to obstacles.
-* **LCD Feedback**: Displaying real-time distance measurements for the driver's convenience.
-* **Audio Alerts**: Programming the buzzer to emit faster beeps as the vehicle gets closer to an obstacle, enhancing safety.
-* **Energy Efficiency**: Demonstrating how to safely power the buzzer from the ESP32 by measuring current consumption.
-* **Comprehensive Guide**: Detailed explanation of wiring, coding, and the logic behind varying beep intervals based on distance.
-* **Real-World Application**: Showcasing the system installed on a vehicle and tested against a wall to simulate reversing towards an obstacle.
-
+* **Integration des Ultraschallsensors**: Verwendung des Sensors zur genauen Abstandsmessung zu Hindernissen.
+* **LCD-Feedback**: Anzeige der Echtzeit-Abstandsmessungen für den Fahrer.
+* **Akustische Warnungen**: Programmierung des Summers, um bei Annäherung des Fahrzeugs an ein Hindernis schnellere Signaltöne abzugeben und so die Sicherheit zu erhöhen.
+* **Energieeffizienz**: Demonstration, wie man den Summer sicher vom ESP32 aus mit Strom versorgt, indem der Stromverbrauch gemessen wird.
+* **Umfassende Anleitung**: Detaillierte Erklärung der Verkabelung, Codierung und der Logik hinter den variierenden Signalintervallen basierend auf der Entfernung.
+* **Anwendung im realen Umfeld**: Vorstellung des Systems, das in einem Fahrzeug installiert und gegen eine Wand getestet wurde, um das Rückwärtsfahren zu einem Hindernis zu simulieren.
 
 **Video**
 
@@ -32,8 +30,6 @@ Learn how to create a vehicle reversing aid using ESP32, featuring distance meas
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/K_4aX5oH3zg?si=biAp9O9HuJDlJJJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_reversing_aid`
-
-

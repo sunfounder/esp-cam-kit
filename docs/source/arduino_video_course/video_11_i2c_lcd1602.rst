@@ -1,32 +1,30 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 11: Using LCD1602/LCD2004 with ESP32
-===================================================
+Video 11: Verwendung von LCD1602/LCD2004 mit ESP32
+======================================================
 
-Learn to use LCD screens with ESP32 for displaying text and other information:
+Lerne, wie du LCD-Bildschirme mit dem ESP32 zur Anzeige von Text und anderen Informationen verwenden kannst:
 
-* **LCD Types**: Tutorial covers both LCD1602 (16 characters, 2 lines) and LCD2004 (20 characters, 4 lines).
-* **Key Features**: Explains adjusting contrast and using I2C communication for simpler wiring.
-* **Components**: Utilizes the ESP32 board, LCD screen, and necessary wires.
-* **Wiring Guide**: Step-by-step instructions on connecting the LCD to ESP32, including power connections and data lines.
-* **Arduino Code**: Detailed explanation of the Arduino code for displaying text on the LCD.
-* **Demonstrations**: Shows practical applications like displaying a counter and custom text on the LCD.
-* **Contrast Adjustment**: Tips on setting the right contrast for clear visibility.
-* **LCD Color Recommendation**: Advises on choosing a green LCD for better display quality over blue.
-
+* **LCD-Typen**: Das Tutorial behandelt sowohl LCD1602 (16 Zeichen, 2 Zeilen) als auch LCD2004 (20 Zeichen, 4 Zeilen).
+* **Hauptmerkmale**: Erklärt, wie man den Kontrast einstellt und die I2C-Kommunikation für eine einfachere Verkabelung nutzt.
+* **Komponenten**: Verwendet das ESP32-Board, den LCD-Bildschirm und die notwendigen Kabel.
+* **Verkabelungsanleitung**: Schritt-für-Schritt-Anleitung zum Anschließen des LCD an das ESP32, einschließlich Stromanschlüssen und Datenleitungen.
+* **Arduino-Code**: Detaillierte Erklärung des Arduino-Codes zur Anzeige von Text auf dem LCD.
+* **Demonstrationen**: Zeigt praktische Anwendungen wie die Anzeige eines Zählers und benutzerdefinierten Texts auf dem LCD.
+* **Kontrasteinstellung**: Tipps zur richtigen Einstellung des Kontrasts für eine klare Sichtbarkeit.
+* **Empfehlung zur LCD-Farbe**: Rät zur Wahl eines grünen LCDs für eine bessere Anzeigequalität im Vergleich zu blauen.
 
 **Video**
 
@@ -34,6 +32,6 @@ Learn to use LCD screens with ESP32 for displaying text and other information:
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/QLnM1aNMtb0?si=Afj_ReGRlPIofQpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_lcd1602`

@@ -1,33 +1,30 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 38: Bluetooth Control RGB LED
+Video 38: Bluetooth-gesteuerte RGB-LED
 ====================================================
 
+Lerne, wie du drahtlos die Farbe einer RGB-LED mit einem ESP32-Modul über Bluetooth-Befehle von einer mobilen App steuerst. Inklusive Einrichtung, Codierung und einer Live-Demonstration.
 
-Learn how to wirelessly control an RGB LED's color using an ESP32 module via Bluetooth commands from a mobile app, including setup, coding, and a live demonstration.
+* **Verstehen von RGB-LEDs**: Erklärung der RGB-LED-Pins und wie man sie mit Widerständen für die Farbsteuerung verdrahtet.
+* **Projekteinrichtung**: Schritt-für-Schritt-Anleitung zum Anschließen des ESP32 an eine RGB-LED und Widerstände auf einem Breadboard.
+* **Arduino-Programmierung**: Wie man den ESP32 mit der Arduino IDE programmiert, um Bluetooth-Befehle zu empfangen und die LED-Farbe zu steuern.
+* **Bluetooth-Kommunikation**: Einrichtung und Nutzung der Light Blue App zum Senden von Farbänderungsbefehlen an den ESP32.
+* **Code-Aufschlüsselung**: Detaillierte Erklärung des Codes, mit Schwerpunkt auf der Erstellung des Bluetooth-Dienstes, dem Umgang mit Farbkommandos und der Anpassung der LED-Farben.
+* **Live-Demo**: Echtzeit-Farbwechsel der RGB-LED bei Empfang von Befehlen von der mobilen App.
 
-
-* **Understanding RGB LEDs**: Explanation of RGB LED pins, and how to wire them with resistors for color control.
-* **Project Setup**: Step-by-step guide on connecting the ESP32 to an RGB LED and resistors on a breadboard.
-* **Arduino Programming**: How to program the ESP32 using the Arduino IDE to receive Bluetooth commands and control the LED color.
-* **Bluetooth Communication**: Setting up and using the Light Blue app to send color change commands to the ESP32.
-* **Code Breakdown**: Detailed explanation of the code, focusing on Bluetooth service creation, handling color commands, and adjusting LED colors.
-* **Live Demo**: Showing real-time color changes on the RGB LED when receiving commands from the mobile app.
-
-This tutorial is perfect for beginners interested in exploring wireless communication and LED control with the ESP32. Join us to add a splash of color to your projects!
+Dieses Tutorial ist perfekt für Anfänger, die an der drahtlosen Kommunikation und LED-Steuerung mit dem ESP32 interessiert sind. Schließe dich uns an, um deinen Projekten etwas Farbe zu verleihen!
 
 **Video**
 
@@ -35,8 +32,6 @@ This tutorial is perfect for beginners interested in exploring wireless communic
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ptcTdG0V_DY?si=-rC8jL8OnlXr_hsr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_bluetooth_led`
-
-

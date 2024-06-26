@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 34: Color Gradient
+Video 34: Farbverlauf
 ====================================================
 
-Learn to create vibrant color gradients using an ESP32 board, an RGB LED, and a potentiometer, showcasing how to wire and program the components for dynamic color changes.
+Lerne, wie du mit einem ESP32-Board, einer RGB-LED und einem Potentiometer lebendige Farbverläufe erstellst. Erfahre, wie du die Komponenten für dynamische Farbwechsel verdrahtest und programmierst.
 
-* **RGB LED Basics**: Introduction to RGB LED functionality, including anode/cathode configurations.
-* **Wiring Setup**: Step-by-step guide for connecting the RGB LED and potentiometer to the ESP32.
-* **Arduino Programming**: Detailed code explanation for translating potentiometer input into a wide range of colors using PWM.
-* **Color Theory Application**: Demonstrating how to mix red, green, and blue to achieve various hues and gradients.
-* **Potentiometer Control**: How to use a potentiometer to seamlessly adjust the color output of the RGB LED.
-* **Practical Demonstration**: Live demonstration of changing the RGB LED colors by adjusting the potentiometer, highlighting the project's interactive nature.
+* **Grundlagen der RGB-LED**: Einführung in die Funktionsweise von RGB-LEDs, einschließlich Anoden-/Kathodenkonfigurationen.
+* **Verkabelungsaufbau**: Schritt-für-Schritt-Anleitung zum Anschließen der RGB-LED und des Potentiometers an den ESP32.
+* **Arduino-Programmierung**: Detaillierte Code-Erklärung zur Umsetzung der Potentiometereingaben in ein breites Farbspektrum mithilfe von PWM.
+* **Anwendung der Farbtheorie**: Demonstration, wie man Rot, Grün und Blau mischt, um verschiedene Farbtöne und Farbverläufe zu erzeugen.
+* **Potentiometer-Steuerung**: Nutzung eines Potentiometers zur nahtlosen Anpassung der Farbausgabe der RGB-LED.
+* **Praktische Demonstration**: Live-Demonstration der Farbänderung der RGB-LED durch Verstellen des Potentiometers, um die interaktive Natur des Projekts hervorzuheben.
 
 **Video**
 
@@ -31,8 +30,6 @@ Learn to create vibrant color gradients using an ESP32 board, an RGB LED, and a 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/a62-5Kc6JU0?si=Y5m4NLmShAxcPNJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_color_gradient`
-
-

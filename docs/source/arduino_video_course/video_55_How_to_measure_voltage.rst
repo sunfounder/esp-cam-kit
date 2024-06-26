@@ -1,30 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 55: How to measure 12V, 24V or 100V DC voltage 
+Video 55: Wie man 12V, 24V oder 100V Gleichspannung misst
 ===============================================================
 
-Learn how to use ESP32 to measure DC voltage with this detailed video tutorial from Robojax.
+Lerne, wie man mit dem ESP32 Gleichspannung misst, in diesem ausführlichen Video-Tutorial von Robojax.
 
-* **Introduction to the ESP32 Starter Kit**: An overview of. the ESP32 Starter Kit from SunFounder, highlighting the features of the ESP32 microcontroller with built-in Wi-Fi and Bluetooth.
-* **Project Overview**: Explanation of how to measure any DC voltage using a voltage divider circuit and the ESP32. Includes a discussion on the need for and use of two resistors to create a voltage divider.
-* **Voltage Divider Circuit**: Detailed explanation of how to use two resistors to safely measure higher voltages. Includes calculations for selecting appropriate resistor values.
-* **Arduino Code Explanation**: Comprehensive guide on the Arduino code used for voltage measurement. Covers setting up the code, initializing the serial monitor, and using functions to calculate and display voltage values.
-* **Selecting ESP32 Board and Port**: Step-by-step instructions on how to select the ESP32 board and COM port in the Arduino IDE, along with troubleshooting tips for identifying the correct port.
-* **30V Voltage Measurement Demonstration**: Practical demonstration of measuring 30V using the ESP32. Shows the setup, connection, and reading of voltage values on the serial monitor. Also covers averaging multiple measurements for more stable readings.
-
+* **Einführung in das ESP32 Starter Kit**: Ein Überblick über das ESP32 Starter Kit von SunFounder, der die Funktionen des ESP32 Mikrocontrollers mit integriertem WLAN und Bluetooth hervorhebt.
+* **Projektübersicht**: Erklärung, wie man jede Gleichspannung mit einem Spannungsteiler und dem ESP32 misst. Beinhaltet eine Diskussion über die Notwendigkeit und den Einsatz von zwei Widerständen zur Erstellung eines Spannungsteilers.
+* **Spannungsteiler-Schaltung**: Detaillierte Erklärung, wie man mit zwei Widerständen sicher höhere Spannungen misst. Beinhaltet Berechnungen zur Auswahl geeigneter Widerstandswerte.
+* **Arduino Code Erklärung**: Umfassende Anleitung zum Arduino Code zur Spannungsmessung. Behandelt das Einrichten des Codes, das Initialisieren des seriellen Monitors und die Verwendung von Funktionen zur Berechnung und Anzeige von Spannungswerten.
+* **Auswahl des ESP32 Boards und Ports**: Schritt-für-Schritt-Anleitung zur Auswahl des ESP32 Boards und des COM-Ports in der Arduino IDE, zusammen mit Tipps zur Fehlerbehebung bei der Identifizierung des richtigen Ports.
+* **Demonstration der Messung von 30V Spannung**: Praktische Demonstration der Messung von 30V mit dem ESP32. Zeigt den Aufbau, die Verbindung und das Ablesen der Spannungswerte auf dem seriellen Monitor. Behandelt auch das Mitteln mehrerer Messungen für stabilere Ergebnisse.
 
 **Video**
 

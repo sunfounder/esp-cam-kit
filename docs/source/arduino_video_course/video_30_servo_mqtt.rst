@@ -1,34 +1,31 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 30: Servo Control with MQTT
+Video 30: Servosteuerung mit MQTT
 =================================================================
 
-Learn how to control servo motors remotely over Wi-Fi using an ESP32 microcontroller and MQTT protocol, from setting up MQTT with Adafruit IO to wiring the servo and programming the ESP32.
+Lerne, wie man Servomotoren aus der Ferne über Wi-Fi mit einem ESP32-Mikrocontroller und dem MQTT-Protokoll steuert, vom Einrichten von MQTT mit Adafruit IO bis zur Verkabelung des Servos und der Programmierung des ESP32.
 
-* **Servo Motor Control**: Control the position of a servo motor remotely with an ESP32 microcontroller.
-* **Introduction to MQTT**: Understand MQTT protocol's lightweight, bidirectional, and scalable nature, essential for IoT applications.
-* **Setting Up Adafruit IO**: Step-by-step guide to creating an account, setting up a dashboard, and configuring MQTT feeds for communication.
-* **Wiring the Servo Motor**: Learn how to wire the servo motor to the ESP32 and external power supply.
-* **Explaining the Code**: Understand the Arduino code for ESP32, including Wi-Fi and MQTT setup, servo motor control, and error handling.
-* **Project Demonstration**: See the project in action, controlling the servo motor remotely over Wi-Fi and MQTT, with a demonstration of the need for an external power supply for the servo.
+* **Servomotorsteuerung**: Steuere die Position eines Servomotors aus der Ferne mit einem ESP32-Mikrocontroller.
+* **Einführung in MQTT**: Verstehe das leichte, bidirektionale und skalierbare MQTT-Protokoll, das für IoT-Anwendungen unerlässlich ist.
+* **Einrichtung von Adafruit IO**: Schritt-für-Schritt-Anleitung zum Erstellen eines Kontos, Einrichten eines Dashboards und Konfigurieren von MQTT-Feeds für die Kommunikation.
+* **Verkabelung des Servomotors**: Lerne, wie man den Servomotor an den ESP32 und die externe Stromversorgung anschließt.
+* **Erklärung des Codes**: Verstehe den Arduino-Code für ESP32, einschließlich Wi-Fi- und MQTT-Einrichtung, Servomotorsteuerung und Fehlerbehandlung.
+* **Projektdemonstration**: Sieh das Projekt in Aktion, steuere den Servomotor aus der Ferne über Wi-Fi und MQTT und erlebe die Notwendigkeit einer externen Stromversorgung für den Servo.
 
 **Video**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/T4DhWNg2Rb8?si=UonVECzQgzqlVpII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-

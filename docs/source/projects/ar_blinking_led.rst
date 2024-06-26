@@ -1,46 +1,46 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Vertiefen Sie sich mit anderen Enthusiasten in die Welt von Raspberry Pi, Arduino und ESP32.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Sonderangebote**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _ar_blink:
 
-2.1 Digital Output
+2.1 Digitaler Ausgang
 =======================================
 
-Among the many microcontroller development boards, the ESP32 stands out for its high performance and versatility. This project will show you how to use the digital output pins of the ESP32 board to control an external device—in this case, lighting up an LED. This serves as a foundation for learning ESP32 programming and an entry point into exploring IoT applications.
+Unter den vielen Mikrocontroller-Entwicklungsboards zeichnet sich der ESP32 durch seine hohe Leistung und Vielseitigkeit aus. Dieses Projekt zeigt, wie Sie die digitalen Ausgabepins des ESP32-Boards verwenden, um ein externes Gerät zu steuern – in diesem Fall eine LED zum Leuchten zu bringen. Dies dient als Grundlage für das Erlernen der ESP32-Programmierung und als Einstieg in die Erforschung von IoT-Anwendungen.
 
-**Available Pins**
+**Verfügbare Pins**
 
-Here is a list of available pins on the ESP32 board for this project.
+Hier ist eine Liste der verfügbaren Pins auf dem ESP32-Board für dieses Projekt.
 
 .. list-table::
     :widths: 5 20 
 
-    * - Available Pins
+    * - Verfügbare Pins
       - IO13, IO12, IO14, IO27, IO26, IO25, IO33, IO32, IO15, IO2, IO0, IO4, IO5, IO18, IO19, IO21, IO22, IO23
 
 
 
-**Required Components**
+**Benötigte Komponenten**
 
-In this project, we need the following components. 
+In diesem Projekt benötigen wir die folgenden Komponenten.
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - KOMPONENTEN-BESCHREIBUNG
+        - KAUFLINK
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
@@ -48,27 +48,27 @@ In this project, we need the following components.
         - \-
     *   - Breadboard
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - Mehrere Verbindungskabel
         - |link_wires_buy|
-    *   - Resistor
+    *   - Widerstand
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
 
-**Schematic**
+**Schaltplan**
 
 .. image:: img/circuit_2.1_led.png
 
-This circuit works on a simple principle, and the current direction is shown in the figure. The LED will light up after the 220ohm current limiting resistor when pin26 outputs high level. The LED will turn off when pin26 outputs low level.
+Dieser Schaltkreis funktioniert nach einem einfachen Prinzip, und die Stromrichtung ist in der Abbildung gezeigt. Die LED leuchtet nach dem 220-Ohm-Strombegrenzungswiderstand auf, wenn Pin 26 ein hohes Signal ausgibt. Die LED erlischt, wenn Pin 26 ein niedriges Signal ausgibt.
 
-**Wiring**
+**Verkabelung**
 
 .. image:: img/2.1_hello_led_bb.png
 
 
-**Upload Code**
+**Code hochladen**
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
     .. note::
         
@@ -78,7 +78,7 @@ This circuit works on a simple principle, and the current direction is shown in 
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/1bff2463-40ad-43c1-8815-9f448bab3735/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
     
-#. Then connect the ESP32 WROOM 32E to your computer using a Micro USB cable. 
+#. Verbinden Sie dann den ESP32 WROOM 32E mit Ihrem Computer über ein Mikro-USB-Kabel.
 
     * :ref:`unknown_com_port`
 
@@ -86,26 +86,25 @@ This circuit works on a simple principle, and the current direction is shown in 
         :width: 600
         :align: center
 
-#. Select the board (ESP32 Dev Module) and the appropriate port.
+#. Wählen Sie das Board (ESP32 Dev Module) und den entsprechenden Port aus.
 
     .. image:: img/choose_board.png
 
-#. Now, click the **Upload** button to upload the code to the ESP32 board.
+#. Klicken Sie nun auf die Schaltfläche **Hochladen**, um den Code auf das ESP32-Board hochzuladen.
     
     .. image:: img/click_upload.png
 
-#. After the code is uploaded successfully, you will see the LED blinking.
+#. Nachdem der Code erfolgreich hochgeladen wurde, sehen Sie die LED blinken.
 
-**How it works?**
+**Wie funktioniert das?**
 
-#. Declare an integer constant named ``ledPin`` and assigns it the value 26. 
+#. Deklarieren Sie eine ganzzahlige Konstante namens ``ledPin`` und weisen Sie ihr den Wert 26 zu.
 
     .. code-block:: arduino
 
-        const int ledPin = 26;  // The GPIO pin for the LED
+        const int ledPin = 26;  // Der GPIO-Pin für die LED
 
-
-#. Now, initialize the pin in the ``setup()`` function, where you need to initialize the pin to ``OUTPUT`` mode.
+#. Initialisieren Sie nun den Pin in der Funktion ``setup()``, wobei Sie den Pin auf den Modus ``OUTPUT`` setzen müssen.
 
     .. code-block:: arduino
 
@@ -113,19 +112,19 @@ This circuit works on a simple principle, and the current direction is shown in 
             pinMode(ledPin, OUTPUT);
         }
 
-    * ``void pinMode(uint8_t pin, uint8_t mode);``: This function is used to define the GPIO operation mode for a specific pin.
+    * ``void pinMode(uint8_t pin, uint8_t mode);``: Diese Funktion wird verwendet, um den GPIO-Betriebsmodus für einen bestimmten Pin festzulegen.
 
-        * ``pin`` defines the GPIO pin number.
-        * ``mode`` sets operation mode.
+        * ``pin`` definiert die GPIO-Pin-Nummer.
+        * ``mode`` legt den Betriebsmodus fest.
 
-        The following modes are supported for the basic input and output:
+        Die folgenden Modi werden für die grundlegende Ein- und Ausgabe unterstützt:
 
-        * ``INPUT`` sets the GPIO as input without pullup or pulldown (high impedance).
-        * ``OUTPUT`` sets the GPIO as output/read mode.
-        * ``INPUT_PULLDOWN`` sets the GPIO as input with the internal pulldown.
-        * ``INPUT_PULLUP`` sets the GPIO as input with the internal pullup.
+        * ``INPUT`` setzt den GPIO als Eingang ohne Pullup oder Pulldown (hoher Widerstand).
+        * ``OUTPUT`` setzt den GPIO auf Ausgangs-/Lesemodus.
+        * ``INPUT_PULLDOWN`` setzt den GPIO als Eingang mit internem Pulldown.
+        * ``INPUT_PULLUP`` setzt den GPIO als Eingang mit internem Pullup.
 
-#. The ``loop()`` function contains the main logic of the program and runs continuously. It alternates between setting the pin high and low, with one-second intervals between the changes.
+#. Die Funktion ``loop()`` enthält die Hauptlogik des Programms und wird kontinuierlich ausgeführt. Sie wechselt zwischen dem Setzen des Pins auf HIGH und LOW, mit einsekündigen Intervallen dazwischen.
 
     .. code-block:: arduino
 
@@ -136,7 +135,7 @@ This circuit works on a simple principle, and the current direction is shown in 
             delay(1000);                       // wait for a second
         }
 
-    * ``void digitalWrite(uint8_t pin, uint8_t val);``: This function sets the state of the selected GPIO to ``HIGH`` or ``LOW``. This function is only used if the ``pinMode`` was configured as ``OUTPUT``.
+    * ``void digitalWrite(uint8_t pin, uint8_t val);``: Diese Funktion setzt den Zustand des ausgewählten GPIO auf ``HIGH`` oder ``LOW``. Diese Funktion wird nur verwendet, wenn der ``pinMode`` als ``OUTPUT`` konfiguriert wurde.
     
-        * ``pin`` defines the GPIO pin number.
-        * ``val`` set the output digital state to ``HIGH`` or ``LOW``.
+        * ``pin`` definiert die GPIO-Pin-Nummer.
+        * ``val`` setzt den digitalen Ausgangszustand auf ``HIGH`` oder ``LOW``.

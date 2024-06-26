@@ -1,38 +1,35 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauchen Sie gemeinsam mit anderen Enthusiasten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Sonderangebote**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _ar_sd_write:
 
-2.10 SD Card Write and Read
-===========================
-This project demonstrates the core capabilities of using an SD card with the ESP32 microcontroller. 
-It showcases essential operations such as mounting the SD card, creating a file, writing data to the file, 
-and listing all files within the root directory. These operations form the basis of many data logging and storage 
-applications, making this project a crucial stepping stone in understanding and utilizing the ESP32's built-in SDMMC host peripheral.
+2.10 SD-Karte Schreiben und Lesen
+=================================
+Dieses Projekt demonstriert die grundlegenden Fähigkeiten der Verwendung einer SD-Karte mit dem ESP32-Mikrocontroller. 
+Es zeigt wesentliche Operationen wie das Einbinden der SD-Karte, das Erstellen einer Datei, das Schreiben von Daten in die Datei 
+und das Auflisten aller Dateien im Stammverzeichnis. Diese Operationen bilden die Grundlage vieler Datenprotokollierungs- und Speicheranwendungen und machen dieses Projekt zu einem wichtigen Schritt im Verständnis und der Nutzung des integrierten SDMMC-Host-Peripheriegeräts des ESP32.
 
-**Required Components**
+**Benötigte Komponenten**
 
-In this project, we need the following components. 
-
-
+In diesem Projekt benötigen wir die folgenden Komponenten.
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - KOMPONENTEN-BESCHREIBUNG
+        - KAUFLINK
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
@@ -40,17 +37,17 @@ In this project, we need the following components.
         - \-
 
 
-**Operating Steps**
+**Betriebsschritte**
 
-#. Before connecting the USB cable, insert the SD card into the SD card slot of the extension board.
+#. Bevor Sie das USB-Kabel anschließen, stecken Sie die SD-Karte in den SD-Kartensteckplatz der Erweiterungsplatine.
 
     .. image:: img/insert_sd.png
 
-#. Connect ESP32-WROOM-32E to the computer using the USB cable.
+#. Verbinden Sie das ESP32-WROOM-32E mit dem Computer über das USB-Kabel.
 
     .. image:: img/plugin_esp32.png
 
-#. Select the appropriate port and board in the Arduino IDE and upload the code to your ESP32.
+#. Wählen Sie den entsprechenden Port und das Board in der Arduino IDE und laden Sie den Code auf Ihr ESP32 hoch.
 
     .. note::
 
@@ -61,66 +58,65 @@ In this project, we need the following components.
         <iframe src=https://create.arduino.cc/editor/sunfounder01/912df4b8-a7b6-43dc-95b5-8206801cc9c1/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
         
 
-#. After the code is uploaded successfully, you will see a prompt indicating the successful file write, along with a list of all the filenames and sizes on the SD card. If you don't see any printout after opening the serial monitor, you need to press the EN (RST) button to rerun the code.
+#. Nachdem der Code erfolgreich hochgeladen wurde, sehen Sie eine Meldung, die den erfolgreichen Dateischreibvorgang anzeigt, zusammen mit einer Liste aller Dateinamen und Größen auf der SD-Karte. Wenn Sie nach dem Öffnen des seriellen Monitors keine Ausgabe sehen, müssen Sie die EN (RST)-Taste drücken, um den Code erneut auszuführen.
 
     .. image:: img/sd_write_read.png
 
     .. note::
 
-        If you see the following information.
+        Wenn Sie die folgende Information sehen.
 
         .. code-block::
 
             E (528) vfs_fat_sdmmc: mount_to_vfs failed (0xffffffff).
             Failed to mount SD card
 
-        First, check if your SD card is properly inserted into the expansion board.
+        Überprüfen Sie zunächst, ob Ihre SD-Karte ordnungsgemäß in die Erweiterungsplatine eingesteckt ist.
 
-        If it is inserted correctly, there might be an issue with your SD card. You can try using an eraser to clean the metal contacts.
+        Wenn sie korrekt eingesteckt ist, könnte es ein Problem mit Ihrer SD-Karte geben. Sie können versuchen, die Metallkontakte mit einem Radiergummi zu reinigen.
 
-        If the problem persists, it is recommended to format the SD card, please refer to :ref:`format_sd_card`.
-
-
-**How it works?**
-
-The purpose of this project is to demonstrate the usage of the SD card with the ESP32 board. The ESP32's built-in SDMMC host peripheral is used to connect with the SD card.
-
-The project begins by initializing the serial communication and then attempts to mount the SD card. If the SD card fails to mount successfully, the program will print an error message and exit the setup function.
-
-Once the SD card is mounted successfully, the program proceeds to create a file named "test.txt" in the root directory of the SD card. If the file is successfully opened in write mode, the program writes a line of text - "Hello, world!" to the file. The program will print a success message if the write operation is successful, otherwise, an error message will be printed.
-
-After the writing operation is complete, the program closes the file and then opens the root directory of the SD card. It then begins to loop through all the files in the root directory, printing the filename and filesize of each file found.
-
-In the main loop function, there are no operations. This project focuses on SD card operations such as mounting the card, creating a file, writing to a file, and reading the file directory, all of which are executed in the setup function.
-
-This project serves as a useful introduction to handling SD cards with the ESP32, which can be crucial in applications that require data logging or storage.
+        Wenn das Problem weiterhin besteht, wird empfohlen, die SD-Karte zu formatieren. Bitte beziehen Sie sich auf :ref:`format_sd_card`.
 
 
-Here's an analysis of the code:
+**Wie funktioniert das?**
 
-#. Include the ``SD_MMC`` library, which is needed to work with SD cards using ESP32's built-in SDMMC host peripheral.
+Der Zweck dieses Projekts ist es, die Verwendung der SD-Karte mit dem ESP32-Board zu demonstrieren. Das integrierte SDMMC-Host-Peripheriegerät des ESP32 wird verwendet, um eine Verbindung zur SD-Karte herzustellen.
+
+Das Projekt beginnt mit der Initialisierung der seriellen Kommunikation und versucht dann, die SD-Karte einzubinden. Wenn das Einbinden der SD-Karte fehlschlägt, gibt das Programm eine Fehlermeldung aus und beendet die Setup-Funktion.
+
+Sobald die SD-Karte erfolgreich eingebunden ist, erstellt das Programm eine Datei namens "test.txt" im Stammverzeichnis der SD-Karte. Wenn die Datei im Schreibmodus erfolgreich geöffnet wird, schreibt das Programm eine Textzeile - "Hello, world!" - in die Datei. Das Programm gibt eine Erfolgsmeldung aus, wenn der Schreibvorgang erfolgreich ist, andernfalls wird eine Fehlermeldung gedruckt.
+
+Nach Abschluss des Schreibvorgangs wird die Datei geschlossen und das Stammverzeichnis der SD-Karte geöffnet. Anschließend beginnt das Programm, durch alle Dateien im Stammverzeichnis zu schleifen und den Dateinamen sowie die Dateigröße jeder gefundenen Datei im seriellen Monitor anzuzeigen.
+
+In der Hauptschleifenfunktion gibt es keine Operationen. Dieses Projekt konzentriert sich auf SD-Karten-Operationen wie das Einbinden der Karte, das Erstellen einer Datei, das Schreiben in eine Datei und das Lesen des Datei-Verzeichnisses, die alle in der Setup-Funktion ausgeführt werden.
+
+Dieses Projekt dient als nützliche Einführung in den Umgang mit SD-Karten beim ESP32, was bei Anwendungen, die Datenprotokollierung oder -speicherung erfordern, von entscheidender Bedeutung sein kann.
+
+
+Hier ist eine Analyse des Codes:
+
+#. Einbinden der ``SD_MMC``-Bibliothek, die benötigt wird, um mit SD-Karten über das integrierte SDMMC-Host-Peripheriegerät des ESP32 zu arbeiten.
 
     .. code-block:: arduino
 
         #include "SD_MMC.h"
 
-#. Inside the ``setup()`` function, the following tasks are performed.
+#. Innerhalb der ``setup()``-Funktion werden die folgenden Aufgaben ausgeführt.
 
-    * **Initialize the SD card**
+    * **Initialisieren der SD-Karte**
 
-    Initialize and mount the SD card. If the SD card fails to mount, it will print "Failed to mount SD card" to the serial monitor and stop the execution.
+    Initialisieren und Einbinden der SD-Karte. Wenn das Einbinden der SD-Karte fehlschlägt, wird "Failed to mount SD card" im seriellen Monitor gedruckt und die Ausführung gestoppt.
 
     .. code-block:: arduino
         
-        if(!SD_MMC.begin()) { // Attempt to mount the SD card
-            Serial.println("Failed to mount card"); // If mount fails, print to serial and exit setup
+        if(!SD_MMC.begin()) { // Versuch, die SD-Karte einzubinden
+            Serial.println("Failed to mount card"); // Wenn das Einbinden fehlschlägt, im seriellen Monitor drucken und Setup beenden
             return;
         } 
       
-    * **Open the file**
+    * **Öffnen der Datei**
 
-    Open a file named ``"test.txt"`` located in the root directory of the SD 
-    card in write mode. If the file fails to open, it prints "Failed to open file for writing" and returns.
+    Öffnen einer Datei namens ``"test.txt"``, die sich im Stammverzeichnis der SD-Karte befindet, im Schreibmodus. Wenn das Öffnen der Datei fehlschlägt, wird "Failed to open file for writing" gedruckt und zurückgegeben.
 
     .. code-block:: arduino
 
@@ -130,59 +126,56 @@ Here's an analysis of the code:
             return;
         }
 
+    * **Daten in die Datei schreiben**
 
-    * **Write data to the file**
+    Schreiben des Textes "Test file write" in die Datei. 
+    Wenn die Schreiboperation erfolgreich ist, wird "File write successful" gedruckt; andernfalls wird "File write failed" gedruckt.
 
-    Write the text "Test file write" to the file. 
-    If the write operation is successful, it prints "File write successful"; otherwise, it prints "File write failed".
-
-    
     .. code-block:: arduino
 
-        if(file.print("Test file write")) { // Write the message to the file
-            Serial.println("File write success"); // If write succeeds, print to serial
+        if(file.print("Test file write")) { // Die Nachricht in die Datei schreiben
+            Serial.println("File write success"); // Wenn das Schreiben erfolgreich ist, im seriellen Monitor drucken
         } else {
-            Serial.println("File write failed"); // If write fails, print to serial
+            Serial.println("File write failed"); // Wenn das Schreiben fehlschlägt, im seriellen Monitor drucken
         } 
 
-    * **Close the file**
+    * **Schließen der Datei**
         
-    Close the opened file. This ensures that any buffered data is written to the file and the file is properly closed.
+    Schließen der geöffneten Datei. Dies stellt sicher, dass alle gepufferten Daten in die Datei geschrieben und die Datei ordnungsgemäß geschlossen wird.
 
     .. code-block:: arduino
 
-        file.close(); // Close the file
+        file.close(); // Die Datei schließen
 
-    * **Open the root directory**
+    * **Öffnen des Stammverzeichnisses**
 
-    Open the root directory of the SD card. If the directory fails to open, it prints "Failed to open directory" and returns.
+    Öffnen des Stammverzeichnisses der SD-Karte. Wenn das Öffnen des Verzeichnisses fehlschlägt, wird "Failed to open directory" gedruckt und zurückgegeben.
 
     .. code-block:: arduino
 
-        File root = SD_MMC.open("/"); // Open the root directory of SD card
+        File root = SD_MMC.open("/"); // Öffnen des Stammverzeichnisses der SD-Karte
         if (!root) {
-            Serial.println("Failed to open directory"); // Print error message if directory failed to open
+            Serial.println("Failed to open directory"); // Fehlernachricht drucken, wenn das Öffnen des Verzeichnisses fehlschlägt
             return;
         }
 
-    * **Print each file's name and size**
+    * **Drucken der Namen und Größen der Dateien**
     
-    The loop starting with while (``File file = root.openNextFile()``) iterates over all the files in the root directory, 
-    printing each file's name and size to the serial monitor.
+    Die Schleife, beginnend mit ``while (File file = root.openNextFile())``, iteriert über alle Dateien im Stammverzeichnis und druckt den Dateinamen und die Dateigröße jeder gefundenen Datei im seriellen Monitor.
 
     .. code-block:: arduino
     
-        Serial.println("Files found in root directory:"); // Print the list of files found in the root directory
-        while (File file = root.openNextFile()) { // Loop through all the files in the root directory
+        Serial.println("Files found in root directory:"); // Die Liste der im Stammverzeichnis gefundenen Dateien drucken
+        while (File file = root.openNextFile()) { // Durch alle Dateien im Stammverzeichnis iterieren
               Serial.print("  ");
-              Serial.print(file.name()); // Print the filename
+              Serial.print(file.name()); // Den Dateinamen drucken
               Serial.print("\t");
-              Serial.println(file.size()); // Print the filesize
-              file.close(); // Close the file
+              Serial.println(file.size()); // Die Dateigröße drucken
+              file.close(); // Die Datei schließen
         }
 
-#.  This ``loop()`` function is an empty loop and does nothing in the current program. However, in a typical Arduino program, this function would continuously loop over and execute the code within it. In this case, since all the required tasks have been performed in the setup function, the loop function is not needed.
+#.  Diese ``loop()``-Funktion ist eine leere Schleife und führt im aktuellen Programm keine Operationen aus. In einem typischen Arduino-Programm würde diese Funktion kontinuierlich ausgeführt werden und den darin enthaltenen Code ausführen. In diesem Fall, da alle erforderlichen Aufgaben in der ``setup()``-Funktion ausgeführt wurden, wird die ``loop()``-Funktion nicht benötigt.
 
     .. code-block:: arduino
 
-        void loop() {} // Empty loop function, does nothing
+        void loop() {} // Leere loop-Funktion, tut nichts

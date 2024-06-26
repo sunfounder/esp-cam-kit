@@ -1,57 +1,53 @@
-
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Vertiefen Sie sich mit anderen Enthusiasten in die Welt von Raspberry Pi, Arduino und ESP32.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Sonderangebote**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _iot_html_cam:
 
+2.14 Benutzerdefinierter Video-Streaming-Webserver
+=======================================================
 
-2.14 Custom Video Streaming Web Server
-========================================
+Das Projekt des benutzerdefinierten Video-Streaming-Webservers bietet die Möglichkeit, zu lernen, wie man eine Webseite von Grund auf erstellt und sie anpasst, um Videostreams abzuspielen. Darüber hinaus können Sie interaktive Schaltflächen wie EIN und AUS einbinden, um die Helligkeit der LED zu steuern.
 
-The Custom Video Streaming Web Server project offers an opportunity to learn how to create a web page from scratch and customize it to play video streams. Additionally, you can incorporate interactive buttons, such as ON and OFF, to control the LED's brightness.
+Durch den Aufbau dieses Projekts erhalten Sie praktische Erfahrungen in Webentwicklung, HTML, CSS und JavaScript. Sie lernen, wie Sie eine responsive Webseite erstellen, die Videostreams in Echtzeit anzeigen kann. Außerdem entdecken Sie, wie Sie interaktive Schaltflächen integrieren, um den Zustand der LED zu steuern, und so ein dynamisches Benutzererlebnis bieten.
 
-By building this project, you will gain hands-on experience in web development, HTML, CSS, and JavaScript. You will learn how to create a responsive web page that can display video streams in real-time. Moreover, you will discover how to integrate interactive buttons to control the LED's state, providing a dynamic user experience.
+**Benötigte Komponenten**
 
-**Required Components**
-
-In this project, we need the following components. 
-
-
+In diesem Projekt benötigen wir die folgenden Komponenten.
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - KOMPONENTEN-BESCHREIBUNG
+        - KAUFLINK
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Breadboard
+    *   - Steckbrett
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - Mehrere Verbindungskabel
         - |link_wires_buy|
-    *   - Resistor
+    *   - Widerstand
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
 
-**How to do?**
+**Wie geht das?**
 
-#. First plug in the camera.
+#. Zuerst die Kamera einstecken.
 
     .. raw:: html
 
@@ -60,15 +56,15 @@ In this project, we need the following components.
             Your browser does not support the video tag.
         </video>
 
-#. Build the circuit.
+#. Den Schaltkreis aufbauen.
 
     .. image:: img/iot_3_html_led_bb.png
 
-#. Then, connect ESP32-WROOM-32E to the computer using the USB cable.
+#. Dann den ESP32-WROOM-32E mit dem USB-Kabel an den Computer anschließen.
 
     .. image:: img/plugin_esp32.png
 
-#. Open the code.
+#. Den Code öffnen.
 
     .. note::
         
@@ -78,27 +74,27 @@ In this project, we need the following components.
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/a5e33c30-63dc-4987-94c3-89bc6a599e24/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-#. Locate the following lines and modify them with your ``<SSID>`` and ``<PASSWORD>``.
+#. Finden Sie die folgenden Zeilen und ändern Sie sie mit Ihrem ``<SSID>`` und ``<PASSWORD>``.
 
     .. code-block::  Arduino
 
-        // Replace the next variables with your SSID/Password combination
+        // Ersetzen Sie die nächsten Variablen mit Ihrer SSID/Passwort-Kombination
         const char* ssid = "<SSID>";
         const char* password = "<PASSWORD>";
 
-#. After selecting the correct board (ESP32 Dev Module) and port, click the **Upload** button.
+#. Wählen Sie das richtige Board (ESP32 Dev Module) und den richtigen Port aus und klicken Sie auf die Schaltfläche **Upload**.
 
-#. You will see a successful WiFi connection message and the assigned IP address in the Serial Monitor.
+#. Im Seriellen Monitor sehen Sie eine erfolgreiche WLAN-Verbindungsnachricht und die zugewiesene IP-Adresse.
 
     .. code-block:: 
 
         WiFi connected
         Camera Stream Ready! Go to: http://192.168.18.77
 
-#. Enter the IP address in your web browser. You will be directed to the web page shown below, where you can use the customized ON and OFF buttons to control the LED.
+#. Geben Sie die IP-Adresse in Ihren Webbrowser ein. Sie werden auf die unten gezeigte Webseite weitergeleitet, auf der Sie die benutzerdefinierten EIN- und AUS-Schaltflächen verwenden können, um die LED zu steuern.
 
     .. image:: img/sp230510_180503.png 
 
-#. Insert a battery into the expansion board and remove the USB cable. Now you can place the device anywhere you desire within the Wi-Fi range.
+#. Setzen Sie eine Batterie in das Erweiterungsboard ein und entfernen Sie das USB-Kabel. Nun können Sie das Gerät überall innerhalb der Reichweite des Wi-Fi platzieren.
 
     .. image:: img/plugin_battery.png

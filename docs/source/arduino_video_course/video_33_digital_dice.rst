@@ -1,31 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 33: Digital Dice
+Video 33: Digitaler Würfel
 ====================================================
 
+In diesem Tutorial wird gezeigt, wie man einen digitalen Würfel mit einem ESP32-Board und einer 7-Segment-Anzeige baut, wobei eine Taste verwendet wird, um die Würfel zu rollen und zufällig die Zahlen 1 bis 6 anzuzeigen.
 
-This tutorial shows how to build a digital dice using an ESP32 board and a 7-segment display, featuring a push button to roll the dice and display numbers 1 through 6 randomly.
-
-* **Digital Dice Concept**: Introduction to the project and its electronic components.
-* **Wiring Setup**: Step-by-step guide to connecting the ESP32 board with the 7-segment display and push button.
-* **Code Walkthrough**: Detailed explanation of the Arduino code for number generation and display management.
-* **Random Number Generation**: Methodology for creating random dice outcomes with a push button.
-* **Display Initialization**: Tips for ensuring the 7-segment display shows a clear screen upon startup.
-* **Project Assembly**: Instructions for assembling and troubleshooting the digital dice project for optimal performance.
-
+* **Konzept des digitalen Würfels**: Einführung in das Projekt und seine elektronischen Komponenten.
+* **Verkabelungsaufbau**: Schritt-für-Schritt-Anleitung zum Verbinden des ESP32-Boards mit der 7-Segment-Anzeige und der Taste.
+* **Code-Erklärung**: Detaillierte Erklärung des Arduino-Codes zur Zahlengenerierung und Anzeigesteuerung.
+* **Zufallszahlengenerierung**: Methode zur Erstellung zufälliger Würfelergebnisse mit einer Taste.
+* **Anzeigeinitialisierung**: Tipps zur Sicherstellung, dass die 7-Segment-Anzeige beim Start einen klaren Bildschirm zeigt.
+* **Projektzusammenbau**: Anweisungen zum Zusammenbau und zur Fehlerbehebung des digitalen Würfelprojekts für optimale Leistung.
 
 **Video**
 
@@ -33,8 +30,6 @@ This tutorial shows how to build a digital dice using an ESP32 board and a 7-seg
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/9mpHQWvZ0WI?si=WxNtw7uIJddDzE-R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_dice`
-
-

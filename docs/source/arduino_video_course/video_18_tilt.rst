@@ -1,31 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-
-Video 18: Detecting Tilt
+Video 18: Neigungserkennung
 ==================================
 
+Dieses Video-Tutorial zeigt, wie man einen ESP32-Mikrocontroller mit einem Neigungsschalter verwendet, um eine LED zu steuern, und führt durch die Phasen des Aufbaus, der Verdrahtung, des Codierens und des Testens des Projekts.
 
-This video tutorial demonstrates how to use an ESP32 microcontroller with a tilt switch to control an LED, showcasing the setup, wiring, coding, and testing phases of the project.
-
-* **Project Overview**: Introduction to using the SunFounder ESP32 for detecting tilt angles with a tilt switch and LED indication.
-* **Component Details**: Explanation of the tilt switch mechanism, and the list of components required for the project.
-* **Wiring Setup**: Step-by-step guide on connecting the tilt switch and LED to the ESP32, including a schematic overview.
-* **Coding Tutorial**: Detailed walkthrough of the Arduino code needed to read the tilt switch state and control the LED.
-* **Practical Demonstration**: Real-time testing to show how the LED's state changes in response to the tilt switch's position.
-* **Board and Port Selection**: Instructions on how to select the ESP32 board and correct port in the Arduino IDE before code upload.
+* **Projektübersicht**: Einführung in die Verwendung des SunFounder ESP32 zur Erkennung von Neigungswinkeln mit einem Neigungsschalter und LED-Anzeige.
+* **Komponentendetails**: Erklärung des Neigungsschaltermechanismus und die Liste der für das Projekt erforderlichen Komponenten.
+* **Verkabelungssetup**: Schritt-für-Schritt-Anleitung zum Anschließen des Neigungsschalters und der LED an den ESP32, einschließlich eines Schaltplanüberblicks.
+* **Codierungstutorial**: Detaillierte Anleitung zum Arduino-Code, der zum Lesen des Neigungsschalterzustands und zur Steuerung der LED erforderlich ist.
+* **Praktische Demonstration**: Echtzeit-Test, um zu zeigen, wie sich der Zustand der LED in Abhängigkeit von der Position des Neigungsschalters ändert.
+* **Auswahl von Board und Port**: Anweisungen zur Auswahl des ESP32-Boards und des richtigen Ports in der Arduino-IDE vor dem Hochladen des Codes.
 
 **Video**
 
@@ -33,8 +30,6 @@ This video tutorial demonstrates how to use an ESP32 microcontroller with a tilt
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/zbBTWvGywJg?si=bn4SxnzJbdN4j_fp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_tilt`
-
-

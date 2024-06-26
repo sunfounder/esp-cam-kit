@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 22: Feeling The light
+Video 22: Licht erkennen
 ====================================================
 
-Learn how to measure and interpret light intensity using a Light Dependent Resistor (LDR) with ESP32, from circuit setup to programming and readings analysis.
+Lerne, wie man die Lichtintensität mit einem lichtabhängigen Widerstand (LDR) und dem ESP32 misst und interpretiert, vom Schaltungsaufbau bis zur Programmierung und Analyse der Messwerte.
 
-* **LDR Functionality**: Understand how LDRs react to light and their application in measuring light intensity.
-* **Circuit Setup**: Step-by-step guide on connecting LDR to ESP32, including breadboard arrangement and component connections.
-* **Programming ESP32**: Detailed instructions on writing and uploading code to ESP32 using Arduino IDE to read and interpret light intensity.
-* **Analog-to-Digital Conversion**: Insights into how ESP32 converts analog signals from LDR into digital values for light intensity analysis.
-* **Reading and Analysis**: Demonstrating the process of reading analog values and converting them to voltage for precise light intensity measurement.
-* **Practical Application**: Tips on using these measurements for practical applications, like controlling devices based on light levels.
+* **Funktionalität des LDR**: Verstehe, wie LDRs auf Licht reagieren und wie sie zur Messung der Lichtintensität eingesetzt werden.
+* **Schaltungsaufbau**: Schritt-für-Schritt-Anleitung zum Anschließen des LDR an den ESP32, einschließlich Breadboard-Anordnung und Komponentenverbindungen.
+* **Programmierung des ESP32**: Detaillierte Anweisungen zum Schreiben und Hochladen des Codes auf den ESP32 mit der Arduino IDE, um die Lichtintensität zu lesen und zu interpretieren.
+* **Analog-Digital-Umwandlung**: Einblicke, wie der ESP32 analoge Signale vom LDR in digitale Werte umwandelt, um die Lichtintensität zu analysieren.
+* **Lesen und Analyse**: Demonstration des Prozesses zum Lesen analoger Werte und deren Umwandlung in Spannung für eine präzise Messung der Lichtintensität.
+* **Praktische Anwendung**: Tipps zur Verwendung dieser Messungen für praktische Anwendungen, wie das Steuern von Geräten basierend auf Lichtstärken.
 
 **Video**
 
@@ -31,8 +30,6 @@ Learn how to measure and interpret light intensity using a Light Dependent Resis
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/sXWlnOHAo6M?si=gQDkF6WcsCL0_Cpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_photoresistor`
-
-

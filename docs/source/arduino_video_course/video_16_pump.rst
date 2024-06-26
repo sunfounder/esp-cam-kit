@@ -1,30 +1,27 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 16: Mini Water Pump using ESP32 and L293D
+Video 16: Mini-Wasserpumpe mit ESP32 und L293D
 =================================================
 
-This tutorial teaches how to control a 5V DC water pump with ESP32 and L293D motor driver:
+Dieses Tutorial zeigt, wie man eine 5V-DC-Wasserpumpe mit dem ESP32 und dem L293D-Motortreiber steuert:
 
-* **Water Pump Basics**: Understand the functionality of a 5V DC water pump included in the SunFounder kit.
-* **Using L293D with ESP32**: Learn how L293D motor driver helps in interfacing the water pump with ESP32.
-* **Project Setup**: Step-by-step guidance on connecting the water pump to ESP32 using L293D.
-* **Arduino Programming**: Detailed walkthrough of the Arduino code for controlling the water pump.
-* **Practical Demonstration**: Experience the water pump in action, showing how to start and stop it using ESP32.
-
-
+* **Grundlagen der Wasserpumpe**: Verstehe die Funktionalität einer 5V-DC-Wasserpumpe, die im SunFounder-Kit enthalten ist.
+* **Verwendung von L293D mit ESP32**: Lerne, wie der L293D-Motortreiber hilft, die Wasserpumpe mit dem ESP32 zu verbinden.
+* **Projektaufbau**: Schritt-für-Schritt-Anleitung zum Anschluss der Wasserpumpe an den ESP32 unter Verwendung des L293D.
+* **Arduino-Programmierung**: Detaillierte Erklärung des Arduino-Codes zur Steuerung der Wasserpumpe.
+* **Praktische Demonstration**: Erlebe die Wasserpumpe in Aktion und sieh, wie man sie mit dem ESP32 ein- und ausschaltet.
 
 **Video**
 
@@ -32,6 +29,6 @@ This tutorial teaches how to control a 5V DC water pump with ESP32 and L293D mot
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/64z83Mm-Kpc?si=x2K_9GfoC1lMC2JH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_pump`

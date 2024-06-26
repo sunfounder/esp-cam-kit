@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 5: LED Fade - Controlling LED Brightness
+Video 5: LED Fade - Steuerung der LED-Helligkeit
 =======================================================
 
-This tutorial covers controlling LED brightness by fading in or out using the SunFounder ESP32 module:
+Dieses Tutorial behandelt die Steuerung der LED-Helligkeit durch Ein- und Ausblenden mit dem SunFounder ESP32-Modul:
 
-* **LED Brightness Control**: Explains controlling LED brightness using PWM (Pulse Width Modulation). Discusses digital signals, duty cycles, and how varying duty cycles control LED brightness.
-* **Wiring Diagram and Setup**: Provides a detailed wiring diagram for connecting an LED with a 220 Ohm resistor to the ESP32. Demonstrates the physical setup on a breadboard.
-* **Code Explanation**: Describes the Arduino code for fading an LED. Covers functions like ``ledcSetup``, ``ledcAttachPin``, and ``ledcWrite``, explaining parameters and usage.
-* **Practical Demonstration**: Shows how to upload the code to ESP32, check the wiring, and observe the LED fading effect. Tips for adjusting fade speed and brightness levels.
+* **LED-Helligkeitssteuerung**: Erklärt die Steuerung der LED-Helligkeit mit PWM (Pulse Width Modulation). Diskutiert digitale Signale, Tastverhältnisse und wie variierende Tastverhältnisse die LED-Helligkeit steuern.
+* **Schaltplan und Aufbau**: Bietet einen detaillierten Schaltplan zum Anschluss einer LED mit einem 220-Ohm-Widerstand an den ESP32. Zeigt den physischen Aufbau auf einem Steckbrett.
+* **Code-Erklärung**: Beschreibt den Arduino-Code zum Ein- und Ausblenden einer LED. Behandelt Funktionen wie ``ledcSetup``, ``ledcAttachPin`` und ``ledcWrite`` und erklärt Parameter und Verwendung.
+* **Praktische Demonstration**: Zeigt, wie der Code auf den ESP32 hochgeladen wird, die Verdrahtung überprüft und der LED-Effekt beobachtet wird. Tipps zum Anpassen der Ein- und Ausblendgeschwindigkeit und der Helligkeitsstufen.
 
-This comprehensive guide is ideal for beginners to learn about LED control with ESP32, offering step-by-step instructions, code details, and practical demonstrations.
+Diese umfassende Anleitung ist ideal für Anfänger, um die LED-Steuerung mit ESP32 zu lernen. Sie bietet Schritt-für-Schritt-Anleitungen, Code-Details und praktische Demonstrationen.
 
 **Video**
 
@@ -31,6 +30,6 @@ This comprehensive guide is ideal for beginners to learn about LED control with 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/O_tk0itHccs?si=rO9GmMaJpdHvDuEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_fading`

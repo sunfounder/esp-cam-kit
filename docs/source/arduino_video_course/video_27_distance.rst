@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 27: Measuring Distanc
+Video 27: Distanzmessung
 ====================================================
 
-Learn how to use an ultrasonic sensor with an ESP32 microcontroller for accurate distance measurement and trigger actions based on distance thresholds.
+Lerne, wie man einen Ultraschallsensor mit einem ESP32-Mikrocontroller zur genauen Distanzmessung verwendet und Aktionen basierend auf Abstandsschwellenwerten auslöst.
 
-* **Ultrasonic Sensor Basics**: Understand how ultrasonic sensors work by emitting waves and measuring their reflection for distance calculation.
-* **Documentation Reference**: Access the documentation on docs.sunFounder.com for setup guidance for the ESP32 and ultrasonic sensor.
-* **Ultrasonic Sensor Specifications**: Learn about the HC-SR04 ultrasonic sensor's specifications, including pin configuration and operating parameters.
-* **Wiring Configuration**: Follow instructions to correctly wire the ultrasonic sensor to the ESP32 microcontroller for seamless integration.
-* **Code Explanation**: Dive into the code explanation for interfacing with the ultrasonic sensor, including initializing pins and calculating distance from time measurements.
-* **Practical Demonstration**: Witness a practical demonstration of distance measurement using the setup, including accuracy verification and triggering actions based on predefined distance thresholds.
+* **Grundlagen des Ultraschallsensors**: Verstehe, wie Ultraschallsensoren durch das Aussenden von Wellen und das Messen ihrer Reflexion zur Distanzberechnung arbeiten.
+* **Dokumentationsreferenz**: Greife auf die Dokumentation auf docs.sunFounder.com zu, um Anleitungen für die Einrichtung des ESP32 und des Ultraschallsensors zu erhalten.
+* **Spezifikationen des Ultraschallsensors**: Erfahre mehr über die Spezifikationen des HC-SR04 Ultraschallsensors, einschließlich Pin-Konfiguration und Betriebsparameter.
+* **Verkabelungskonfiguration**: Folge den Anweisungen, um den Ultraschallsensor korrekt an den ESP32-Mikrocontroller anzuschließen und eine nahtlose Integration zu gewährleisten.
+* **Code-Erklärung**: Tauche in die Code-Erklärung für die Schnittstelle mit dem Ultraschallsensor ein, einschließlich der Initialisierung der Pins und der Berechnung der Distanz aus Zeitmessungen.
+* **Praktische Demonstration**: Erlebe eine praktische Demonstration der Distanzmessung mit der Einrichtung, einschließlich der Überprüfung der Genauigkeit und der Auslösung von Aktionen basierend auf vordefinierten Abstandsschwellenwerten.
 
 **Video**
 
@@ -31,8 +30,6 @@ Learn how to use an ultrasonic sensor with an ESP32 microcontroller for accurate
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/g3_Tj1_x2_U?si=mbVSC7rL7A1SvG-f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_ultrasonic`
-
-

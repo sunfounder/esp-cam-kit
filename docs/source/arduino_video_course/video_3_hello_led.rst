@@ -1,31 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 3: "Hello LED" Project
+Video 3: "Hello LED" Projekt
 ======================================================
 
-In Tutorial 3, we delve into the "Hello LED" project, providing a comprehensive overview of the project:
+In Tutorial 3 beschäftigen wir uns mit dem "Hello LED"-Projekt und bieten einen umfassenden Überblick über das Projekt:
 
+* **Komponenten**: Eine detaillierte Betrachtung der im Projekt verwendeten Komponenten, einschließlich Widerständen, LEDs und Steckbrettern, und eine Erklärung ihrer Rollen und Funktionen.
+* **Schaltungsaufbau**: Schritt-für-Schritt-Anleitung zum Aufbau der LED-Schaltung, einschließlich der korrekten Verwendung von Widerständen und Verbindungen auf dem Steckbrett.
+* **Arduino Code**: Eine ausführliche Erklärung des im Projekt verwendeten Arduino-Codes, Hervorhebung der Schlüsselelemente und des Upload-Prozesses auf den ESP32.
+* **Testen**: Praktische Anweisungen zum Testen der LED-Blink-Demonstration, um sicherzustellen, dass das Projekt wie vorgesehen funktioniert.
 
-* **Components**: A detailed look at the components involved in the project, including resistors, LEDs, and breadboards, explaining their roles and functions.
-* **Circuit Setup**: Step-by-step guidance on setting up the LED circuit, including proper resistor usage and connections on the breadboard.
-* **Arduino Code**: An in-depth explanation of the Arduino code used in the project, highlighting key elements and the upload process to the ESP32.
-* **Testing**: Practical instructions on how to test the LED blink demonstration, ensuring that the project works as intended.
-
-This tutorial not only equips you with the knowledge needed to complete the "Hello LED" project but also provides a foundational understanding of resistors, LEDs, and breadboards in electronics and IoT applications.
-
+Dieses Tutorial vermittelt dir nicht nur das Wissen, das du für das "Hello LED"-Projekt benötigst, sondern bietet auch ein grundlegendes Verständnis für Widerstände, LEDs und Steckbretter in der Elektronik- und IoT-Anwendungen.
 
 **Video**
 
@@ -33,6 +30,6 @@ This tutorial not only equips you with the knowledge needed to complete the "Hel
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/jTJ-JL2gEuQ?si=zyEet96mvJ2KDrzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_blink`

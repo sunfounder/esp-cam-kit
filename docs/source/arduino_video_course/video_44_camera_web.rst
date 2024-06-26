@@ -1,30 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 44: Camera Web Server
+Video 44: Kamera-Webserver
 =================================================
 
-Learn how to set up and stream video with the ESP32 camera extension board, covering hardware connection, code configuration, accessing the stream, and adjusting stream settings.
+Lerne, wie du mit der ESP32-Kameraerweiterungsplatine Video einrichtest und streamst. Dies umfasst den Hardwareanschluss, die Konfigurations des Codes, den Zugriff auf den Stream und die Anpassung der Stream-Einstellungen.
 
-* **Hardware setup**: Attach the ESP32 camera extension board to the ESP32 board following the provided demonstration.
-* **Code explanation**: Understand the Arduino code for configuring Wi-Fi, camera settings, and streaming configurations.
-* **Setting up in Arduino IDE**: Instructions on selecting the ESP32 board and port in the Arduino IDE for uploading the code.
-* **Accessing the stream**: Learn how to access the video stream via a web browser using the ESP32's IP address.
-* **Stream settings**: Explore various stream settings like resolution, effects, and flipping options to customize the video output.
-* **Demonstration**: Witness a live demonstration of video streaming from the ESP32 camera extension board and discover its advantages over other camera options.
-
+* **Hardwareeinrichtung**: Befestige die ESP32-Kameraerweiterungsplatine an der ESP32-Platine gemäß der bereitgestellten Anleitung.
+* **Code-Erklärung**: Verstehe den Arduino-Code zur Konfiguration von Wi-Fi, Kameraeinstellungen und Streaming-Konfigurationen.
+* **Einrichtung in der Arduino-IDE**: Anweisungen zur Auswahl der ESP32-Platine und des Ports in der Arduino-IDE zum Hochladen des Codes.
+* **Zugriff auf den Stream**: Lerne, wie du über einen Webbrowser mit der IP-Adresse des ESP32 auf den Videostream zugreifst.
+* **Streameinstellungen**: Erkunde verschiedene Streameinstellungen wie Auflösung, Effekte und Optionen zum Drehen, um das Videoausgabe anzupassen.
+* **Demonstration**: Erlebe eine Live-Demonstration des Videostreamings von der ESP32-Kameraerweiterungsplatine und entdecke ihre Vorteile gegenüber anderen Kameraoptionen.
 
 **Video**
 
@@ -32,8 +30,7 @@ Learn how to set up and stream video with the ESP32 camera extension board, cove
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/TSIO1mQXn4U?si=V06fuei03Th9Fqtz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`iot_camera_web`
-
 

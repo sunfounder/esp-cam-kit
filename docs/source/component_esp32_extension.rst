@@ -1,27 +1,27 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauchen Sie tiefer in Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und Vorschauen.
+    - **Spezielle Rabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie noch heute bei!
 
 .. _cpn_esp32_camera_extension:
 
-ESP32 Camera Extension
-=======================
+ESP32 Kamera-Erweiterung
+============================
 
-We have designed an expansion board that enables you to fully utilize the camera and SD card functionalities of the ESP32 WROOM 32E. By combining the OV2640 camera, Micro SD, and ESP32 WROOM 32E, you get an all-in-one expansion board.
+Wir haben eine Erweiterungsplatine entwickelt, die es Ihnen ermöglicht, die Kamera- und SD-Kartenfunktionen des ESP32 WROOM 32E voll auszunutzen. Durch die Kombination der OV2640-Kamera, der Micro SD und des ESP32 WROOM 32E erhalten Sie eine All-in-One-Erweiterungsplatine.
 
-The board provides two types of GPIO headers - one with female headers, perfect for quick prototyping projects. The other type features screw terminals, ensuring stable wire connections and making it suitable for IoT projects.
+Die Platine bietet zwei Arten von GPIO-Headern - einen mit Buchsenleisten, ideal für schnelle Prototyping-Projekte. Der andere Typ verfügt über Schraubklemmen, die stabile Drahtverbindungen gewährleisten und sie für IoT-Projekte geeignet machen.
 
-Additionally, you can power your project using a single 3.7V 18650 battery. If the battery runs low, you can conveniently charge it by simply plugging in a 5V Micro USB cable. This makes it a great tool for outdoor projects and remote applications.
+Darüber hinaus können Sie Ihr Projekt mit einer einzigen 3,7V 18650-Batterie betreiben. Wenn die Batterie leer ist, können Sie sie bequem aufladen, indem Sie einfach ein 5V Micro USB-Kabel anschließen. Dies macht sie zu einem großartigen Werkzeug für Outdoor-Projekte und Anwendungen in abgelegenen Bereichen.
 
 .. image:: img/esp32_camera_extension.jpg
     :width: 400
@@ -31,106 +31,103 @@ Additionally, you can power your project using a single 3.7V 18650 battery. If t
     :width: 400
     :align: center
 
-
-Specification Table
-------------------------
+Spezifikationstabelle
+-------------------------
 
 .. list-table::
     :widths: 30 10 10 10 10
     :header-rows: 1
 
     *   - Parameter
-        - Minimum Value
-        - Typical Value
-        - Maximum Value
-        - Unit
-    *   - Battery Shutdown Current
+        - Minimalwert
+        - Typischer Wert
+        - Maximalwert
+        - Einheit
+    *   - Batterieschaltstrom
         - \-
         - \-
         - 60
         - uA
-    *   - DC-DC Output Voltage
+    *   - DC-DC Ausgangsspannung
         - 4.9129
         - 5
         - 5.0889
         - V
-    *   - DC-DC Overtemperature Protection
+    *   - DC-DC Übertemperaturschutz
         - \-
         - 150
         - \-
         - ℃
-    *   - Battery Charging Current
+    *   - Batterieladestrom
         - \-
         - \-
         - 500
         - mA
-    *   - Charging Overtemperature Protection
+    *   - Ladeschutz bei Übertemperatur
         - \-
         - 130
         - \-
         - ℃
-    *   - Input Low Voltage Switching Threshold
+    *   - Niederspannungsschaltschwelle
         - \-
         - 3.4
         - \-
         - V
 
-
-Interface Introduction
--------------------------
+Einführung der Schnittstellen
+----------------------------------
 
 .. image:: img/esp32_camera_extension_pinout.jpg
     :width: 800
     :align: center
 
-* **Power Switch**
-    * Controls the battery's power supply, toggling it on and off.
+* **Netzschalter**
+    * Steuert die Stromversorgung der Batterie und schaltet sie ein und aus.
 
-* **Charging Port**
-    * Upon connecting a 5V/0.5A Micro USB cable, the battery can be charged.
+* **Ladeanschluss**
+    * Beim Anschluss eines 5V/0,5A Micro USB-Kabels kann die Batterie aufgeladen werden.
 
-* **Battery Port**
-    * Features a PH2.0-2P interface, compatible with 3.7V 18650 lithium batterry.
-    * Provides power to both the ESP32 WROOM 32E and ESP32 Camera Extension.
+* **Batterieanschluss**
+    * Verfügt über eine PH2.0-2P-Schnittstelle, kompatibel mit 3,7V 18650 Lithium-Batterie.
+    * Versorgt sowohl den ESP32 WROOM 32E als auch die ESP32 Kamera-Erweiterung mit Strom.
 
-* **ESP32 Pin Headers**
-    * Intended for the ESP32 WROOM 32E module. Pay close attention to its orientation; ensure both Micro USB ports face the same side to avoid incorrect placement.
+* **ESP32 Pin-Header**
+    * Für das ESP32 WROOM 32E Modul vorgesehen. Achten Sie genau auf die Ausrichtung; stellen Sie sicher, dass beide Micro USB-Anschlüsse auf derselben Seite sind, um eine falsche Platzierung zu vermeiden.
 
-* **GPIO Headers**
-    * **Female Headers**: Used to connect various components to the ESP32, perfect for quick prototyping projects.
-    * **Screw Terminal**: 3.5mm pitch 14pin screw terminal, ensuring stable wire connections and making it suitable for IoT projects.
+* **GPIO-Header**
+    * **Buchsenleisten**: Werden verwendet, um verschiedene Komponenten mit dem ESP32 zu verbinden, ideal für schnelle Prototyping-Projekte.
+    * **Schraubklemmen**: 3,5mm Rastermaß 14-polige Schraubklemme, gewährleistet stabile Drahtverbindungen und ist für IoT-Projekte geeignet.
 
-* **Indicator Lights**
-    * **PWR**: Lights up when the battery is powered or when a Micro USB is directly plugged into the ESP32.
-    * **CHG**: Illuminates upon connecting a Micro USB to the board's charging port, signifying charging onset. It will turn off once the battery is fully charged.
+* **Anzeigelampen**
+    * **PWR**: Leuchtet auf, wenn die Batterie mit Strom versorgt wird oder wenn ein Micro USB direkt in den ESP32 eingesteckt ist.
+    * **CHG**: Leuchtet auf, wenn ein Micro USB an den Ladeanschluss der Platine angeschlossen wird, was den Beginn des Ladevorgangs anzeigt. Sie erlischt, sobald die Batterie vollständig aufgeladen ist.
 
-* **Micro SD Connector**
-    * Spring-loaded slot for the easy insertion and ejection of Micro SD card.
+* **Micro SD-Anschluss**
+    * Federbelasteter Steckplatz für einfaches Einsetzen und Auswerfen der Micro SD-Karte.
 
-* **24-pin 0.5mm FFC / FPC connector**
-    * Designed for the OV2640 camera, making it suitable for various vision-related projects.
+* **24-poliger 0,5mm FFC / FPC-Anschluss**
+    * Für die OV2640-Kamera konzipiert, geeignet für verschiedene visuelle Projekte.
 
+Pin-Zuordnungstabellen
+---------------------------
 
-Pin Mapping Tables
---------------------------------
+Das Pinout-Diagramm des ESP32 WROOM 32E finden Sie in :ref:`esp32_pinout`.
 
-The ESP32 WROOM 32E's pinout diagram can be found in :ref:`esp32_pinout`. 
+Wenn der ESP32 WROOM 32E jedoch in die Erweiterungsplatine eingesetzt wird, können einige seiner Pins auch zur Steuerung der Micro SD-Karte oder einer Kamera verwendet werden.
 
-However, when the ESP32 WROOM 32E is inserted into the extension board, some of its pins may also be used to drive the Micro SD card or a camera. 
-
-Consequently, pull-up or pull-down resistors have be added to these pins. If you're using these pins as inputs, it's crucial to account for these resistors as they can affect input levels.
+Daher wurden Pull-up- oder Pull-down-Widerstände zu diesen Pins hinzugefügt. Wenn Sie diese Pins als Eingänge verwenden, ist es wichtig, diese Widerstände zu berücksichtigen, da sie die Eingangspegel beeinflussen können.
 
 .. note::
 
-    The onboard 8M PSRAM provides ample RAM for the camera. PSRAM occupies IO16 and IO17. Therefore, the expansion header and expansion screw terminal do not extend IO16 and IO17.
+    Der onboard 8M PSRAM bietet ausreichend RAM für die Kamera. PSRAM belegt die IO16 und IO17. Daher erweitern die Erweiterungsheader und die Schraubklemmen diese Pins nicht.
 
-Here's the pinout table for the right-side pins:
+Hier ist die Pinout-Tabelle für die Pins auf der rechten Seite:
 
     .. image:: img/esp32_extension_pinout1.jpg
         :width: 100%
         :align: center
 
-Here's the pinout table for the left-side pins:
+Hier ist die Pinout-Tabelle für die Pins auf der linken Seite:
 
     .. image:: img/esp32_extension_pinout2.jpg
         :width: 100%
@@ -138,17 +135,17 @@ Here's the pinout table for the left-side pins:
 
     .. note::
 
-        There are some specific constraints:
+        Es gibt einige spezifische Einschränkungen:
 
-        * **IO33** is connected to a 4.7K pull-up resistor and a filtering capacitor, which prevents it from driving the WS2812 RGB Strip.
+        * **IO33** ist mit einem 4,7K Pull-up-Widerstand und einem Filterkondensator verbunden, was verhindert, dass er den WS2812 RGB-Strip steuert.
 
-**Micro SD Connector Pin Mapping Table**
+**Micro SD Anschluss Pin-Zuordnungstabelle**
 
 .. list-table::
     :widths: 10 10
     :header-rows: 1
 
-    *   - Micro SD Connector
+    *   - Micro SD Anschluss
         - ESP32
     *   - D0
         - IO2
@@ -163,17 +160,16 @@ Here's the pinout table for the left-side pins:
     *   - CMD
         - IO15
 
-**FFC / FPC Connector Pin Mapping Table**
+**FFC / FPC Anschluss Pin-Zuordnungstabelle**
 
-The camera interface mainly uses the OV2640, compatible with the 8225 camera. The interface adopts an FFC connector with a 0.5mm pitch 24P flip-down connection.
-
+Die Kameraschnittstelle verwendet hauptsächlich die OV2640, die mit der 8225 Kamera kompatibel ist. Die Schnittstelle verwendet einen FFC-Anschluss mit einem 0,5mm Rastermaß und 24P Flip-Down-Verbindung.
 
 .. list-table::
     :widths: 10 10 10
     :header-rows: 1
 
-    *   - Number
-        - FFC / FPC Connector
+    *   - Nummer
+        - FFC / FPC Anschluss
         - ESP32
     *   - 1
         - Y0
@@ -216,10 +212,10 @@ The camera interface mainly uses the OV2640, compatible with the 8225 camera. Th
         - IO35
     *   - 14
         - DOVDD
-        - 3.3V
+        - 3,3V
     *   - 15
         - DVDD
-        - 1.2V
+        - 1,2V
     *   - 16
         - HREF
         - IO23
@@ -237,7 +233,7 @@ The camera interface mainly uses the OV2640, compatible with the 8225 camera. Th
         - IO27
     *   - 21
         - VADD
-        - 2.8V
+        - 2,8V
     *   - 22
         - SIO_D
         - IO26
@@ -248,29 +244,28 @@ The camera interface mainly uses the OV2640, compatible with the 8225 camera. Th
         - NC
         - NC
 
-Interface Insertion Guide
--------------------------------
+Anleitung zur Schnittstelleneinführung
+------------------------------------------
 
-**Upload Code**
+**Code Hochladen**
 
-    When you need to upload code to the ESP32 WROOM 32E, connect it to your computer using a Micro USB cable.
+    Wenn Sie Code auf den ESP32 WROOM 32E hochladen müssen, verbinden Sie ihn mit einem Micro-USB-Kabel mit Ihrem Computer.
 
     .. image:: img/plugin_esp32.png
         :width: 600
         :align: center
 
-**Inserting the Micro SD Card**
+**Einsetzen der Micro-SD-Karte**
 
-    Gently push in the Micro SD card to secure it in place. Pushing it again will eject it.
+    Schieben Sie die Micro-SD-Karte vorsichtig ein, um sie zu sichern. Ein erneutes Drücken wird sie auswerfen.
 
     .. image:: img/insert_sd.png
         :width: 600
         :align: center
 
-**Attaching the Camera**
+**Anschließen der Kamera**
 
-    When connecting the camera, ensure the black stripe of the FPC cable is facing upwards and is fully inserted 
-    into the connector.
+    Beim Anschließen der Kamera stellen Sie sicher, dass der schwarze Streifen des FPC-Kabels nach oben zeigt und vollständig in den Anschluss eingeführt ist.
 
     .. raw:: html
 
@@ -279,15 +274,15 @@ Interface Insertion Guide
             Your browser does not support the video tag.
         </video>
 
-**Battery Power and Charging**
+**Batteriebetrieb und Laden**
 
-    Carefully insert the battery cable into the battery port, avoiding applying too much force to prevent pushing up the battery terminal. If the terminal is pushed up, it's okay as long as the pins are not broken; you can simply press it back into position.
+    Stecken Sie das Batteriekabel vorsichtig in den Batterieanschluss, ohne zu viel Kraft anzuwenden, um zu vermeiden, dass das Batterieterminal nach oben gedrückt wird. Sollte das Terminal nach oben gedrückt werden, ist dies in Ordnung, solange die Pins nicht gebrochen sind; drücken Sie es einfach wieder in Position.
 
     .. image:: img/plugin_battery.png
         :width: 500
         :align: center
 
-    If the battery is drained, plug in a 5V/0.5A Micro USB to charge it.
+    Wenn die Batterie entladen ist, schließen Sie ein 5V/0,5A Micro-USB-Kabel an, um sie aufzuladen.
 
     .. image:: img/battery_charge.png
         :width: 500

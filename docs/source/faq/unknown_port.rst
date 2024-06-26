@@ -1,38 +1,38 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Vertiefen Sie sich mit anderen Enthusiasten in die Welt von Raspberry Pi, Arduino und ESP32.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Sonderangebote**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _unknown_com_port:
 
-Always displaying "Unknown COMxx"?
--------------------------------------------
+Immer „Unknown COMxx“ angezeigt?
+=========================================
 
-When plugging the ESP32 into the computer, the Arduino IDE often displays ``Unknown COMxx``. Why does this happen?
+Warum wird beim Anschließen des ESP32 an den Computer in der Arduino IDE oft „Unknown COMxx“ angezeigt?
 
 .. image:: img/unknown_device.png
 
-This is because the USB driver for ESP32 is different from the regular Arduino Boards. The Arduino IDE can't automatically recognize this board. 
+Dies liegt daran, dass der USB-Treiber für den ESP32 sich von den regulären Arduino-Boards unterscheidet. Die Arduino IDE kann dieses Board nicht automatisch erkennen.
 
-In such a scenario, you need to manually select the correct board by following these steps:
+In einem solchen Szenario müssen Sie das richtige Board manuell auswählen, indem Sie diesen Schritten folgen:
 
-#. Click on **"Select the other board and port"**.
+#. Klicken Sie auf **„Wählen Sie ein anderes Board und einen anderen Port“**.
 
     .. image:: img/unknown_select.png
 
-#. In the search, type **"esp32 dev module"**, then select the board that appears. Afterward, select the correct port and click **OK**.
+#. Geben Sie in der Suche **„esp32 dev module“** ein, wählen Sie das erscheinende Board aus. Wählen Sie danach den richtigen Port und klicken Sie auf **OK**.
 
     .. image:: img/unknown_board.png
 
-#. Now, you should be able to see your board and port in this quick view window.
+#. Nun sollten Sie Ihr Board und Ihren Port in diesem Schnellansichtsfenster sehen können.
 
     .. image:: img/unknown_correct.png

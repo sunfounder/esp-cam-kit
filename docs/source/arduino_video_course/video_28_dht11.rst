@@ -1,30 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 28: DHT11 Temperature Sensor with LCD
-====================================================
+Video 28: DHT11 Temperatur- und Feuchtigkeitssensor mit LCD
+=================================================================
 
-Learn how to set up a DHT11 temperature and humidity sensor with an ESP32 microcontroller, covering wiring, code explanation, and practical demonstrations.
+Lerne, wie du einen DHT11 Temperatur- und Feuchtigkeitssensor mit einem ESP32-Mikrocontroller einrichtest, einschließlich Verkabelung, Code-Erklärung und praktischen Demonstrationen.
 
-
-* **DHT11 Sensor Setup**: Learn how to connect the DHT11 sensor to the ESP32 and read temperature and humidity data.
-* **Arduino IDE Libraries**: Instructions on installing and using the necessary libraries for the DHT11 sensor.
-* **Code Explanation**: Detailed walkthrough of the Arduino code for accurate data reading and display.
-* **LCD Data Display**: Steps to display temperature and humidity readings on an LCD screen.
-* **Buzzer Alert System**: How to implement a buzzer that activates when the temperature exceeds a specific limit.
-* **ESP32 Power Management**: Overview of powering the ESP32 and managing its power consumption efficiently.
+* **DHT11 Sensor Einrichtung**: Lerne, wie man den DHT11 Sensor an den ESP32 anschließt und Temperatur- und Feuchtigkeitsdaten ausliest.
+* **Arduino IDE Bibliotheken**: Anweisungen zur Installation und Verwendung der notwendigen Bibliotheken für den DHT11 Sensor.
+* **Code-Erklärung**: Detaillierte Durchsicht des Arduino-Codes für genaue Datenlesung und -anzeige.
+* **LCD-Datenanzeige**: Schritte zur Anzeige der Temperatur- und Feuchtigkeitswerte auf einem LCD-Bildschirm.
+* **Summer-Alarm-System**: Wie man einen Summer implementiert, der aktiviert wird, wenn die Temperatur einen bestimmten Grenzwert überschreitet.
+* **ESP32 Energiemanagement**: Überblick über die Stromversorgung des ESP32 und effizientes Energiemanagement.
 
 **Video**
 
@@ -32,8 +30,6 @@ Learn how to set up a DHT11 temperature and humidity sensor with an ESP32 microc
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/qRUFZX4eDJg?si=4Z-AxGCIZqiOMj-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_dht11`
-
-

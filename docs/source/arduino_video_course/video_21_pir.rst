@@ -1,28 +1,27 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 21: Detecting Human
+Video 21: Menschenerkennung
 ==============================
 
-Learn how to set up a human motion detection system using a PIR sensor with the ESP32 module, and get notified through LED and buzzer alerts.
+Lerne, wie man ein System zur Erkennung menschlicher Bewegung mit einem PIR-Sensor und dem ESP32-Modul einrichtet und über LED- und Summeralarme benachrichtigt wird.
 
-* **Starter Kit Components**: Overview of the SunFounder ESP32 starter kit and its 320+ components for various projects.
-* **PIR Sensor Mechanics**: Understanding the functionality of the PIR motion sensor, including its adjustment knobs for delay and sensitivity.
-* **Wiring and Coding**: Instructions on connecting the PIR sensor to the ESP32 and coding the module to react to motion detection.
-* **Sensitivity Adjustment**: Tips for adjusting the PIR sensor to fine-tune motion detection range and response time.
-* **Practical Demonstration**: Showcasing the project in action, with the ESP32 triggering LED and buzzer alerts upon detecting motion.
+* **Starter-Kit-Komponenten**: Übersicht über das SunFounder ESP32 Starter-Kit und seine 320+ Komponenten für verschiedene Projekte.
+* **PIR-Sensor-Mechanik**: Verständnis der Funktionalität des PIR-Bewegungssensors, einschließlich seiner Einstellknöpfe für Verzögerung und Empfindlichkeit.
+* **Verkabelung und Programmierung**: Anweisungen zum Anschließen des PIR-Sensors an den ESP32 und zur Programmierung des Moduls, um auf Bewegungserkennung zu reagieren.
+* **Empfindlichkeitseinstellung**: Tipps zur Anpassung des PIR-Sensors zur Feinabstimmung der Bewegungserkennungsreichweite und der Reaktionszeit.
+* **Praktische Demonstration**: Vorführung des Projekts in Aktion, bei dem der ESP32 LED- und Summeralarme bei Bewegungserkennung auslöst.
 
 **Video**
 
@@ -30,8 +29,6 @@ Learn how to set up a human motion detection system using a PIR sensor with the 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/h_DWTRgqb0Q?si=48s0fbZFgkACx0C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_pir`
-
-

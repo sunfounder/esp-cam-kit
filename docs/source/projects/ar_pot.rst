@@ -1,40 +1,40 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Vertiefen Sie sich mit anderen Enthusiasten in die Welt von Raspberry Pi, Arduino und ESP32.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Sonderangebote**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _ar_potentiometer:
 
-2.4 Analog Input
+2.4 Analogeingang
 ==========================
 
-This lesson explores the use of a potentiometer as an analog input device to adjust the brightness of an LED. By simply turning the knob of the potentiometer, you can vary the light intensity of the LED, similar to the way you might adjust the brightness of a desk lamp. This straightforward setup demonstrates the direct impact of analog input on real-world applications, offering an intuitive understanding of how changes in input can control electronic components.
+In dieser Lektion untersuchen wir die Verwendung eines Potentiometers als Analogeingabegerät zur Anpassung der Helligkeit einer LED. Durch einfaches Drehen des Potentiometerknopfes können Sie die Lichtintensität der LED variieren, ähnlich wie Sie die Helligkeit einer Schreibtischlampe einstellen würden. Dieses einfache Setup zeigt den direkten Einfluss von Analogeingaben auf reale Anwendungen und bietet ein intuitives Verständnis dafür, wie Änderungen der Eingaben elektronische Komponenten steuern können.
 
 
-**Available Pins**
+**Verfügbare Pins**
 
-* **Available Pins**
+* **Verfügbare Pins**
 
-    Here is a list of available pins on the ESP32 board for this project.
+    Hier ist eine Liste der verfügbaren Pins auf dem ESP32-Board für dieses Projekt.
 
     .. list-table::
         :widths: 5 15
 
-        *   - Available Pins
+        *   - Verfügbare Pins
             - IO14, IO25, I35, I34, I39, I36
 
 * **Strapping Pins**
 
-    The following pins are strapping pins, which affect the startup process of the ESP32 during power on or reset. However, once the ESP32 is booted up successfully, they can be used as regular pins.
+    Die folgenden Pins sind Strapping Pins, die den Startvorgang des ESP32 beim Einschalten oder Zurücksetzen beeinflussen. Sobald der ESP32 jedoch erfolgreich hochgefahren ist, können sie als normale Pins verwendet werden.
 
     .. list-table::
         :widths: 5 15
@@ -43,28 +43,26 @@ This lesson explores the use of a potentiometer as an analog input device to adj
             - IO0, IO12
 
 
-**Required Components**
+**Benötigte Komponenten**
 
-In this project, we need the following components. 
-
-
+In diesem Projekt benötigen wir die folgenden Komponenten.
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - KOMPONENTEN-BESCHREIBUNG
+        - KAUFLINK
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Breadboard
+    *   - Steckbrett
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - Mehrere Verbindungskabel
         - |link_wires_buy|
-    *   - Resistor
+    *   - Widerstand
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
@@ -73,20 +71,20 @@ In this project, we need the following components.
 
 
 
-**Schematic**
+**Schaltplan**
 
 .. image:: img/circuit_5.8_potentiometer.png
 
-When you rotate the potentiometer, the value of I35 will change. By programming, you can use the value of I35 to control the brightness of the LED. Therefore, as you rotate the potentiometer, the brightness of the LED will also change accordingly.
+Wenn Sie das Potentiometer drehen, ändert sich der Wert von I35. Durch Programmierung können Sie den Wert von I35 verwenden, um die Helligkeit der LED zu steuern. Daher ändert sich die Helligkeit der LED entsprechend, wenn Sie das Potentiometer drehen.
 
 
-**Wiring**
+**Verdrahtung**
 
 .. image:: img/5.8_potentiometer_bb.png
 
 **Code**
 
-Download this code or copy this code to the Arduino IDE directly.
+Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
 .. note::
 
@@ -96,48 +94,48 @@ Download this code or copy this code to the Arduino IDE directly.
      
     <iframe src=https://create.arduino.cc/editor/sunfounder01/aadce2e7-fd5d-4608-a557-f1e4d07ba795/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-After the code is uploaded successfully, rotate the potentiometer and you will see the brightness of the LED change accordingly. At the same time you can see the analog and voltage values of the potentiometer in the serial monitor.
+Nachdem der Code erfolgreich hochgeladen wurde, drehen Sie das Potentiometer und sehen, wie sich die Helligkeit der LED entsprechend ändert. Gleichzeitig können Sie die Analog- und Spannungswerte des Potentiometers im seriellen Monitor sehen.
 
 
-**How it works?**
+**Wie funktioniert das?**
 
-#. Define constants for pin connections and PWM settings.
+#. Definieren Sie Konstanten für Pin-Verbindungen und PWM-Einstellungen.
 
     .. code-block:: arduino
 
-        const int potPin = 14; // Potentiometer connected to GPIO14
-        const int ledPin = 26; // LED connected to GPIO26
+        const int potPin = 14; // Potentiometer an GPIO14 angeschlossen
+        const int ledPin = 26; // LED an GPIO26 angeschlossen
 
-        // PWM settings
-        const int freq = 5000; // PWM frequency
-        const int resolution = 12; // PWM resolution (bits)
-        const int channel = 0; // PWM channel
+        // PWM-Einstellungen
+        const int freq = 5000; // PWM-Frequenz
+        const int resolution = 12; // PWM-Auflösung (Bits)
+        const int channel = 0; // PWM-Kanal
 
-    Here the PWM resolution is set to 12 bits and the range is 0-4095.
+    Hier ist die PWM-Auflösung auf 12 Bit eingestellt und der Bereich liegt zwischen 0 und 4095.
 
-#. Configure the system in the ``setup()`` function.
+#. Konfigurieren Sie das System in der ``setup()``-Funktion.
 
     .. code-block:: arduino
 
         void setup() {
             Serial.begin(115200);
 
-            // Configure PWM
+            // PWM konfigurieren
             ledcSetup(channel, freq, resolution);
             ledcAttachPin(ledPin, channel);
         }
 
-    * In the ``setup()`` function, the Serial communication is started at a baud rate of 115200. 
-    * The ``ledcSetup()`` function is called to set up the PWM channel with the specified frequency and resolution, and the ``ledcAttachPin()`` function is called to associate the specified LED pin with the PWM channel.
+    * In der ``setup()``-Funktion wird die serielle Kommunikation mit einer Baudrate von 115200 gestartet.
+    * Die Funktion ``ledcSetup()`` wird aufgerufen, um den PWM-Kanal mit der angegebenen Frequenz und Auflösung einzurichten, und die Funktion ``ledcAttachPin()`` wird aufgerufen, um den angegebenen LED-Pin mit dem PWM-Kanal zu verbinden.
 
-#. Main loop (executed repeatedly) in the loop() function.
+#. Hauptschleife (wird wiederholt ausgeführt) in der ``loop()``-Funktion.
 
     .. code-block:: arduino
 
         void loop() {
 
-            int potValue = analogRead(potPin); // read the value of the potentiometer
-            uint32_t voltage_mV = analogReadMilliVolts(potPin); // Read the voltage in millivolts
+            int potValue = analogRead(potPin); // den Wert des Potentiometers lesen
+            uint32_t voltage_mV = analogReadMilliVolts(potPin); // die Spannung in Millivolt lesen
             
             ledcWrite(channel, potValue);
             
@@ -150,9 +148,8 @@ After the code is uploaded successfully, rotate the potentiometer and you will s
             delay(100);
         }
 
-    * ``uint32_t analogReadMilliVolts(uint8_t pin);``: This function is used to get ADC value for a given pin/ADC channel in millivolts.
+    * ``uint32_t analogReadMilliVolts(uint8_t pin);``: Diese Funktion wird verwendet, um den ADC-Wert für einen gegebenen Pin/ADC-Kanal in Millivolt zu erhalten.
 
-        * ``pin`` GPIO pin to read analog value.
+        * ``pin``: GPIO-Pin zum Lesen des Analogwerts.
 
-    The potentiometer value is directly used as the PWM duty cycle for controlling the LED brightness via the ``ledcWrite()`` function, as the range of values is also from 0 to 4095.
-
+    Der Potentiometerwert wird direkt als PWM-Tastverhältnis zur Steuerung der LED-Helligkeit über die Funktion ``ledcWrite()`` verwendet, da der Wertebereich ebenfalls von 0 bis 4095 reicht.

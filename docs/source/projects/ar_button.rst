@@ -1,82 +1,79 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Gemeinschaft auf Facebook! Vertiefen Sie sich mit anderen Enthusiasten in die Welt von Raspberry Pi, Arduino und ESP32.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Nachverkaufsprobleme und technische Herausforderungen mit Hilfe unserer Gemeinschaft und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Sonderangebote**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nehmen Sie an Gewinnspielen und Feiertagsaktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie auf [|link_sf_facebook|] und treten Sie heute bei!
 
 .. _ar_button:
 
-2.3 Digital Input
-=========================
+2.3 Digitaler Eingang
+============================
 
-In this interactive project, we explore the use of digital input through button controls to manipulate an LED.The operation is simple but powerful. We will monitor the state of a button; when pressed, it will register a high voltage level, known as a 'high state'. This change in state will act as a trigger for an LED to illuminate.By learning to read this digital input, you will gain a fundamental understanding of how microcontrollers can interact with external devices. This project not only introduces basic electronic concepts but also sets the stage for more complex control systems involving multiple inputs and outputs.
+In diesem interaktiven Projekt erkunden wir die Verwendung digitaler Eingaben durch Tastensteuerungen, um eine LED zu steuern. Die Bedienung ist einfach, aber leistungsstark. Wir werden den Zustand einer Taste überwachen; wenn sie gedrückt wird, registriert sie ein hohes Spannungsniveau, bekannt als 'High State'. Diese Zustandsänderung dient als Auslöser, um eine LED zum Leuchten zu bringen. Indem Sie lernen, diesen digitalen Eingang zu lesen, gewinnen Sie ein grundlegendes Verständnis dafür, wie Mikrocontroller mit externen Geräten interagieren können. Dieses Projekt führt nicht nur in grundlegende elektronische Konzepte ein, sondern bereitet auch den Weg für komplexere Steuerungssysteme mit mehreren Eingängen und Ausgängen.
 
-**Available Pins**
+**Verfügbare Pins**
 
-* **Available Pins**
+* **Verfügbare Pins**
 
-    Here is a list of available pins on the ESP32 board for this project.
+    Hier ist eine Liste der verfügbaren Pins auf dem ESP32-Board für dieses Projekt.
 
     .. list-table::
         :widths: 5 20
 
-        *   - For Input
+        *   - Für Eingänge
             - IO14, IO25, I35, I34, I39, I36, IO18, IO19, IO21, IO22, IO23
-        *   - For Output
+        *   - Für Ausgänge
             - IO13, IO12, IO14, IO27, IO26, IO25, IO33, IO32, IO15, IO2, IO0, IO4, IO5, IO18, IO19, IO21, IO22, IO23
     
-* **Conditional Usage Pins (Input)**
+* **Bedingte Verwendungspins (Eingang)**
 
-    The following pins have built-in pull-up or pull-down resistors, so external resistors are not required when **using them as input pins**:
+    Die folgenden Pins haben eingebaute Pull-up- oder Pull-down-Widerstände, sodass keine externen Widerstände erforderlich sind, wenn **sie als Eingangspins verwendet werden**:
 
 
     .. list-table::
         :widths: 5 15
         :header-rows: 1
 
-        *   - Conditional Usage Pins
-            - Description
+        *   - Bedingte Verwendungspins
+            - Beschreibung
         *   - IO13, IO15, IO2, IO4
-            - Pulling up with a 47K resistor defaults the value to high.
+            - Pull-up mit einem 47K-Widerstand setzt den Wert standardmäßig auf High.
         *   - IO27, IO26, IO33
-            - Pulling up with a 4.7K resistor defaults the value to high.
+            - Pull-up mit einem 4.7K-Widerstand setzt den Wert standardmäßig auf High.
         *   - IO32
-            - Pulling down with a 1K resistor defaults the value to low.
+            - Pull-down mit einem 1K-Widerstand setzt den Wert standardmäßig auf Low.
 
-* **Strapping Pins (Input)**
+* **Strapping-Pins (Eingang)**
 
-    Strapping pins are a special set of pins that are used to determine specific boot modes during device startup 
-    (i.e., power-on reset).
+    Strapping-Pins sind eine spezielle Gruppe von Pins, die verwendet werden, um spezifische Boot-Modi während des Geräte-Starts 
+    (d.h. Power-on-Reset) festzulegen.
      
     .. list-table::
         :widths: 5 15
 
-        *   - Strapping Pins
+        *   - Strapping-Pins
             - IO5, IO0, IO2, IO12, IO15 
     
-    Generally, it is **not recommended to use them as input pins**. If you wish to use these pins, consider the potential impact on the booting process. For more details, please refer to the :ref:`esp32_strapping` section.
+    Generell wird **nicht empfohlen, sie als Eingangspins zu verwenden**. Wenn Sie diese Pins verwenden möchten, berücksichtigen Sie die möglichen Auswirkungen auf den Boot-Prozess. Weitere Einzelheiten finden Sie im Abschnitt :ref:`esp32_strapping`.
 
+**Benötigte Komponenten**
 
-**Required Components**
-
-In this project, we need the following components. 
-
-
+In diesem Projekt benötigen wir die folgenden Komponenten.
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - KOMPONENTEN-BESCHREIBUNG
+        - KAUFLINK
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
@@ -84,33 +81,32 @@ In this project, we need the following components.
         - \-
     *   - Breadboard
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - Mehrere Verbindungskabel
         - |link_wires_buy|
-    *   - Resistor
+    *   - Widerstand
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
-    *   - Button
+    *   - Taster
         - |link_button_buy|
 
-
-**Schematic**
+**Schaltplan**
 
 .. image:: img/circuit_5.1_button.png
 
-To ensure proper functionality, connect one side of the button pin to 3.3V and the other side to IO14. When the button is pressed, IO14 will be set to high, causing the LED to light up. When the button is released, IO14 will return to its suspended state, which may be either high or low. To ensure a stable low level when the button is not pressed, IO14 should be connected to GND through a 10K pull-down resistor.
+Um eine ordnungsgemäße Funktion sicherzustellen, verbinden Sie eine Seite des Taster-Pins mit 3,3 V und die andere Seite mit IO14. Wenn der Taster gedrückt wird, wird IO14 auf High gesetzt, wodurch die LED aufleuchtet. Wenn der Taster losgelassen wird, kehrt IO14 in seinen schwebenden Zustand zurück, der entweder High oder Low sein kann. Um ein stabiles Low-Level zu gewährleisten, wenn der Taster nicht gedrückt wird, sollte IO14 über einen 10K-Pull-down-Widerstand mit GND verbunden werden.
 
-**Wiring**
+**Verdrahtung**
 
 .. image:: img/5.1_button_bb.png
 
 .. note::
     
-    A four-pin button is designed in an H shape. When the button is not pressed, the left and right pins are disconnected, and current cannot flow between them. However, when the button is pressed, the left and right pins are connected, creating a pathway for current to flow.
+    Ein Vier-Pin-Taster ist in H-Form gestaltet. Wenn der Taster nicht gedrückt wird, sind die linken und rechten Pins getrennt, und es kann kein Strom zwischen ihnen fließen. Wenn der Taster jedoch gedrückt wird, sind die linken und rechten Pins verbunden und bilden einen Strompfad.
 
 **Code**
 
-Download this code or copy this code to the Arduino IDE directly.
+Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
     
 .. note::
     
@@ -120,69 +116,60 @@ Download this code or copy this code to the Arduino IDE directly.
 
     <iframe src=https://create.arduino.cc/editor/sunfounder01/702c5a70-78e7-4a8b-a0c7-10c0acebfc12/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Once the code is uploaded successfully, the LED lights up when you press the button and goes off when you release it.
+Nachdem der Code erfolgreich hochgeladen wurde, leuchtet die LED auf, wenn Sie den Taster drücken, und erlischt, wenn Sie ihn loslassen.
 
-At the same time you can open the Serial Monitor in the upper right corner to observe the value of the button, when the button is pressed, "1" will be printed, otherwise "0" will be printed.
+Gleichzeitig können Sie den Serial Monitor in der oberen rechten Ecke öffnen, um den Wert des Tasters zu beobachten. Wenn der Taster gedrückt wird, wird "1" angezeigt, andernfalls "0".
 
 .. image:: img/button_serial.png
 
 
-**How it works**
+**Wie es funktioniert**
 
-The previous projects all involved outputting signals, either in the form of digital or PWM signals.
+Die vorherigen Projekte beinhalteten alle das Ausgeben von Signalen, entweder in Form 
+von digitalen oder PWM-Signalen.
 
-This project involves receiving input signals from external component to the ESP32 board. You can view the input signal through the Serial Monitor in Arduino IDE.
+Dieses Projekt umfasst das Empfangen von Eingangssignalen von externen Komponenten zum 
+ESP32-Board. Sie können das Eingangssignal über den Serial Monitor in der Arduino IDE anzeigen.
 
-
-#. In the ``setup()`` function, the button pin is initialized as an ``input`` and the LED pin is initialized as an ``output``. The Serial communication is also initiated with a baud rate of 115200.
+#. In der Funktion ``setup()`` wird der Taster-Pin als ``Eingang`` und der LED-Pin als ``Ausgang`` initialisiert. Die serielle Kommunikation wird ebenfalls mit einer Baudrate von 115200 gestartet.
 
     .. code-block:: arduino
 
         void setup() {
             Serial.begin(115200);
-            // initialize the button pin as an input
+            // initialisiere den Taster-Pin als Eingang
             pinMode(buttonPin, INPUT);
-            // initialize the LED pin as an output
+            // initialisiere den LED-Pin als Ausgang
             pinMode(ledPin, OUTPUT);
         }
     
-    * ``Serial.begin(speed)``: Sets the data rate in bits per second (baud) for serial data transmission.
+    * ``Serial.begin(speed)``: Legt die Datenrate in Bits pro Sekunde (Baud) für die serielle Datenübertragung fest.
 
-        * ``speed``: in bits per second (baud). Allowed data types: ``long``.
+        * ``speed``: in Bits pro Sekunde (Baud). Erlaubte Datentypen: ``long``.
 
-#. In the ``loop()`` function, the state of the button is read and stored in the variable ``buttonState``. The value of ``buttonState`` is printed to the Serial Monitor using ``Serial.println()``.
+#. In der Funktion ``loop()`` wird der Zustand des Tasters gelesen und in der Variablen ``buttonState`` gespeichert. Der Wert von ``buttonState`` wird mit ``Serial.println()`` an den Serial Monitor ausgegeben.
 
     .. code-block:: arduino
 
         void loop() {
-            // read the state of the button value
+            // den Zustand des Tasters lesen
             buttonState = digitalRead(buttonPin);
             Serial.println(buttonState);
             delay(100);
-            // if the button is pressed, the buttonState is HIGH
+            // wenn der Taster gedrückt wird, ist buttonState HIGH
             if (buttonState == HIGH) {
-                // turn LED on
+                // LED einschalten
                 digitalWrite(ledPin, HIGH);
-
             } else {
-                // turn LED off
+                // LED ausschalten
                 digitalWrite(ledPin, LOW);
             }
         }
 
-    If the button is pressed and the ``buttonState`` is HIGH, the LED is turned on by setting the ``ledPin`` to ``HIGH``. Else, turn the LED off.
+    Wenn der Taster gedrückt wird und ``buttonState`` HIGH ist, wird die LED durch Setzen von ``ledPin`` auf ``HIGH`` eingeschaltet. Andernfalls wird die LED ausgeschaltet.
 
-    * ``int digitalRead(uint8_t pin);``: To read the state of a given pin configured as INPUT, the function digitalRead is used. This function will return the logical state of the selected pin as ``HIGH`` or ``LOW``.
+    * ``int digitalRead(uint8_t pin);``: Um den Zustand eines als EINGANG konfigurierten Pins zu lesen, wird die Funktion digitalRead verwendet. Diese Funktion gibt den logischen Zustand des ausgewählten Pins als ``HIGH`` oder ``LOW`` zurück.
 
-        * ``pin`` select GPIO
+        * ``pin``: Wählt GPIO
 
-    * ``Serial.println()``: Prints data to the serial port as human-readable ASCII text followed by a carriage return character (ASCII 13, or '\r') and a newline character (ASCII 10, or '\n').
-
-
-
-
-
-
-
-
-
+    * ``Serial.println()``: Gibt Daten als lesbaren ASCII-Text an den seriellen Port aus, gefolgt von einem Wagenrücklaufzeichen (ASCII 13 oder '\r') und einem Zeilenumbruchzeichen (ASCII 10 oder '\n').

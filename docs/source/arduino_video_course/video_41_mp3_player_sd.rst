@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 41: MP3 Player with SD Card Support
+Video 41: MP3-Player mit SD-Kartenunterstützung
 ====================================================
 
-Learn how to play audio files from a micro SD card using the SunFounder ESP32 learning kit, connecting the ESP32 with an audio amplifier and speaker for sound output.
+Lerne, wie du Audiodateien von einer Micro-SD-Karte mit dem SunFounder ESP32 Learning Kit abspielst, indem du den ESP32 mit einem Audioverstärker und Lautsprecher für die Tonausgabe verbindest.
 
-* **Introduction**: Discover how to combine micro SD card functionality with the ESP32 for audio playback.
-* **Audio Amplifier**: Understand the importance of using an audio amplifier to drive speaker output effectively.
-* **MP3 Player with SD Card Support**: Access documentation and code examples for implementing an MP3 player with micro SD card support.
-* **Hardware Setup**: Follow step-by-step instructions for connecting the audio amplifier, speaker, and ESP32 board.
-* **File Formatting**: Ensure the micro SD card is formatted to FAT32 with a maximum capacity of 32 GB for compatibility.
-* **Arduino IDE Setup**: Learn how to select the ESP32 board and COM port in the Arduino IDE, as well as install necessary libraries for audio playback.
+* **Einführung**: Erfahre, wie du die Funktionalität der Micro-SD-Karte mit dem ESP32 für die Audiowiedergabe kombinierst.
+* **Audioverstärker**: Verstehe die Bedeutung der Verwendung eines Audioverstärkers, um die Lautsprecherausgabe effektiv zu steuern.
+* **MP3-Player mit SD-Kartenunterstützung**: Greife auf Dokumentation und Codebeispiele zu, um einen MP3-Player mit Micro-SD-Kartenunterstützung zu implementieren.
+* **Hardware-Einrichtung**: Befolge die Schritt-für-Schritt-Anleitung zum Anschließen des Audioverstärkers, Lautsprechers und des ESP32-Boards.
+* **Dateiformatierung**: Stelle sicher, dass die Micro-SD-Karte auf FAT32 mit einer maximalen Kapazität von 32 GB formatiert ist, um die Kompatibilität zu gewährleisten.
+* **Arduino IDE Setup**: Lerne, wie du das ESP32-Board und den COM-Port in der Arduino IDE auswählst sowie die notwendigen Bibliotheken für die Audiowiedergabe installierst.
 
 **Video**
 
@@ -31,8 +30,6 @@ Learn how to play audio files from a micro SD card using the SunFounder ESP32 le
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0nWDw8Sb72w?si=jyCTggAywXcD-fjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_mp3_player_sd`
-
-

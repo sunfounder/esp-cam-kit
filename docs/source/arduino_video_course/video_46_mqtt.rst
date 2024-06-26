@@ -1,30 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 46: IoT Communication with MQTT
+Video 46: IoT-Kommunikation mit MQTT
 =================================================
 
-Learn how to integrate an ESP32 microcontroller with a temperature sensor, LED, and push button for MQTT communication in this comprehensive tutorial.
+Lerne, wie du einen ESP32-Mikrocontroller mit einem Temperatursensor, einer LED und einem Taster für die MQTT-Kommunikation integrierst, in diesem umfassenden Tutorial.
 
-* **Introduction**: Discover how to use an ESP32 microcontroller with a temperature sensor, LED, and push button.
-* **MQTT Protocol**: Understand the lightweight, bidirectional, and scalable nature of MQTT, along with its reliability and security features.
-* **Wiring Setup**: Get insights into the wiring connections required for the temperature sensor, LED, and push button.
-* **Arduino Code Explanation**: Dive into the Arduino code setup, including Wi-Fi configuration, MQTT client setup, and message handling.
-* **Board and COM Port Selection**: Learn how to select the ESP32 board and COM port in the Arduino IDE.
-* **HiveMQ Free Broker Demonstration**: See a step-by-step demonstration of using the HiveMQ Free broker for MQTT communication, including publishing temperature data and controlling the LED remotely.
-
+* **Einführung**: Erfahre, wie du einen ESP32-Mikrocontroller mit einem Temperatursensor, einer LED und einem Taster verwendest.
+* **MQTT-Protokoll**: Verstehe die leichtgewichtige, bidirektionale und skalierbare Natur von MQTT sowie dessen Zuverlässigkeits- und Sicherheitsmerkmale.
+* **Verkabelung**: Erhalte Einblicke in die erforderlichen Verkabelungsverbindungen für den Temperatursensor, die LED und den Taster.
+* **Erläuterung des Arduino-Codes**: Tauche in die Einrichtung des Arduino-Codes ein, einschließlich Wi-Fi-Konfiguration, MQTT-Client-Setup und Nachrichtenverarbeitung.
+* **Auswahl von Board und COM-Port**: Lerne, wie du das ESP32-Board und den COM-Port in der Arduino-IDE auswählst.
+* **Demonstration des HiveMQ Free Brokers**: Sieh dir eine Schritt-für-Schritt-Demonstration zur Nutzung des HiveMQ Free Brokers für die MQTT-Kommunikation an, einschließlich der Veröffentlichung von Temperaturdaten und der Fernsteuerung der LED.
 
 **Video**
 
@@ -32,8 +30,7 @@ Learn how to integrate an ESP32 microcontroller with a temperature sensor, LED, 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/XwTCfnHDASg?si=G1BCxFaUY5uaZdQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_iot_mqtt`
-
 

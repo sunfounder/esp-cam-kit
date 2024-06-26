@@ -1,31 +1,29 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten ein.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Video 12: Using WS2812 RGB Strip
+Video 12: Verwendung des WS2812 RGB-Streifens
 =============================================================================
 
-This tutorial is perfect to learn how to utilize the WS2812 LED strip with ESP32 for creating various colors and controlling individual LEDs:
+Dieses Tutorial ist perfekt, um zu lernen, wie man den WS2812-LED-Streifen mit dem ESP32 verwendet, um verschiedene Farben zu erzeugen und einzelne LEDs zu steuern:
 
-* **WS2812 LED Strip Introduction**: A flexible strip with adhesive back, 5050 LEDs, and individual control capabilities.
-* **Technical Details**: The WS2812 LEDs support 256 color levels and can be cascaded via a single wire. Each LED is 5mm x 5mm with a specified operating voltage and temperature range.
-* **Color Control**: Learn to create any color with RGB (Red, Green, Blue) combinations. Includes understanding of color codes in both binary and hexadecimal formats.
-* **Wiring Guide**: Simple wiring with power, ground, and data connections. The data line connects to pin 14 of the ESP32.
-* **Arduino Programming**: Detailed explanation of Arduino code for controlling the strip.
-* **Interactive Projects**: Step-by-step instructions for several projects like a walking light LED, back and forth light movement, and controlling individual LEDs with specific colors.
-* **Color Picker Tool**: How to use an RGB color picker to understand and choose specific colors for the LEDs.
-
+* **Einführung in den WS2812 LED-Streifen**: Ein flexibler Streifen mit Kleberückseite, 5050-LEDs und individuellen Steuerungsmöglichkeiten.
+* **Technische Details**: Die WS2812-LEDs unterstützen 256 Farbwerte und können über eine einzige Leitung kaskadiert werden. Jede LED misst 5 mm x 5 mm und hat eine spezifizierte Betriebsspannung und Temperaturbereich.
+* **Farbsteuerung**: Lerne, jede beliebige Farbe mit RGB (Rot, Grün, Blau) Kombinationen zu erstellen. Beinhaltet das Verständnis von Farbcode in binären und hexadezimalen Formaten.
+* **Verkabelungsanleitung**: Einfache Verkabelung mit Strom-, Erdungs- und Datenanschlüssen. Die Datenleitung wird an Pin 14 des ESP32 angeschlossen.
+* **Arduino-Programmierung**: Detaillierte Erklärung des Arduino-Codes zur Steuerung des Streifens.
+* **Interaktive Projekte**: Schritt-für-Schritt-Anleitungen für mehrere Projekte wie ein laufendes Licht, hin- und herbewegtes Licht und die Steuerung einzelner LEDs mit bestimmten Farben.
+* **Farbwähler-Tool**: Verwendung eines RGB-Farbwählers zur Auswahl spezifischer Farben für die LEDs.
 
 **Video**
 
@@ -33,6 +31,6 @@ This tutorial is perfect to learn how to utilize the WS2812 LED strip with ESP32
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/CdYeKW2N-nY?si=9dKvXzDMonp31L0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**Verwandte Online-Tutorials**
 
 * :ref:`ar_rgb_strip`

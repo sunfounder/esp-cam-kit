@@ -1,31 +1,22 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo, willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche tiefer ein in die Welt von Raspberry Pi, Arduino und ESP32 mit gleichgesinnten Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Löse nach dem Kauf auftretende Probleme und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tausche Tipps und Tutorials aus, um deine Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.
+    - **Spezielle Rabatte**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Gewinnspielen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!
 
- 
-Arduino Video Course
-=======================
+Arduino Videokurs
+=====================
+Begib dich auf eine Reise durch die Welt von Arduino mit dem umfassenden Arduino Videokurs unter Verwendung des SunFounder ESP32 Starter Kits. Diese Serie beginnt mit einer Einführung in das Arduino-Ökosystem und die Fähigkeiten des ESP32-Boards und bereitet den Weg für einen tiefen Einblick in praktische Anwendungen und Programmiertechniken. Du lernst die Grundlagen der LED-Steuerung, das Verständnis der seriellen Kommunikation und den Umgang mit verschiedenen Komponenten wie RGB-LEDs, Tasten und Schieberegistern. Der Kurs führt zu fortgeschritteneren Themen, einschließlich der Handhabung von Arrays, der Schnittstelle zu LCD-Displays und der Verwendung von LED-Streifen für visuelle Effekte. Gegen Ende der Serie tauchst du in die Steuerung verschiedener Motortypen ein, von einfachen Gleichstrommotoren über Servomotoren bis hin zum Betrieb einer Mini-Wasserpumpe, und erlangst ein umfassendes Verständnis der Arduino-Programmierung und der Hardware-Integration. Ob du Anfänger bist oder deine Fähigkeiten verbessern möchtest, dieser Kurs bietet eine gründliche Erkundung von den Grundlagen bis hin zu komplexen Projektausführungen.
 
-This kit only includes the ESP32 Camera Extension, ESP32 WROOM 32E, a battery, and a camera. You'll need to provide any other components required for the project yourself.
-Embark on a journey through the Arduino world with the comprehensive Arduino Video Course, using SunFounder's ESP32 Starter Kit. 
-This series begins with an introduction to the Arduino ecosystem and the capabilities of the ESP32 board, 
-setting the stage for a deep dive into practical applications and programming techniques. You'll learn the basics of controlling LEDs, 
-understanding serial communication, and manipulating various components like RGB LEDs, buttons, and shift registers. The course progresses to more advanced topics, 
-including array handling, interfacing with LCD displays, and utilizing LED strips for visual effects. Towards the latter part of the series, 
-you'll delve into controlling different types of motors, from simple DC motors to servo motors, and even operating a mini water pump, culminating in a well-rounded understanding of Arduino programming and hardware interfacing. 
-Whether you're a beginner or looking to sharpen your skills, this course provides a thorough exploration from foundational concepts to intricate project executions.
-
-**Projects**
+**Projekte**
 
 
 .. toctree::
@@ -76,7 +67,7 @@ Whether you're a beginner or looking to sharpen your skills, this course provide
     video_43_open_weather 
     video_44_camera_web 
     video_45_html_cam 
-    video_46_mqtt 
+    video_46_mqtt
     video_47_cheerlight 
     video_48_temp_mqtt 
     video_50_rgb_remote 

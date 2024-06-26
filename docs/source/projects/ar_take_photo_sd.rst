@@ -1,38 +1,35 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und herzlich willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community auf Facebook! Tauchen Sie tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein – gemeinsam mit anderen Enthusiasten.
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expertenunterstützung**: Lösen Sie Probleme nach dem Kauf und technische Herausforderungen mit Hilfe unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus, um Ihre Fähigkeiten zu verbessern.
+    - **Exklusive Vorschauen**: Erhalten Sie frühzeitigen Zugang zu neuen Produktankündigungen und Vorschauen.
+    - **Exklusive Rabatte**: Genießen Sie exklusive Rabatte auf unsere neuesten Produkte.
+    - **Festliche Aktionen und Verlosungen**: Nehmen Sie an Verlosungen und festlichen Aktionen teil.
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns zu erkunden und zu kreieren? Klicken Sie [|link_sf_facebook|] und treten Sie noch heute bei!
 
 .. _ar_take_photo_sd:
 
+2.12 Fotoaufnahme und SD-Karte
+===================================
 
-2.12 Take Photo SD
-============================
+Dieses Dokument beschreibt ein Projekt, bei dem ein Foto mit der ESP32-CAM aufgenommen und auf einer SD-Karte gespeichert wird. 
+Das Ziel des Projekts ist es, eine einfache Lösung für die Bildaufnahme mit der ESP32-CAM und die Speicherung auf einer SD-Karte zu bieten.
 
-This document describes a project that involves taking a photo using the ESP32-CAM and saving it to an SD card. 
-The aim of the project is to provide a simple solution for capturing images using the ESP32-CAM and storing them on an SD card.
+**Benötigte Komponenten**
 
-**Required Components**
-
-In this project, we need the following components. 
-
-
+In diesem Projekt benötigen wir die folgenden Komponenten. 
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - KOMPONENTEN-EINFÜHRUNG
+        - KAUFLINK
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
@@ -40,21 +37,21 @@ In this project, we need the following components.
         - \-
 
 
-**Related Precautions**
+**Wichtige Hinweise**
 
-When using the ESP32-CAM, it is important to note that the GPIO 0 pin must be connected to GND to upload a sketch. 
-Additionally, after connecting GPIO 0 to GND, the ESP32-CAM onboard RESET button must be pressed to put the board in flashing mode. 
-It is also important to ensure that the SD card is properly mounted before saving images to it.
+Beim Einsatz der ESP32-CAM ist zu beachten, dass der GPIO 0 Pin mit GND verbunden sein muss, um einen Sketch hochzuladen. 
+Zusätzlich muss nach dem Verbinden von GPIO 0 mit GND der Reset-Knopf der ESP32-CAM gedrückt werden, um das Board in den Flash-Modus zu versetzen. 
+Es ist auch wichtig sicherzustellen, dass die SD-Karte richtig montiert ist, bevor Bilder darauf gespeichert werden.
 
-**Operating Steps**
+**Betriebsschritte**
 
-#. Insert your SD card into the computer using a card reader, and then format it. You can refer to the tutorial at :ref:`format_sd_card`.
+#. Setzen Sie Ihre SD-Karte in den Computer ein, indem Sie einen Kartenleser verwenden, und formatieren Sie sie. Eine Anleitung finden Sie unter :ref:`format_sd_card`.
 
-#. Then, remove the card reader and insert the SD card into the expansion board.
+#. Entfernen Sie dann den Kartenleser und setzen Sie die SD-Karte in die Erweiterungsplatine ein.
 
     .. image:: img/insert_sd.png
 
-#. Now, plug in the camera.
+#. Jetzt die Kamera anschließen.
 
     .. raw:: html
 
@@ -63,11 +60,11 @@ It is also important to ensure that the SD card is properly mounted before savin
             Your browser does not support the video tag.
         </video>
 
-#. Connect ESP32-WROOM-32E to the computer using the USB cable.
+#. Verbinden Sie die ESP32-WROOM-32E mit dem Computer über das USB-Kabel.
 
     .. image:: img/plugin_esp32.png
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
     .. note::
 
@@ -78,18 +75,17 @@ It is also important to ensure that the SD card is properly mounted before savin
         <iframe src=https://create.arduino.cc/editor/sunfounder01/4d698dc3-aef7-4aea-b8a3-7d143a4c7d3c/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 
-#. Now, enable **PSRAM**.
+#. Aktivieren Sie jetzt **PSRAM**.
 
     .. image:: img/sp230516_150554.png
 
-#. Set the partition scheme to **Huge APP (3MB No OTA/1MB SPIFFS)**.
+#. Stellen Sie das Partitionsschema auf **Huge APP (3MB No OTA/1MB SPIFFS)** ein.
 
     .. image:: img/sp230516_150840.png   
 
-#. Select the appropriate port and board in the Arduino IDE and upload the code to your ESP32.
+#. Wählen Sie den entsprechenden Port und das Board in der Arduino IDE aus und laden Sie den Code auf Ihre ESP32 hoch.
 
-#. After the successful upload of the code, press the **Reset** button to take a photo. Additionally, you can check the Serial Monitor to see the following information indicating the successful capture.
-
+#. Nach dem erfolgreichen Hochladen des Codes drücken Sie den **Reset**-Knopf, um ein Foto aufzunehmen. Zusätzlich können Sie im seriellen Monitor die folgende Information sehen, die die erfolgreiche Aufnahme anzeigt.
 
     .. code-block:: arduino
 
@@ -99,28 +95,28 @@ It is also important to ensure that the SD card is properly mounted before savin
 
     .. image:: img/press_reset.png
 
-#. Now, remove the SD card from the expansion board and insert it into your computer. You will be able to view the photos you just took.
+#. Entfernen Sie nun die SD-Karte von der Erweiterungsplatine und setzen Sie sie in Ihren Computer ein. Sie können nun die gerade aufgenommenen Fotos ansehen.
 
     .. image:: img/take_photo1.png
 
-**How it works?**
+**Wie es funktioniert**
 
-This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD card, and then put the ESP32-CAM into deep sleep. Here is a breakdown of the key parts:
+Dieser Code betreibt eine AI Thinker ESP32-CAM, um ein Foto aufzunehmen, es auf einer SD-Karte zu speichern und dann die ESP32-CAM in den Tiefschlaf zu versetzen. Hier ist eine Aufschlüsselung der wichtigsten Teile:
 
-* **Libraries**: The code starts with the inclusion of the necessary libraries for the ESP32-CAM, file system (FS), SD card, and EEPROM (used for storing data across power cycles).
+* **Bibliotheken**: Der Code beginnt mit der Einbindung der notwendigen Bibliotheken für die ESP32-CAM, das Dateisystem (FS), die SD-Karte und das EEPROM (zum Speichern von Daten über Stromzyklen hinweg).
 
     .. code-block:: arduino
 
         #include "esp_camera.h"
         #include "Arduino.h"
-        #include "FS.h"                // SD Card ESP32
-        #include "SD_MMC.h"            // SD Card ESP32
-        #include "soc/soc.h"           // Disable brownour problems
-        #include "soc/rtc_cntl_reg.h"  // Disable brownour problems
+        #include "FS.h"                // SD-Karte ESP32
+        #include "SD_MMC.h"            // SD-Karte ESP32
+        #include "soc/soc.h"           // Deaktivierung von Brownout-Problemen
+        #include "soc/rtc_cntl_reg.h"  // Deaktivierung von Brownout-Problemen
         #include "driver/rtc_io.h"
-        #include <EEPROM.h>  // read and write from flash memory
+        #include <EEPROM.h>  // Lesen und Schreiben aus dem Flash-Speicher
 
-* **Pin Definitions**: This section sets up constants that represent the ESP32-CAM's pin connections to the camera module.
+* **Pin-Definitionen**: Dieser Abschnitt legt Konstanten fest, die die Pin-Verbindungen der ESP32-CAM zum Kameramodul darstellen.
 
     .. code-block:: arduino
 
@@ -143,29 +139,28 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
         #define PCLK_GPIO_NUM 22
 
 
-* **Global Variables**: A global variable ``pictureNumber`` is declared to keep track of the number of pictures taken and saved to the SD card.
+* **Globale Variablen**: Eine globale Variable ``pictureNumber`` wird deklariert, um die Anzahl der aufgenommenen und auf der SD-Karte gespeicherten Bilder zu verfolgen.
 
     .. code-block:: arduino
 
         int pictureNumber = 0;
 
 
-* **Setup Function**: In the ``setup()`` function, several tasks are accomplished:
+* **Setup-Funktion**: In der ``setup()``-Funktion werden mehrere Aufgaben erledigt:
 
-
-    * First, the brown-out detector is disabled to prevent the ESP32-CAM from resetting during high current draws (like when the camera is operating).
+    * Zunächst wird der Brownout-Detektor deaktiviert, um zu verhindern, dass die ESP32-CAM während hoher Stromlasten (wie beim Betrieb der Kamera) zurückgesetzt wird.
     
         .. code-block:: arduino
 
-            WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);  //disable brownout detector
+            WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);  // Brownout-Detektor deaktivieren
 
-    * The Serial communication is initialized for debugging.
+    * Die serielle Kommunikation wird zur Fehlerbehebung initialisiert.
 
         .. code-block:: arduino
 
             Serial.begin(115200);
 
-    * The camera configuration is set up with ``camera_config_t``, including the GPIO pins, XCLK frequency, pixel format, frame size, jpeg quality, and framebuffer count.
+    * Die Kamerakonfiguration wird mit ``camera_config_t`` eingerichtet, einschließlich der GPIO-Pins, XCLK-Frequenz, Pixelformat, Bildgröße, JPEG-Qualität und Framebuffer-Anzahl.
     
         .. code-block:: arduino
 
@@ -191,7 +186,7 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
             config.xclk_freq_hz = 20000000;
             config.pixel_format = PIXFORMAT_JPEG;
     
-    * The camera is then initialized with the configuration, and if it fails, an error message is printed.
+    * Die Kamera wird dann mit der Konfiguration initialisiert, und falls dies fehlschlägt, wird eine Fehlermeldung ausgegeben.
 
         .. code-block:: arduino
 
@@ -201,9 +196,9 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
                 return;
             }
 
-    * The SD card is initialized, and if it fails, an error message is printed.
+    * Die SD-Karte wird initialisiert, und falls dies fehlschlägt, wird eine Fehlermeldung ausgegeben.
 
-           .. code-block:: arduino
+        .. code-block:: arduino
             
             if (!SD_MMC.begin()) {
                 Serial.println("SD Card Mount Failed");
@@ -216,7 +211,7 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
                 return;
             }        
 
-    * A photo is captured with the camera and stored in the framebuffer.
+    * Ein Foto wird mit der Kamera aufgenommen und im Framebuffer gespeichert.
 
         .. code-block:: arduino
 
@@ -226,14 +221,14 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
                 return;
             }
 
-    * The EEPROM is read to retrieve the number of the last picture, then the picture number for the new photo is incremented.
+    * Das EEPROM wird gelesen, um die Nummer des letzten Bildes abzurufen, dann wird die Bildnummer für das neue Foto inkrementiert.
 
         .. code-block:: arduino
 
             EEPROM.begin(EEPROM_SIZE);
             pictureNumber = EEPROM.read(0) + 1;
 
-    * A path for the new picture is created on the SD card, with a filename corresponding to the picture number.
+    * Ein Pfad für das neue Bild wird auf der SD-Karte erstellt, mit einem Dateinamen, der der Bildnummer entspricht.
 
         .. code-block:: arduino
 
@@ -242,7 +237,7 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
             fs::FS &fs = SD_MMC;
             Serial.printf("Picture file name: %s\n", path.c_str());
 
-    * After saving the photo, the picture number is stored back into EEPROM for retrieval in the next power cycle.
+    * Nach dem Speichern des Fotos wird die Bildnummer wieder ins EEPROM geschrieben, um sie im nächsten Stromzyklus abzurufen.
 
         .. code-block:: arduino
 
@@ -258,7 +253,7 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
             file.close();
             esp_camera_fb_return(fb); 
 
-    * Finally, the onboard LED (flash) is turned off and the ESP32-CAM goes into deep sleep.
+    * Schließlich wird die Onboard-LED (Blitz) ausgeschaltet und die ESP32-CAM geht in den Tiefschlafmodus.
 
         .. code-block:: arduino
 
@@ -266,7 +261,7 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
             digitalWrite(4, LOW);
             rtc_gpio_hold_en(GPIO_NUM_4);
 
-    * Sleep Mode: The ESP32-CAM goes into deep sleep after taking each photo to conserve power. It can be woken up by a reset or by a signal on specific pins.
+    * Schlafmodus: Die ESP32-CAM geht nach jeder Fotoaufnahme in den Tiefschlafmodus, um Energie zu sparen. Sie kann durch einen Reset oder ein Signal an bestimmten Pins geweckt werden.
 
         .. code-block:: arduino
 
@@ -277,7 +272,7 @@ This code operates an AI Thinker ESP32-CAM to take a photo, save it to an SD car
             Serial.println("This will never be printed");
 
 
-* Loop Function: The ``loop()`` function is empty because after the setup process, the ESP32-CAM immediately goes into deep sleep.
+* Loop-Funktion: Die ``loop()``-Funktion ist leer, da nach dem Setup-Prozess die ESP32-CAM sofort in den Tiefschlafmodus geht.
 
+Beachten Sie, dass für diesen Code GPIO 0 mit GND verbunden sein muss, wenn der Sketch hochgeladen wird, und Sie möglicherweise die Reset-Taste auf dem Board drücken müssen, um Ihr Board in den Flash-Modus zu versetzen. Denken Sie auch daran, "/picture" durch Ihren eigenen Dateinamen zu ersetzen. Die Größe des EEPROM ist auf 1 gesetzt, was bedeutet, dass es Werte von 0 bis 255 speichern kann. Wenn Sie mehr als 255 Bilder aufnehmen möchten, müssen Sie die Größe des EEPROM erhöhen und anpassen, wie Sie pictureNumber speichern und lesen.
 
-Note that for this code to work, you need to ensure that GPIO 0 is connected to GND when uploading the sketch, and you might have to press the on-board RESET button to put your board into flashing mode. Also, remember to replace "/picture" with your own file name. The size of the EEPROM is set to 1, which means it can store values from 0 to 255. If you plan to take more than 255 pictures, you'll need to increase the EEPROM size and adjust how you store and read the pictureNumber.
