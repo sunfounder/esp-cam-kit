@@ -1,37 +1,35 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 40: Reading and writing to Micro SD Card
+Video 40: Micro SDカードの読み書き
 ====================================================
 
-Learn how to effectively utilize micro SD cards with the SunFounder ESP32 IoT Learning Kit, covering formatting, code implementation, and practical demonstrations.
+SunFounder ESP32 IoTラーニングキットを使用して、Micro SDカードを効果的に利用する方法を学びます。フォーマット、コード実装、および実際のデモンストレーションを含みます。
 
-* **Introduction**: Get started with using micro SD cards in conjunction with the SunFounder ESP32 learning kit.
-* **Formatting SD Card**: Understand the requirements for formatting micro SD cards and ensure compatibility with the ESP32.
-* **Arduino Code**: Explore the Arduino code provided for reading and writing files to the SD card.
-* **Board Setup**: Learn how to select the ESP32 board and COM port in the Arduino IDE for seamless integration.
-* **Uploading and Testing**: Follow along with the process of uploading code to the ESP32 and monitoring serial output for file operations.
+* **概要**: SunFounder ESP32ラーニングキットを使用したMicro SDカードの使用を始めましょう。
+* **SDカードのフォーマット**: Micro SDカードをフォーマットするための要件とESP32との互換性を確認します。
+* **Arduinoコード**: SDカードへのファイルの読み書きに関するArduinoコードを探ります。
+* **ボードセットアップ**: Arduino IDEでESP32ボードとCOMポートを選択し、シームレスに統合します。
+* **アップロードとテスト**: ESP32にコードをアップロードし、ファイル操作のシリアル出力を監視するプロセスを追跡します。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/IoK1KvO2EwI?si=YEMa0se8Si2ln5-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_sd_write`
-
 

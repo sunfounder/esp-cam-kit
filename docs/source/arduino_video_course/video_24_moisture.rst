@@ -1,39 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**: 購入後の問題や技術的な課題を、コミュニティやチームのサポートで解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を享受しましょう。
+    - **お祭りプロモーションとプレゼント**: プレゼントやお祭りプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 24: Measuring Soil Mositure
+Video 24: 土壌湿度の測定
 ====================================================
 
-Learn how to measure soil moisture accurately using a capacitive soil moisture sensor with an ESP32 microcontroller, including wiring, coding, and practical demonstrations.
+このビデオでは、容量性土壌湿度センサーとESP32マイクロコントローラーを使用して土壌湿度を正確に測定する方法について、配線、コーディング、および実際のデモンストレーションを学びます。
 
-* **Introduction**: Discover how to utilize a capacitive soil moisture sensor with an ESP32 microcontroller for applications like irrigation automation and environmental sensing.
-* **Components**: Understand the essential components needed for the project, including the ESP32 microcontroller, camera extension board, jumper wires, and soil moisture sensor module.
-* **Sensor Operation**: Gain insights into how the soil moisture sensor module operates, including its circuitry and the principle behind capacitance measurement.
-* **Wiring Setup**: Learn how to properly wire the soil moisture sensor to the ESP32 microcontroller, both directly and using the SunFounder ESP32 camera extension module.
-* **Arduino Code**: Explore the process of uploading and configuring Arduino code to read analog values from the sensor and display them on the serial monitor.
-* **Buzzer Implementation**: Discover how to implement a buzzer to provide alerts based on predefined moisture thresholds, demonstrated through practical testing with different soil moisture levels.
+* **概要**: 容量性土壌湿度センサーとESP32マイクロコントローラーを利用して、灌漑自動化や環境センシングなどのアプリケーションにどのように役立つかを紹介します。
+* **コンポーネント**: プロジェクトに必要な基本的なコンポーネント（ESP32マイクロコントローラー、カメラ拡張ボード、ジャンパーワイヤー、土壌湿度センサーモジュール）について理解します。
+* **センサーの動作**: 土壌湿度センサーモジュールの動作、回路、および容量測定の原理について詳しく説明します。
+* **配線セットアップ**: 土壌湿度センサーをESP32マイクロコントローラーに正しく配線する方法を学びます（直接接続およびSunFounder ESP32カメラ拡張モジュールを使用する方法）。
+* **Arduinoコード**: センサーからアナログ値を読み取り、シリアルモニターに表示するためのArduinoコードのアップロードと設定のプロセスを探ります。
+* **ブザーの実装**: 定義された湿度閾値に基づいてアラートを提供するためのブザーの実装方法を発見し、異なる土壌湿度レベルでの実際のテストを通じてデモンストレーションします。
 
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/MW-7a5Z0IT0?si=yq4MWeZ_z8Ucwt0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_moisture`
-
 

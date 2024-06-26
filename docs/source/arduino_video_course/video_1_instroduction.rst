@@ -1,31 +1,29 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32に関する知識を深め、他の愛好家たちと一緒に楽しみましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**：購入後の問題や技術的な課題を、コミュニティやチームの助けを借りて解決します。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く手に入れましょう。
+    - **特別割引**：最新製品の限定割引を楽しみます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加します。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
 
-Video 1: Introduce this Kit
+Video 1: このキットの紹介
 =====================================
 
-This video serves as an introduction to SunFounder's ESP32 IoT Learning Kit. It covers various aspects of the kit, highlighting its features and capabilities:
+このビデオは、SunFounderのESP32 IoTラーニングキットの紹介です。キットの特徴と機能について説明します。
 
-
-* **ESP32 Microcontroller**: Features the ESP32 microcontroller with built-in Wi-Fi and Bluetooth.
-* **Arduino IDE Installation**: Guides viewers through installing the Arduino IDE.
-* **ESP32 Board Setup**: Demonstrates board setup and driver installation.
-* **Selecting the ESP32 Dev Module**: Explains board selection in Arduino IDE.
-* **Library Installation**: Shows how to install necessary libraries.
-* **Project Examples**: Introduces various project examples for Arduino and MicroPython.
+* **ESP32マイクロコントローラー**：内蔵Wi-FiとBluetoothを備えたESP32マイクロコントローラーの特徴。
+* **Arduino IDEのインストール**：Arduino IDEのインストール方法をガイドします。
+* **ESP32ボードの設定**：ボードの設定とドライバーのインストールを示します。
+* **ESP32 Devモジュールの選択**：Arduino IDEでのボードの選択方法を説明します。
+* **ライブラリのインストール**：必要なライブラリのインストール方法を紹介します。
+* **プロジェクトの例**：ArduinoとMicroPythonのさまざまなプロジェクト例を紹介します。
 
 
 **Video**
@@ -33,5 +31,4 @@ This video serves as an introduction to SunFounder's ESP32 IoT Learning Kit. It 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/fsLxbRaqsaE?si=eZOoD9W-PYijG3S2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 

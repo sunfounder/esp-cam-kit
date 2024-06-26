@@ -1,34 +1,30 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 51: IoT Temperature Monitoring System
+Video 51: IoT温度監視システム
 =====================================================================================
 
+ESP32マイクロコントローラとWi-Fi接続を使用して温度監視システムを作成する方法を学びます。ハードウェアのセットアップ、コードの開発、Webサーバー経由での温度データのアクセスをカバーします。
 
-Learn how to create a temperature monitoring system using an ESP32 microcontroller and Wi-Fi connectivity, covering hardware setup, code development, and accessing temperature data via a web server.
+* **IoTの紹介**: Internet of Things (IoT) の基本とその応用について理解します。
+* **Wi-Fi設定**: ESP32マイクロコントローラをWi-Fiを使用してWebサーバーとして機能させる設定を行います。
+* **温度データのアクセス**: Webブラウザやモバイルデバイスを通じてリアルタイムの温度データにアクセスする方法を学びます。
+* **Arduinoコードの概要**: プロジェクトのためのArduinoコードの構造、設定、およびクライアントリクエストの処理についての洞察を得ます。
+* **ボードとCOMポートの選択**: Arduino IDEでESP32ボードとCOMポートを選択するためのステップバイステップの指示を提供します。
+* **実演**: コードのアップロードからリモートでの温度データのアクセスに至るまで、システムの動作をライブデモで紹介します。
 
-
-* **IoT Introduction**: Understand the basics of Internet of Things (IoT) and its applications.
-* **Wi-Fi Setup**: Configure the ESP32 microcontroller to function as a web server using Wi-Fi.
-* **Temperature Data Access**: Learn how to access real-time temperature data via a web browser or mobile device.
-* **Arduino Code Overview**: Get insights into the Arduino code structure for the project, including configuration settings and client request handling.
-* **Board and COM Port Selection**: Step-by-step instructions on selecting the ESP32 board and COM port in the Arduino IDE.
-* **Practical Demonstration**: Watch a live demonstration showcasing the system in action, from code uploading to accessing temperature data remotely.
-
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 

@@ -1,38 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 29: Reading IR remote key press
+Video 29: リモコンのキー押下を読み取る
 ====================================================
 
-Learn how to connect and program an ESP32 board to decode infrared signals from a remote control, including setting up a buzzer for audible feedback on specific button presses.
+リモコンから赤外線信号をデコードするためにESP32ボードを接続してプログラムする方法を学び、特定のボタンが押されたときに音声フィードバックを提供するブザーを設定します。
 
-* **IR Receiver Setup**: Instructions on wiring the IR receiver to the ESP32 board and the necessary components for the setup.
-* **Library Installation**: Guide on installing the IRremote ESP8266 Library to handle infrared signals within the Arduino IDE.
-* **Signal Decoding**: How to decode infrared signals from a remote control and map them to specific actions using ESP32.
-* **Buzzer Feedback**: Demonstrating how to add a buzzer that activates when a certain remote control button is pressed.
-* **Remote Control Keys**: Explanation of decoding and using various keys from the remote control for different inputs.
-* **Safe Power Management**: Tips on managing the ESP32's power consumption and ensuring the safety of connected components.
+* **IR受信機のセットアップ**: IR受信機をESP32ボードに配線する手順と、セットアップに必要なコンポーネント。
+* **ライブラリのインストール**: Arduino IDE内で赤外線信号を処理するためのIRremote ESP8266ライブラリのインストールガイド。
+* **信号のデコード**: リモコンからの赤外線信号をデコードし、それらをESP32で特定のアクションにマッピングする方法。
+* **ブザーフィードバック**: 特定のリモコンボタンが押されたときに作動するブザーを追加する方法を示します。
+* **リモコンキー**: さまざまなリモコンキーをデコードし、異なる入力に使用する方法の説明。
+* **安全な電力管理**: ESP32の電力消費を管理し、接続されたコンポーネントの安全性を確保するためのヒント。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/VxFZfp61Ci8?si=Upj9-a4zUiv8s6mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_receiver`
-
 

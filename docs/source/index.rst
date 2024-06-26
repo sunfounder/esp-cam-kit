@@ -1,34 +1,33 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは！ SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！ 一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家サポート**：コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決できます。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換できます。
+    - **独占プレビュー**：新製品の発表や先行情報に早期アクセスできます。
+    - **特別割引**：最新の製品に対する特別割引をお楽しみください。
+    - **フェスティバルプロモーションとプレゼント**：プレゼントやホリデープロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備ができましたか？ [|link_sf_facebook|] をクリックして今日参加しましょう！
 
-SunFounder ESP32 Camera Pro Kit
+SunFounder ESP32 Camera Proキット
 ==================================================
 
-Thanks for choosing our ESP32 Camera Pro Kit.
+ESP32 Camera Proキットをお選びいただきありがとうございます。
 
-This ESP32 Camera Pro kit is designed to empower a variety of projects, from robotics to IoT and Bluetooth applications. It features the powerful ESP32 WROOM 32E module, paired with an expansion board that supports easy experimentation and connectivity. The kit includes an OV2640 camera module for image processing tasks and a rechargeable battery interface for mobile applications. With slots for a MicroSD card and camera, this kit provides a comprehensive solution for developers looking to explore advanced electronics with ease and efficiency.
+このESP32 Camera Proキットは、ロボティクスからIoT、Bluetoothアプリケーションまで、さまざまなプロジェクトに対応できるよう設計されています。強力なESP32 WROOM 32Eモジュールと、実験や接続が簡単に行える拡張ボードを備えています。画像処理タスク用のOV2640カメラモジュールと、モバイルアプリケーション用の充電式バッテリーインターフェースが含まれています。MicroSDカードとカメラスロットも備えたこのキットは、高度なエレクトロニクスを簡単かつ効率的に探求したい開発者にとって、包括的なソリューションを提供します。
 
 .. note::
-    This document is available in the following languages.
+    このドキュメントは以下の言語でご利用いただけます。
 
         * |link_en_tutorials|
         * |link_german_tutorials|
         * |link_jp_tutorials|
 
     
-    Please click on the respective links to access the document in your preferred language.
-
+    ご希望の言語のリンクをクリックして、ドキュメントにアクセスしてください。
 
 .. image:: img/battery_charge.png
 
@@ -44,7 +43,7 @@ This ESP32 Camera Pro kit is designed to empower a variety of projects, from rob
     arduino_video_course/arduino_video_course
     faq/faq
 
-Copyright Notice
+著作権通知
 -----------------------
 
-All contents including but not limited to texts, images, and code in this manual are owned by the SunFounder Company. You should only use it for personal study, investigation, enjoyment, or other non-commercial or nonprofit purposes, under the related regulations and copyrights laws, without infringing the legal rights of the author and relevant right holders. For any individual or organization that uses these for commercial profit without permission, the Company reserves the right to take legal action.
+このマニュアルの内容は、テキスト、画像、コードなどを含め、すべてSunFounder社の所有物です。これを個人の学習、調査、楽しみ、またはその他の非営利目的でのみ使用し、関連する規則および著作権法の下で、著者および関連権利者の法的権利を侵害しない範囲で使用してください。許可なくこれらを商業利益のために使用する個人または組織に対しては、当社は法的措置を取る権利を留保します。

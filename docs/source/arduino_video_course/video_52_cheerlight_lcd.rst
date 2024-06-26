@@ -1,34 +1,30 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 52: CheerLights Global Sync with LCD
+Video 52: LCDを使用したCheerLightsのグローバル同期
 =====================================================================================
 
+ESP32マイクロコントローラとLCDスクリーンを使用して、複数のデバイス間でLEDカラーを同期させる方法を学びます。
 
-Learn how to synchronize LED colors across multiple devices using the Cheer Lights project, integrated with an ESP32 microcontroller and an LCD screen for real-time feedback.
+* **CheerLightsの紹介**: 以前のチュートリアルでは、RGB LEDやLCDスクリーンの使用方法をカバーしました。
+* **MQTTを使用したCheerLights**: MQTTサブスクリプションを通じてLEDカラーを同期させ、共有体験を提供します。
+* **ESP32とLCDスクリーンとの統合**: CheerLightsをESP32マイクロコントローラとLCDスクリーンに接続し、カラーと接続状態をリアルタイムで表示します。
+* **Wi-Fiへの接続**: ESP32はWi-Fiに接続し、接続時にはSSIDを表示し、切断時には再接続を試みます。
+* **CheerLightsグループとのインタラクション**: DiscordのCheerLightsグループと連携し、カラーを変更して共有体験に参加します。
+* **設定とコーディング**: ESP32ボードのセットアップ、適切なポートの選択、および必要なライブラリのインストールに関する詳細な指示を提供します。
 
-
-* **Introduction to Cheer Lights**: Previous tutorials covered essential topics like RGB LED and LCD screen usage.
-* **Cheer Lights with MQTT**: Synchronize LED colors through MQTT subscriptions for a shared experience.
-* **Integration with ESP32 and LCD Screen**: Connect Cheer Lights to an ESP32 microcontroller with an LCD screen for displaying colors and connectivity status.
-* **Connecting to Wi-Fi**: The ESP32 connects to Wi-Fi, displaying the SSID when connected and attempting to reconnect if disconnected.
-* **Interaction with Cheer Lights Group**: Interact with the Cheer Lights group on Discord to change colors and participate in the shared experience.
-* **Setup and Coding**: Detailed instructions provided on setting up the ESP32 board, selecting the correct port, and installing necessary libraries for integrating Cheer Lights with the ESP32 and LCD screen.
-
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 

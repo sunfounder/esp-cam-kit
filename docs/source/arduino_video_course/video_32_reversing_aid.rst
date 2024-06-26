@@ -1,39 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 32: Reversing Aid
+Video 32: リバースアシスト
 ====================================================
 
-Learn how to create a vehicle reversing aid using ESP32, featuring distance measurement with an ultrasonic sensor, visual feedback on an LCD, and audio alerts with a buzzer.
+ESP32を使用して、超音波センサーによる距離測定、LCDでの視覚フィードバック、ブザーによる音声警告機能を備えた車両のリバースアシストシステムの作成方法を学びます。
 
-* **Ultrasonic Sensor Integration**: Utilizing the sensor for accurate distance measurement to obstacles.
-* **LCD Feedback**: Displaying real-time distance measurements for the driver's convenience.
-* **Audio Alerts**: Programming the buzzer to emit faster beeps as the vehicle gets closer to an obstacle, enhancing safety.
-* **Energy Efficiency**: Demonstrating how to safely power the buzzer from the ESP32 by measuring current consumption.
-* **Comprehensive Guide**: Detailed explanation of wiring, coding, and the logic behind varying beep intervals based on distance.
-* **Real-World Application**: Showcasing the system installed on a vehicle and tested against a wall to simulate reversing towards an obstacle.
+* **超音波センサーの統合**: センサーを利用して障害物までの正確な距離を測定します。
+* **LCDフィードバック**: 運転者の利便性のためにリアルタイムの距離測定値を表示します。
+* **音声警告**: 車両が障害物に近づくにつれてブザーが速く鳴るようにプログラムし、安全性を向上させます。
+* **省エネルギー**: 電流消費を測定して、ESP32からブザーに安全に電力を供給する方法を示します。
+* **包括的なガイド**: 配線、コーディング、および距離に基づいたビープ音の間隔を変えるロジックの詳細な説明。
+* **実際の応用**: 車両にシステムを設置し、壁に向かってリバースするシミュレーションでテストする様子を紹介します。
 
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/K_4aX5oH3zg?si=biAp9O9HuJDlJJJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_reversing_aid`
-
-

@@ -1,28 +1,26 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32に関する知識を深め、他の愛好家たちと一緒に楽しみましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**：購入後の問題や技術的な課題を、コミュニティやチームの助けを借りて解決します。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く手に入れましょう。
+    - **特別割引**：最新製品の限定割引を楽しみます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加します。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
-Video 2: What's ESP32, Camera Extension Board?
+Video 2: ESP32とカメラ拡張ボードとは？
 ================================================
 
-This video introduces the SunFounder ESP32 IoT Learning Kit and its components, providing a solid foundation for further exploration and projects.
+このビデオでは、SunFounderのESP32 IoTラーニングキットとそのコンポーネントについて紹介し、さらなる探求やプロジェクトの基礎を築きます。
 
-* **Introduction**: Unboxing and overview of the kit.
-* **ESP32 Microcontroller**: Explaining the ESP32 microcontroller with Wi-Fi and Bluetooth.
-* **Camera Extension Board**: Details about the camera expansion board and its features.
-* **Kit Components**: A comprehensive list of all the components included in the kit.
-
+* **イントロダクション**：キットの開封と概要。
+* **ESP32マイクロコントローラー**：Wi-FiとBluetoothを搭載したESP32マイクロコントローラーの説明。
+* **カメラ拡張ボード**：カメラ拡張ボードの詳細とその機能。
+* **キットのコンポーネント**：キットに含まれるすべてのコンポーネントの総合リスト。
 
 **Video**
 

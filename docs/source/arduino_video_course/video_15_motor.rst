@@ -1,37 +1,34 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！他の愛好家たちと一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**：購入後の問題や技術的な課題を、コミュニティとチームの助けを借りて解決します。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く入手できます。
+    - **特別割引**：最新製品の限定割引を享受できます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
-
-Video 15: DC Motor Speed Control with ESP32 L293D
+Video 15: ESP32とL293DによるDCモーター速度制御
 =============================================================================================
 
-This tutorial covers controlling a DC motor using ESP32 and the L293D motor driver:
+このチュートリアルでは、ESP32とL293Dモータードライバを使用してDCモーターを制御する方法を紹介します。
 
-* **Motor Control Basics**: Learn how to control a DC motor's direction and speed with ESP32.
-* **L293D Motor Driver**: Introduction to the L293D driver, essential for interfacing the motor with ESP32.
-* **Two Projects**: The first project controls motor direction, and the second adjusts the motor's speed.
-* **Arduino Code Explanation**: Detailed walkthrough of the Arduino code for motor speed and direction control.
-* **Practical Demonstration**: See the motor in action, demonstrating speed variation and directional change.
+* **モーター制御の基本**：ESP32を使ってDCモーターの方向と速度を制御する方法を学びます。
+* **L293Dモータードライバ**：ESP32とモーターを接続するために必要なL293Dドライバの紹介。
+* **二つのプロジェクト**：最初のプロジェクトではモーターの方向を制御し、二つ目のプロジェクトではモーターの速度を調整します。
+* **Arduinoコードの説明**：モーターの速度と方向を制御するためのArduinoコードの詳細な解説。
+* **実演**：速度の変化と方向の変更を示すモーターの実演。
 
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ei_SIh1xH1U?si=m4yPixL2KD-_fO_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_motor`

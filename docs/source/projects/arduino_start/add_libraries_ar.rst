@@ -1,78 +1,75 @@
-
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32の愛好者と共に、これらの技術を深く掘り下げましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**: コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **独占プレビュー**: 新製品の発表や先行プレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を楽しめます。
+    - **フェスティバルプロモーションとプレゼント**: プレゼントやホリデープロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして、今すぐ参加してください！
 
 .. _add_libraries_ar:
 
-1.4 Install libraries (Important)
-======================================
+1.4 ライブラリのインストール（重要）
+========================================
 
-A library is a collection of pre-written code or functions that extend the capabilities of the Arduino IDE. Libraries provide ready-to-use code for various functionalities, allowing you to save time and effort in coding complex features.
+ライブラリは、Arduino IDEの機能を拡張するための事前に書かれたコードや関数のコレクションです。ライブラリを使用することで、複雑な機能をコーディングする際の時間と労力を節約できます。
 
-There are two main ways to install libraries:
+ライブラリのインストール方法は主に2つあります：
 
-Install from Library Manager
-------------------------------------
+ライブラリマネージャからインストール
+--------------------------------------
 
-Many libraries are available directly through the Arduino Library Manager. You can access the Library Manager by following these steps:
+多くのライブラリはArduinoライブラリマネージャから直接入手できます。ライブラリマネージャへのアクセス方法は以下の通りです：
 
-#. In the **Library Manager**, you can search for the desired library by name or browse through different categories.
+#. **ライブラリマネージャ** で、名前でライブラリを検索するか、異なるカテゴリを閲覧します。
 
    .. note::
 
-      In projects where library installation is required, there will be prompts indicating which libraries to install. Follow the instructions provided, such as "The DHT sensor library library is used here, you can install it from the Library Manager." Simply install the recommended libraries as prompted.
+      ライブラリのインストールが必要なプロジェクトでは、どのライブラリをインストールすべきかのプロンプトがあります。「ここではDHTセンサーライブラリを使用します。ライブラリマネージャからインストールしてください。」などの指示に従って、推奨されるライブラリをインストールしてください。
 
    .. image:: img/install_lib3.png
 
-#. Once you find the library you want to install, click on it and then click the **Install** button.
+#. インストールしたいライブラリを見つけたら、それをクリックし、次に**インストール**ボタンをクリックします。
 
    .. image:: img/install_lib2.png
 
-#. The Arduino IDE will automatically download and install the library for you.
+#. Arduino IDEが自動的にライブラリをダウンロードしてインストールします。
 
 .. _install_lib_man:
 
-Manual Installation
+手動インストール
 --------------------------
+ 
+一部のライブラリは **ライブラリマネージャ** を通じて入手できず、手動でインストールする必要があります。これらのライブラリをインストールするには、以下の手順に従ってください：
 
-Some libraries are not available through the **Library Manager** and need to be manually installed. To install these libraries, follow these steps:
-
-#. Download the libraries.
+#. ライブラリをダウンロードします。
 
    * :download:`ESP32-A2DP </_static/zip/ESP32-A2DP.zip>`
    * :download:`ESP8266Audio </_static/zip/ESP8266Audio.zip>`
 
-#. Open the Arduino IDE and go to **Sketch** -> **Include Library** -> **Add .ZIP Library**.
+#. Arduino IDEを開き、 **スケッチ** -> **ライブラリをインクルード** -> **.ZIPライブラリを追加** に進みます。
 
    .. image:: img/a2dp_add_zip.png
 
-#. Navigate to the directory where the library files are located, and select the desired library file, like ``ESP32-A2DP.zip``. Then, click **Open**.
-
+#. ライブラリファイルがあるディレクトリに移動し、希望のライブラリファイル（例： ``ESP32-A2DP.zip``  ）を選択します。その後、 **開く** をクリックします。
 
    .. image:: img/a2dp_choose.png
 
-#. After a short while, you will receive a notification indicating a successful installation.
+#. しばらくすると、インストール成功の通知が表示されます。
 
    .. image:: img/a2dp_success.png
 
-#. Repeat the same process to add the ``ESP8266Audio.zip`` library.
-
+#. 同じ手順で ``ESP8266Audio.zip`` ライブラリを追加します。
 
 .. note::
 
-   The libraries installed using either of the above methods can be found in the default library directory of the Arduino IDE, which is usually located at ``C:\Users\xxx\Documents\Arduino\libraries``.
+   上記のいずれかの方法でインストールされたライブラリは、通常、Arduino IDEのデフォルトライブラリディレクトリにあります。通常の場所は ``C:\Users\xxx\Documents\Arduino\libraries`` です。
 
-   If your library directory is different, you can check it by going to **File** -> **Preferences**.
+   ライブラリディレクトリが異なる場合は、 **ファイル** -> **環境設定** に移動して確認できます。
 
       .. image:: img/install_lib1.png

@@ -1,38 +1,35 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts CommunityのFacebookページへようこそ！Raspberry Pi、Arduino、ESP32の愛好者と共にさらに深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティとチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表や先行情報を早期に入手できます。
+    - **特別割引**: 最新製品に対する特別割引をお楽しみいただけます。
+    - **フェスティブプロモーションとプレゼント**: プレゼントやホリデープロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
 .. _ar_sd_write:
 
-2.10 SD Card Write and Read
-===========================
-This project demonstrates the core capabilities of using an SD card with the ESP32 microcontroller. 
-It showcases essential operations such as mounting the SD card, creating a file, writing data to the file, 
-and listing all files within the root directory. These operations form the basis of many data logging and storage 
-applications, making this project a crucial stepping stone in understanding and utilizing the ESP32's built-in SDMMC host peripheral.
+2.10 SDカードの書き込みと読み取り
+==================================
+このプロジェクトでは、ESP32マイクロコントローラを使用してSDカードを操作する基本機能を紹介します。 
+SDカードのマウント、ファイルの作成、データの書き込み、ルートディレクトリ内のファイルリストの表示など、 
+多くのデータロギングやストレージアプリケーションの基礎となる操作を示します。このプロジェクトは、ESP32の内蔵SDMMCホストペリフェラルを理解し、活用するための重要なステップです。
 
-**Required Components**
+**必要なコンポーネント**
 
-In this project, we need the following components. 
-
-
+このプロジェクトでは、以下のコンポーネントが必要です。
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - コンポーネントの紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
@@ -40,17 +37,17 @@ In this project, we need the following components.
         - \-
 
 
-**Operating Steps**
+**操作手順**
 
-#. Before connecting the USB cable, insert the SD card into the SD card slot of the extension board.
+#. USBケーブルを接続する前に、SDカードを拡張ボードのSDカードスロットに挿入します。
 
     .. image:: img/insert_sd.png
 
-#. Connect ESP32-WROOM-32E to the computer using the USB cable.
+#. ESP32-WROOM-32EをUSBケーブルでコンピュータに接続します。
 
     .. image:: img/plugin_esp32.png
 
-#. Select the appropriate port and board in the Arduino IDE and upload the code to your ESP32.
+#. Arduino IDEで適切なポートとボードを選択し、ESP32にコードをアップロードします。
 
     .. note::
 
@@ -61,54 +58,53 @@ In this project, we need the following components.
         <iframe src=https://create.arduino.cc/editor/sunfounder01/912df4b8-a7b6-43dc-95b5-8206801cc9c1/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
         
 
-#. After the code is uploaded successfully, you will see a prompt indicating the successful file write, along with a list of all the filenames and sizes on the SD card. If you don't see any printout after opening the serial monitor, you need to press the EN (RST) button to rerun the code.
+#. コードが正常にアップロードされた後、ファイルの書き込みが成功したことを示すプロンプトと、SDカード内のすべてのファイル名とサイズのリストが表示されます。シリアルモニタを開いた後に何も表示されない場合は、EN（RST）ボタンを押してコードを再実行する必要があります。
 
     .. image:: img/sd_write_read.png
 
     .. note::
 
-        If you see the following information.
+        次の情報が表示された場合。
 
         .. code-block::
 
             E (528) vfs_fat_sdmmc: mount_to_vfs failed (0xffffffff).
             Failed to mount SD card
 
-        First, check if your SD card is properly inserted into the expansion board.
+        まず、SDカードが拡張ボードに正しく挿入されているか確認してください。
 
-        If it is inserted correctly, there might be an issue with your SD card. You can try using an eraser to clean the metal contacts.
+        正しく挿入されている場合、SDカードに問題がある可能性があります。消しゴムで金属接点を掃除してみてください。
 
-        If the problem persists, it is recommended to format the SD card, please refer to :ref:`format_sd_card`.
+        問題が解決しない場合は、SDカードをフォーマットすることをお勧めします。詳細は :ref:`format_sd_card` を参照してください。
+
+**仕組みはどうなっていますか？**
+
+このプロジェクトの目的は、ESP32ボードでSDカードを使用する方法を示すことです。ESP32の内蔵SDMMCホストペリフェラルを使用してSDカードに接続します。
+
+プロジェクトはシリアル通信を初期化し、次にSDカードのマウントを試みることから始まります。SDカードのマウントに失敗した場合、プログラムはエラーメッセージを表示し、setup関数を終了します。
+
+SDカードが正常にマウントされると、プログラムはSDカードのルートディレクトリに「test.txt」という名前のファイルを作成します。ファイルが書き込みモードで正常に開かれると、プログラムは「Hello, world!」という行をファイルに書き込みます。書き込み操作が成功した場合、プログラムは成功メッセージを表示し、そうでない場合はエラーメッセージを表示します。
+
+書き込み操作が完了した後、プログラムはファイルを閉じ、次にSDカードのルートディレクトリを開きます。次にルートディレクトリ内のすべてのファイルをループし、見つかった各ファイルのファイル名とファイルサイズを表示します。
+
+メインのloop関数では、操作は行いません。このプロジェクトは、SDカードのマウント、ファイルの作成、ファイルへの書き込み、ファイルディレクトリの読み取りなど、すべての操作がsetup関数内で実行されることに焦点を当てています。
+
+このプロジェクトは、ESP32でSDカードを操作する基本を学ぶための有用な導入となります。データロギングやストレージが必要なアプリケーションにおいて重要です。
 
 
-**How it works?**
+以下はコードの解析です。
 
-The purpose of this project is to demonstrate the usage of the SD card with the ESP32 board. The ESP32's built-in SDMMC host peripheral is used to connect with the SD card.
-
-The project begins by initializing the serial communication and then attempts to mount the SD card. If the SD card fails to mount successfully, the program will print an error message and exit the setup function.
-
-Once the SD card is mounted successfully, the program proceeds to create a file named "test.txt" in the root directory of the SD card. If the file is successfully opened in write mode, the program writes a line of text - "Hello, world!" to the file. The program will print a success message if the write operation is successful, otherwise, an error message will be printed.
-
-After the writing operation is complete, the program closes the file and then opens the root directory of the SD card. It then begins to loop through all the files in the root directory, printing the filename and filesize of each file found.
-
-In the main loop function, there are no operations. This project focuses on SD card operations such as mounting the card, creating a file, writing to a file, and reading the file directory, all of which are executed in the setup function.
-
-This project serves as a useful introduction to handling SD cards with the ESP32, which can be crucial in applications that require data logging or storage.
-
-
-Here's an analysis of the code:
-
-#. Include the ``SD_MMC`` library, which is needed to work with SD cards using ESP32's built-in SDMMC host peripheral.
+#. ESP32の内蔵SDMMCホストペリフェラルを使用してSDカードを操作するために必要な ``SD_MMC`` ライブラリをインクルードします。
 
     .. code-block:: arduino
 
         #include "SD_MMC.h"
 
-#. Inside the ``setup()`` function, the following tasks are performed.
+#. ``setup()`` 関数内で、次のタスクが実行されます。
 
-    * **Initialize the SD card**
+    * **SDカードを初期化します**
 
-    Initialize and mount the SD card. If the SD card fails to mount, it will print "Failed to mount SD card" to the serial monitor and stop the execution.
+    SDカードを初期化し、マウントします。SDカードのマウントに失敗した場合、シリアルモニタに「Failed to mount SD card」と表示し、実行を停止します。
 
     .. code-block:: arduino
         
@@ -117,10 +113,9 @@ Here's an analysis of the code:
             return;
         } 
       
-    * **Open the file**
+    * **ファイルを開きます**
 
-    Open a file named ``"test.txt"`` located in the root directory of the SD 
-    card in write mode. If the file fails to open, it prints "Failed to open file for writing" and returns.
+    SDカードのルートディレクトリにある ``"test.txt"`` という名前のファイルを書き込みモードで開きます。ファイルのオープンに失敗した場合、「Failed to open file for writing」と表示して戻ります。
 
     .. code-block:: arduino
 
@@ -130,13 +125,12 @@ Here's an analysis of the code:
             return;
         }
 
+    * **データをファイルに書き込みます**
 
-    * **Write data to the file**
+    ファイルに "Test file write" というテキストを書き込みます。
+    書き込み操作が成功した場合、 "File write successful" と表示し、
+    失敗した場合は "File write failed" と表示します。
 
-    Write the text "Test file write" to the file. 
-    If the write operation is successful, it prints "File write successful"; otherwise, it prints "File write failed".
-
-    
     .. code-block:: arduino
 
         if(file.print("Test file write")) { // Write the message to the file
@@ -145,17 +139,17 @@ Here's an analysis of the code:
             Serial.println("File write failed"); // If write fails, print to serial
         } 
 
-    * **Close the file**
+    * **ファイルを閉じます**
         
-    Close the opened file. This ensures that any buffered data is written to the file and the file is properly closed.
+    開いたファイルを閉じます。これにより、バッファされたデータがファイルに書き込まれ、ファイルが正しく閉じられます。
 
     .. code-block:: arduino
 
         file.close(); // Close the file
 
-    * **Open the root directory**
+    * **ルートディレクトリを開きます**
 
-    Open the root directory of the SD card. If the directory fails to open, it prints "Failed to open directory" and returns.
+    SDカードのルートディレクトリを開きます。ディレクトリのオープンに失敗した場合、「Failed to open directory」と表示して戻ります。
 
     .. code-block:: arduino
 
@@ -165,10 +159,10 @@ Here's an analysis of the code:
             return;
         }
 
-    * **Print each file's name and size**
+    * **各ファイルの名前とサイズを表示します**
     
-    The loop starting with while (``File file = root.openNextFile()``) iterates over all the files in the root directory, 
-    printing each file's name and size to the serial monitor.
+    ``while (File file = root.openNextFile())`` で始まるループは、ルートディレクトリ内のすべてのファイルをループし、
+    各ファイルの名前とサイズをシリアルモニタに表示します。
 
     .. code-block:: arduino
     
@@ -181,8 +175,8 @@ Here's an analysis of the code:
               file.close(); // Close the file
         }
 
-#.  This ``loop()`` function is an empty loop and does nothing in the current program. However, in a typical Arduino program, this function would continuously loop over and execute the code within it. In this case, since all the required tasks have been performed in the setup function, the loop function is not needed.
+#. この ``loop()`` 関数は空のループで、現在のプログラムでは何もしません。ただし、通常のArduinoプログラムでは、この関数はコードを継続的にループして実行します。この場合、必要なタスクはすべてsetup関数で実行されたため、loop関数は不要です。
 
     .. code-block:: arduino
 
-        void loop() {} // Empty loop function, does nothing
+        void loop() {} // 空のループ関数、何もしない

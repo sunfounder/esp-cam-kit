@@ -1,38 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 41: MP3 Player with SD Card Support
+Video 41: SDカード対応MP3プレーヤー
 ====================================================
 
-Learn how to play audio files from a micro SD card using the SunFounder ESP32 learning kit, connecting the ESP32 with an audio amplifier and speaker for sound output.
+SunFounder ESP32ラーニングキットを使用して、SDカードからオーディオファイルを再生する方法を学び、ESP32をオーディオアンプとスピーカーに接続して音声出力を行います。
 
-* **Introduction**: Discover how to combine micro SD card functionality with the ESP32 for audio playback.
-* **Audio Amplifier**: Understand the importance of using an audio amplifier to drive speaker output effectively.
-* **MP3 Player with SD Card Support**: Access documentation and code examples for implementing an MP3 player with micro SD card support.
-* **Hardware Setup**: Follow step-by-step instructions for connecting the audio amplifier, speaker, and ESP32 board.
-* **File Formatting**: Ensure the micro SD card is formatted to FAT32 with a maximum capacity of 32 GB for compatibility.
-* **Arduino IDE Setup**: Learn how to select the ESP32 board and COM port in the Arduino IDE, as well as install necessary libraries for audio playback.
+* **概要**: ESP32とSDカード機能を組み合わせて音楽再生を実現する方法を紹介します。
+* **オーディオアンプ**: スピーカー出力を効果的に駆動するためにオーディオアンプを使用する重要性を理解します。
+* **SDカード対応のMP3プレーヤー**: SDカード対応のMP3プレーヤーを実装するためのドキュメントやコード例にアクセスします。
+* **ハードウェアセットアップ**: オーディオアンプ、スピーカー、およびESP32ボードを接続するためのステップバイステップの指示に従います。
+* **ファイルフォーマット**: SDカードがFAT32でフォーマットされ、最大32GBの容量に対応していることを確認します。
+* **Arduino IDEセットアップ**: ESP32ボードとCOMポートをArduino IDEで選択し、オーディオ再生に必要なライブラリをインストールする方法を学びます。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0nWDw8Sb72w?si=jyCTggAywXcD-fjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_mp3_player_sd`
-
 

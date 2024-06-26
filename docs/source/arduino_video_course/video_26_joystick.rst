@@ -1,36 +1,34 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 26: Using Joystick
+Video 26: ジョイスティックの使用方法
 ====================================================
 
-Learn how to wire a joystick to an ESP32 microcontroller, covering detailed explanations, wiring configurations, code implementation, and testing.
+ジョイスティックをESP32マイクロコントローラに接続する方法を学びます。詳細な説明、配線構成、コード実装、およびテストをカバーします。
 
-* **Joystick components**: Understand the components of the joystick, including variable resistors and switches.
-* **Wiring configuration**: Follow step-by-step instructions on how to wire the joystick to the ESP32 microcontroller, covering connections for analog pins, switches, power, and ground.
-* **Code implementation**: Learn how to write and upload code to the ESP32 microcontroller using the Arduino IDE, including code for reading joystick values and taking actions based on those values.
-* **Testing and troubleshooting**: Discover how to test the joystick setup using the serial monitor and troubleshoot common issues, such as incorrect wiring or code errors.
+* **ジョイスティックの構成要素**: 可変抵抗器やスイッチを含むジョイスティックの構成要素を理解します。
+* **配線構成**: ジョイスティックをESP32マイクロコントローラに接続するためのステップバイステップの指示に従い、アナログピン、スイッチ、電源、グラウンドの接続をカバーします。
+* **コードの実装**: Arduino IDEを使用して、ジョイスティックの値を読み取り、その値に基づいて動作を実行するコードの記述とアップロード方法を学びます。
+* **テストとトラブルシューティング**: シリアルモニターを使用してジョイスティックのセットアップをテストし、配線の誤りやコードのエラーなどの一般的な問題をトラブルシューティングする方法を紹介します。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ViDQ11bsvSw?si=CbfzwFRY6bbYub9_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_joystick`
-
 

@@ -1,40 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 33: Digital Dice
+Video 33: デジタルサイコロ
 ====================================================
 
+このチュートリアルでは、ESP32ボードと7セグメントディスプレイを使用してデジタルサイコロを作成し、プッシュボタンでサイコロを転がし、1から6までの数字をランダムに表示する方法を紹介します。
 
-This tutorial shows how to build a digital dice using an ESP32 board and a 7-segment display, featuring a push button to roll the dice and display numbers 1 through 6 randomly.
-
-* **Digital Dice Concept**: Introduction to the project and its electronic components.
-* **Wiring Setup**: Step-by-step guide to connecting the ESP32 board with the 7-segment display and push button.
-* **Code Walkthrough**: Detailed explanation of the Arduino code for number generation and display management.
-* **Random Number Generation**: Methodology for creating random dice outcomes with a push button.
-* **Display Initialization**: Tips for ensuring the 7-segment display shows a clear screen upon startup.
-* **Project Assembly**: Instructions for assembling and troubleshooting the digital dice project for optimal performance.
+* **デジタルサイコロのコンセプト**: プロジェクトとその電子部品の紹介。
+* **配線設定**: ESP32ボードと7セグメントディスプレイ、プッシュボタンを接続するためのステップバイステップガイド。
+* **コードの説明**: 数字生成と表示管理のためのArduinoコードの詳細な説明。
+* **乱数生成**: プッシュボタンを使用してランダムなサイコロの結果を作成する方法。
+* **ディスプレイ初期化**: 起動時に7セグメントディスプレイがクリアな画面を表示するためのヒント。
+* **プロジェクトの組み立て**: デジタルサイコロプロジェクトを最適な性能で組み立て、トラブルシューティングするための手順。
 
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/9mpHQWvZ0WI?si=WxNtw7uIJddDzE-R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_dice`
-
-

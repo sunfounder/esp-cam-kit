@@ -1,57 +1,57 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32の愛好者と共に、これらの技術を深く掘り下げましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**: コミュニティやチームの助けを借りて、販売後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **独占プレビュー**: 新製品の発表や先行プレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を楽しめます。
+    - **フェスティバルプロモーションとプレゼント**: プレゼントやホリデープロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできていますか？[|link_sf_facebook|]をクリックして、今すぐ参加してください！
 
 .. _format_sd_card:
 
-How to format the SD card?
-====================================
+SDカードのフォーマット方法
+===============================
 
-The steps to ensure your SD card is formatted correctly may vary depending on your operating system. Here are simple steps on how to format an SD card in Windows, MacOS, and Linux:
+お使いのオペレーティングシステムによって、SDカードのフォーマット方法は異なる場合があります。以下に、Windows、MacOS、およびLinuxでSDカードをフォーマットするための簡単な手順を示します：
 
 **Windows**
 
-   #. Insert your SD card into the computer, then open "My Computer" or "This PC." Right-click on your SD card and select "Format."
+   #. SDカードをコンピュータに挿入し、「マイコンピュータ」または「このPC」を開きます。SDカードを右クリックして「フォーマット」を選択します。
 
         .. image:: img/sd_format_win1.png
 
-   #. In the file system drop-down menu, select the desired file system (usually choose FAT32, or for SD cards larger than 32GB, you may need to choose exFAT). Check "Quick Format" and then click "Start".
+   #. ファイルシステムのドロップダウンメニューから希望するファイルシステムを選択します（通常はFAT32を選択、32GB以上のSDカードの場合はexFATを選択）。「クイックフォーマット」をチェックし、「開始」をクリックします。
 
         .. image:: img/sd_format_win2.png
 
 **MacOS**
    
-   #. Insert your SD card into the computer. Open the "Disk Utility" application (can be found in the "Utilities" folder).
+   #. SDカードをコンピュータに挿入します。「ディスクユーティリティ」アプリケーションを開きます（「ユーティリティ」フォルダにあります）。
 
         .. image:: img/sd_format_mac1.png
     
-   #. Select your SD card from the list on the left and then click "Erase".
+   #. 左側のリストからSDカードを選択し、「消去」をクリックします。
 
         .. image:: img/sd_format_mac2.png
 
-   #. From the format drop-down menu, choose your desired file system (usually choose MS-DOS (FAT) for FAT32, or ExFAT for SD cards larger than 32GB) and then click "Erase".
+   #. フォーマットのドロップダウンメニューから希望するファイルシステムを選択します（通常はFAT32にはMS-DOS (FAT)、32GB以上のSDカードにはExFATを選択）し、「消去」をクリックします。
 
         .. image:: img/sd_format_mac3.png
 
-   #. Finally, wait for the formatting to complete.
+   #. 最後に、フォーマットが完了するのを待ちます。
 
         .. image:: img/sd_format_mac3.png
 
 **Linux**
 
-   * First, insert your SD card and then open a terminal.
-   * Type ``lsblk`` and find your SD card's name in the device list (e.g., it may be ``sdb``).
-   * Use the ``umount`` command to unmount the SD card, like ``sudo umount /dev/sdb*``.
-   * Use the ``mkfs`` command to format the SD card. For example, ``sudo mkfs.vfat /dev/sdb1`` will format the SD card to a FAT32 file system (for SD cards larger than 32GB, you might need to use ``mkfs.exfat``).
+   * まず、SDカードを挿入し、ターミナルを開きます。
+   * ``lsblk``と入力して、デバイスリストからSDカードの名前を見つけます（例：``sdb``）。
+   * ``umount``コマンドを使用してSDカードをアンマウントします。例： ``sudo umount /dev/sdb*`` 。
+   * ``mkfs``コマンドを使用してSDカードをフォーマットします。例： ``sudo mkfs.vfat /dev/sdb1`` は、SDカードをFAT32ファイルシステムにフォーマットします（32GB以上のSDカードの場合は ``mkfs.exfat`` を使用する必要があるかもしれません）。
 
-Before formatting your SD card, make sure to back up any important data on the SD card, as the formatting operation will erase all files on the SD card.
+SDカードをフォーマットする前に、SDカード上の重要なデータをバックアップすることを忘れないでください。フォーマット操作によりSDカード上のすべてのファイルが消去されます。

@@ -1,74 +1,74 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32 Enthusiasts Communityへようこそ！Raspberry Pi、Arduino、ESP32を使って仲間と一緒に深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**：コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決しましょう。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **限定プレビュー**：新製品の発表やスニークピークへの早期アクセスを取得しましょう。
+    - **特別割引**：最新製品の独占割引をお楽しみください。
+    - **祭りのプロモーションとプレゼント**：プレゼントや休日のプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日から参加しましょう！
 
 .. _ar_blink:
 
-2.1 Digital Output
+2.1 デジタル出力
 =======================================
 
-Among the many microcontroller development boards, the ESP32 stands out for its high performance and versatility. This project will show you how to use the digital output pins of the ESP32 board to control an external device—in this case, lighting up an LED. This serves as a foundation for learning ESP32 programming and an entry point into exploring IoT applications.
+数多くのマイクロコントローラ開発ボードの中で、ESP32はその高性能と多用途性で際立っています。このプロジェクトでは、ESP32ボードのデジタル出力ピンを使用して外部デバイス（この場合はLEDを点灯）を制御する方法を紹介します。これはESP32プログラミングを学ぶ基礎として、IoTアプリケーションの探索への入り口となります。
 
-**Available Pins**
+**使用可能なピン**
 
-Here is a list of available pins on the ESP32 board for this project.
+このプロジェクトで使用するESP32ボードの使用可能なピンのリストです。
 
 .. list-table::
     :widths: 5 20 
 
-    * - Available Pins
+    * - 使用可能なピン
       - IO13, IO12, IO14, IO27, IO26, IO25, IO33, IO32, IO15, IO2, IO0, IO4, IO5, IO18, IO19, IO21, IO22, IO23
 
 
 
-**Required Components**
+**必要なコンポーネント**
 
-In this project, we need the following components. 
+このプロジェクトでは、以下のコンポーネントが必要です。
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - コンポーネント紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Breadboard
+    *   - ブレッドボード
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - ジャンパーワイヤー
         - |link_wires_buy|
-    *   - Resistor
+    *   - 抵抗
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
 
-**Schematic**
+**回路図**
 
 .. image:: img/circuit_2.1_led.png
 
-This circuit works on a simple principle, and the current direction is shown in the figure. The LED will light up after the 220ohm current limiting resistor when pin26 outputs high level. The LED will turn off when pin26 outputs low level.
+この回路は単純な原理で動作し、図に示される電流の方向に従います。ピン26が高レベルを出力すると、220オームの電流制限抵抗の後にLEDが点灯します。ピン26が低レベルを出力すると、LEDは消灯します。
 
-**Wiring**
+**配線**
 
 .. image:: img/2.1_hello_led_bb.png
 
 
-**Upload Code**
+**コードのアップロード**
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. このコードをダウンロードするか、直接Arduino IDEにコピーしてください。
 
     .. note::
         
@@ -78,7 +78,7 @@ This circuit works on a simple principle, and the current direction is shown in 
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/1bff2463-40ad-43c1-8815-9f448bab3735/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
     
-#. Then connect the ESP32 WROOM 32E to your computer using a Micro USB cable. 
+#. 次に、ESP32 WROOM 32EをMicro USBケーブルでコンピュータに接続します。
 
     * :ref:`unknown_com_port`
 
@@ -86,26 +86,26 @@ This circuit works on a simple principle, and the current direction is shown in 
         :width: 600
         :align: center
 
-#. Select the board (ESP32 Dev Module) and the appropriate port.
+#. ボード（ESP32 Dev Module）と適切なポートを選択します。
 
     .. image:: img/choose_board.png
 
-#. Now, click the **Upload** button to upload the code to the ESP32 board.
+#. そして、 **Upload** ボタンをクリックしてコードをESP32ボードにアップロードします。
     
     .. image:: img/click_upload.png
 
-#. After the code is uploaded successfully, you will see the LED blinking.
+#. コードが正常にアップロードされると、LEDが点滅するのが見えます。
 
-**How it works?**
+**動作の仕組み**
 
-#. Declare an integer constant named ``ledPin`` and assigns it the value 26. 
+#. ``ledPin`` という名前の整数定数を宣言し、値26を割り当てます。
 
     .. code-block:: arduino
 
-        const int ledPin = 26;  // The GPIO pin for the LED
+        const int ledPin = 26;  // LEDのGPIOピン
 
 
-#. Now, initialize the pin in the ``setup()`` function, where you need to initialize the pin to ``OUTPUT`` mode.
+#. 次に、 ``setup()`` 関数でピンを初期化し、ピンを ``OUTPUT`` モードに設定します。
 
     .. code-block:: arduino
 
@@ -113,19 +113,19 @@ This circuit works on a simple principle, and the current direction is shown in 
             pinMode(ledPin, OUTPUT);
         }
 
-    * ``void pinMode(uint8_t pin, uint8_t mode);``: This function is used to define the GPIO operation mode for a specific pin.
+    * ``void pinMode(uint8_t pin, uint8_t mode);``: この関数は、特定のピンのGPIO操作モードを定義するために使用されます。
 
-        * ``pin`` defines the GPIO pin number.
-        * ``mode`` sets operation mode.
+        * ``pin`` はGPIOピン番号を定義します。
+        * ``mode`` は操作モードを設定します。
 
-        The following modes are supported for the basic input and output:
+        基本的な入力と出力には以下のモードがサポートされています：
 
-        * ``INPUT`` sets the GPIO as input without pullup or pulldown (high impedance).
-        * ``OUTPUT`` sets the GPIO as output/read mode.
-        * ``INPUT_PULLDOWN`` sets the GPIO as input with the internal pulldown.
-        * ``INPUT_PULLUP`` sets the GPIO as input with the internal pullup.
+        * ``INPUT`` はプルアップまたはプルダウンなしでGPIOを入力（高インピーダンス）として設定します。
+        * ``OUTPUT`` はGPIOを出力/読み取りモードとして設定します。
+        * ``INPUT_PULLDOWN`` は内部プルダウンでGPIOを入力として設定します。
+        * ``INPUT_PULLUP`` は内部プルアップでGPIOを入力として設定します。
 
-#. The ``loop()`` function contains the main logic of the program and runs continuously. It alternates between setting the pin high and low, with one-second intervals between the changes.
+#. ``loop()`` 関数には、プログラムの主なロジックが含まれており、継続的に実行されます。これは、1秒ごとにピンを高低に設定することを交互に行います。
 
     .. code-block:: arduino
 
@@ -136,7 +136,7 @@ This circuit works on a simple principle, and the current direction is shown in 
             delay(1000);                       // wait for a second
         }
 
-    * ``void digitalWrite(uint8_t pin, uint8_t val);``: This function sets the state of the selected GPIO to ``HIGH`` or ``LOW``. This function is only used if the ``pinMode`` was configured as ``OUTPUT``.
+    * ``void digitalWrite(uint8_t pin, uint8_t val);`` : この関数は、選択したGPIOの状態を ``HIGH`` または ``LOW`` に設定します。この関数は、 ``pinMode`` が ``OUTPUT`` として構成された場合にのみ使用されます。
     
-        * ``pin`` defines the GPIO pin number.
-        * ``val`` set the output digital state to ``HIGH`` or ``LOW``.
+        * ``pin`` はGPIOピン番号を定義します。
+        * ``val`` は出力デジタル状態を ``HIGH`` または ``LOW`` に設定します。

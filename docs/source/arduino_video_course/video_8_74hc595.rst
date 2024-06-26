@@ -1,38 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32の世界を他の愛好家たちと一緒に深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**：購入後の問題や技術的な課題を、コミュニティとチームの助けを借りて解決します。
+    - **学びと共有**：スキル向上のためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く入手できます。
+    - **特別割引**：最新製品の限定割引を享受できます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
-Video 8: Walking Light with 74HC595 Shift Register
-===========================================================
-This tutorial is designed for learners to understand how to use a shift register with the ESP32 for controlling multiple LEDs, creating a dynamic lighting effect.
+Video 8: 74HC595シフトレジスタを使用したウォーキングライト
+================================================================
 
-* **Introduction**: Uses ESP32 microcontroller and 74HC595 shift register.
-* **Components**: Includes ESP32, breadboard, jumper wires, resistors, LEDs, and the 74HC595 chip.
-* **74HC595 Features**: Explains its serial-in, parallel-out functionality.
-* **Wiring Guide**: Provides step-by-step instructions for wiring the components.
-* **Arduino Code**: Discusses code for controlling LED sequences with the shift register.
-* **Demonstration**: Shows how to adjust light patterns and speed using the code.
+このチュートリアルは、ESP32を使用して複数のLEDを制御し、動的なライティング効果を作成するためにシフトレジスタをどのように使用するかを学ぶためのものです。
 
+* **導入**：ESP32マイクロコントローラと74HC595シフトレジスタを使用します。
+* **コンポーネント**：ESP32、ブレッドボード、ジャンパーワイヤ、抵抗、LED、74HC595チップを含みます。
+* **74HC595の特徴**：シリアル入力、パラレル出力の機能を説明します。
+* **配線ガイド**：コンポーネントの配線手順をステップバイステップで提供します。
+* **Arduinoコード**：シフトレジスタを使用してLEDシーケンスを制御するコードについて説明します。
+* **デモンストレーション**：コードを使用してライトパターンと速度を調整する方法を示します。
 
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/gH2qnsBqApc?si=0R6RzU6K5HOyupO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_74hc595`

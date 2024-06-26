@@ -1,37 +1,35 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **なぜ参加するのか？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**: 購入後の問題や技術的な課題を、コミュニティやチームのサポートで解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を享受しましょう。
+    - **お祭りプロモーションとプレゼント**: プレゼントやお祭りプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 19: Detecting Obstacles
+Video 19: 障害物検知
 ==============================
 
-Learn how to use an ESP32 module and an infrared obstacle avoidance sensor to detect obstacles, with practical demonstrations including buzzer feedback.
+ESP32モジュールと赤外線障害物回避センサーを使用して障害物を検知する方法を学び、ブザーのフィードバックを含む実演を行います。
 
-* **Starter Kit Components**: Detailed look at the ESP32 starter kit from SunFounder.
-* **Obstacle Avoidance Module**: Explains the module's operation, wiring, and adjustment.
-* **Arduino Setup**: Setting up the Arduino IDE for ESP32 development.
-* **Coding Walkthrough**: Guide to coding for obstacle detection and buzzer feedback.
-* **Sensitivity Adjustment**: How to adjust the module's sensitivity for reliable detection.
+* **スターターキットのコンポーネント**: SunFounderのESP32スターターキットの詳細な紹介。
+* **障害物回避モジュール**: モジュールの操作方法、配線、および調整方法を説明。
+* **Arduinoセットアップ**: ESP32開発のためのArduino IDEのセットアップ。
+* **コーディングの解説**: 障害物検知とブザーフィードバックのためのコーディングガイド。
+* **感度調整**: 信頼性の高い検知のためのモジュールの感度調整方法。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/yMa2FOhpesU?si=80Z-WK_FstxI8DeT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_ir_obstacle`
-
 

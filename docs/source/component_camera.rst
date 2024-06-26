@@ -1,34 +1,33 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Communityへようこそ！Facebookで仲間と一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **参加のメリット**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**：購入後の問題や技術的な課題をコミュニティとチームの助けを借りて解決。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換。
+    - **限定プレビュー**：新製品の発表や先行情報に早期アクセス。
+    - **特別割引**：最新製品の独占割引を享受。
+    - **イベントとプレゼント**：イベントやプレゼント企画に参加。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求と創造を楽しむ準備はできましたか？クリックして今日から参加しましょう：[|link_sf_facebook|]！
 
-Camera
+カメラ
 ============
 
 .. image:: img/camera.png
     :width: 200
     :align: center
 
-The OV2640 camera module is compact, measuring just 21mm in length. It is equipped with a 1/4-inch lens and an aperture of f/2.4, offering a broad field of view of 68 degrees. This module delivers high-resolution images with a pixel count of 2 million and a maximum resolution of 1600x1200. It utilizes the DVP interface, making it versatile for a variety of applications.
+OV2640カメラモジュールは、長さわずか21mmのコンパクトなサイズです。1/4インチのレンズとf/2.4の絞りを備えており、視野角は68度の広範囲をカバーします。このモジュールは200万画素の高解像度画像を提供し、最大1600x1200の解像度を誇ります。DVPインターフェースを使用しており、さまざまな用途に対応します。
 
-**Specifications**
+**仕様**
 
-* **Model**: OV2640
-* **Length**: 21mm
-* **Pixels**: 2 Million
-* **Field of View**: 68°
-* **Interface**: DVP
-* **Lens Size**: 1/4
-* **Resolution**: 1600x1200
-* **Aperture**: f/2.4
-
+* **モデル**: OV2640
+* **長さ**: 21mm
+* **画素数**: 200万
+* **視野角**: 68°
+* **インターフェース**: DVP
+* **レンズサイズ**: 1/4インチ
+* **解像度**: 1600x1200
+* **絞り**: f/2.4

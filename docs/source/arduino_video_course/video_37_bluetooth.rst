@@ -1,38 +1,35 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
 Video 37: Bluetooth
 ====================================================
 
-Learn how to set up Bluetooth Low Energy (BLE) communication between an ESP32 module and a smartphone, including pairing, sending, and receiving messages using the Arduino IDE and the Light Blue app.
+ESP32モジュールとスマートフォン間でBluetooth Low Energy (BLE)通信を設定し、Arduino IDEとLight Blueアプリを使用してペアリング、メッセージの送受信を行う方法を学びます。
 
-* **BLE Communication Setup**: Introduction to setting up BLE communication using an ESP32 module.
-* **Light Blue App Installation**: Instructions on installing and using the Light Blue app for BLE testing with a smartphone.
-* **UUID Generation**: How to generate a unique UUID for BLE services to ensure unique identification.
-* **Arduino Code Walkthrough**: Detailed explanation of the Arduino code necessary for establishing BLE communication.
-* **Device Pairing and Messaging**: Step-by-step guide on pairing the ESP32 with a smartphone and exchanging messages.
-* **Practical Demonstration**: Real-time demonstration of sending and receiving messages between the ESP32 and a smartphone via BLE.
+* **BLE通信の設定**: ESP32モジュールを使用してBLE通信を設定する方法の紹介。
+* **Light Blueアプリのインストール**: スマートフォンでBLEテストを行うためのLight Blueアプリのインストールと使用方法。
+* **UUID生成**: BLEサービスの一意の識別を保証するためのユニークなUUIDの生成方法。
+* **Arduinoコードの説明**: BLE通信を確立するために必要なArduinoコードの詳細な説明。
+* **デバイスのペアリングとメッセージング**: ESP32とスマートフォンをペアリングし、メッセージを交換するためのステップバイステップガイド。
+* **実践デモンストレーション**: ESP32とスマートフォン間でBLEを介してメッセージを送受信するリアルタイムデモ。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/kA_IJtytxbs?si=_N1Xewi0qor7_nib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_bluetooth`
-
-

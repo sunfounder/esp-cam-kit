@@ -1,38 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 42: Capturing Photos
+Video 42: 写真の撮影
 =====================================
 
-Learn how to capture photos using the SunFounder ESP32 camera extension board, from setting up the hardware to understanding the code and retrieving the captured photos.
+SunFounder ESP32カメラ拡張ボードを使用して写真を撮影する方法を学びます。ハードウェアのセットアップからコードの理解、撮影した写真の取得までをカバーします。
 
-* **Introduction**: Explore the process of capturing photos with the ESP32 camera extension board.
-* **Camera Extension Board Setup**: Follow instructions for connecting the ESP32 board and camera extension board.
-* **Code Explanation**: Understand the code logic for capturing and saving photos on the micro SD card.
-* **Photo Numbering**: Learn about the numbering system used for saving photos and storing them on the micro SD card.
-* **Camera Resolution**: Discover the resolution capabilities of the OV2640 camera model used in the setup.
-* **Arduino IDE Setup**: Step-by-step guide for configuring the Arduino IDE to upload the code and operate the camera extension board.
+* **概要**: ESP32カメラ拡張ボードで写真を撮影するプロセスを探ります。
+* **カメラ拡張ボードのセットアップ**: ESP32ボードとカメラ拡張ボードを接続する手順に従います。
+* **コードの説明**: 写真を撮影し、micro SDカードに保存するためのコードロジックを理解します。
+* **写真の番号付け**: 写真を保存し、micro SDカードに保存するために使用される番号付けシステムについて学びます。
+* **カメラの解像度**: 設定に使用されるOV2640カメラモデルの解像度の能力を発見します。
+* **Arduino IDEのセットアップ**: Arduino IDEを設定してコードをアップロードし、カメラ拡張ボードを操作するためのステップバイステップガイド。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/1Sjx9tDOF-k?si=1RYiFu4FB88sRsAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_take_photo_sd`
-
 

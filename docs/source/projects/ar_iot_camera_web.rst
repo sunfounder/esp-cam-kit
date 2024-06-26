@@ -1,35 +1,31 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32についての探求を仲間と共に深めましょう。
 
-    **Why Join?**
+    **なぜ参加するのか？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: 私たちのコミュニティとチームの助けを借りて、購入後の問題や技術的な課題を解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **独占プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の限定割引を楽しめます。
+    - **フェスティブプロモーションとギブアウェイ**: ギブアウェイやホリデープロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 一緒に探求し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして今日参加しましょう！
 
 .. _iot_camera_web:
 
-
-
-2.13 Camera Web Server
+2.13 カメラウェブサーバー
 =============================
 
-This project combines the ESP32 board with a camera module to stream high-quality video over a local network. 
-Set up your own camera system effortlessly and monitor any location in real-time.
+このプロジェクトでは、ESP32ボードとカメラモジュールを組み合わせて、高品質のビデオをローカルネットワーク上でストリーミングします。手軽にカメラシステムをセットアップし、リアルタイムで任意の場所を監視しましょう。
 
-With the project's web interface, you can access and control the camera feed from any device connected to the network. 
-Customize camera settings to optimize the streaming experience and easily adjust settings with the user-friendly interface.
+プロジェクトのウェブインターフェイスを使用すれば、ネットワークに接続された任意のデバイスからカメラフィードにアクセスして制御できます。ユーザーフレンドリーなインターフェイスで、ストリーミング体験を最適化し、設定を簡単に調整できます。
 
-Enhance your surveillance or live streaming capabilities with the versatile ESP32 Camera Streaming project. Monitor your home, office, or any desired location with ease and reliability.
+この多用途なESP32カメラストリーミングプロジェクトを使用して、監視やライブストリーミングの機能を強化しましょう。家庭、オフィス、または任意の場所を簡単かつ信頼性を持って監視できます。
 
-**Required Components**
+**必要なコンポーネント**
 
-In this project, we need the following components. 
+このプロジェクトでは、以下のコンポーネントが必要です。
 
 
 
@@ -37,17 +33,17 @@ In this project, we need the following components.
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - コンポーネント紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
 
-**How to do?**
+**手順**
 
-#. First plug in the camera.
+#. まずカメラを接続します。
 
     .. raw:: html
 
@@ -56,11 +52,11 @@ In this project, we need the following components.
             Your browser does not support the video tag.
         </video>
 
-#. Then, connect ESP32-WROOM-32E to the computer using the USB cable.
+#. 次に、USBケーブルを使用してESP32-WROOM-32Eをコンピュータに接続します。
 
     .. image:: img/plugin_esp32.png
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. このコードをダウンロードするか、Arduino IDEに直接コピーします。
 
     .. note::
 
@@ -71,7 +67,7 @@ In this project, we need the following components.
         <iframe src=https://create.arduino.cc/editor/sunfounder01/15e00b39-34e1-49f9-b039-f10053d31407/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
         
 
-#. Locate the following lines and modify them with your ``<SSID>`` and ``<PASSWORD>``.
+#. 以下の行を見つけて、 ``<SSID>`` と ``<PASSWORD>`` で修正します。
 
     .. code-block::  Arduino
 
@@ -79,17 +75,17 @@ In this project, we need the following components.
         const char* ssid = "<SSID>";
         const char* password = "<PASSWORD>";
 
-#. Now, enable **PSRAM**.
+#. 次に、 **PSRAM** を有効にします。
 
     .. image:: img/sp230516_150554.png
 
-#. Set the partition scheme to **Huge APP (3MB No OTA/1MB SPIFFS)**.
+#. パーティションスキームを **Huge APP (3MB No OTA/1MB SPIFFS)** に設定します。
 
     .. image:: img/sp230516_150840.png
 
-#. After selecting the correct board (ESP32 Dev Module) and port, click the "Upload" button.
+#. 正しいボード（ESP32 Dev Module）とポートを選択した後、"Upload" ボタンをクリックします。
 
-#. You will see a successful WiFi connection message and the assigned IP address in the Serial Monitor.
+#. シリアルモニタにWiFi接続成功メッセージと割り当てられたIPアドレスが表示されます。
 
     .. code-block::
 
@@ -99,15 +95,15 @@ In this project, we need the following components.
         Starting stream server on port: '81'
         Camera Ready! Use 'http://192.168.18.77' to connect
 
-#. Enter the IP address in your web browser. You will see a web interface where you can click **Start Stream** to view the camera feed.
+#. ウェブブラウザにIPアドレスを入力します。ウェブインターフェイスが表示され、 **Start Stream** をクリックしてカメラフィードを表示できます。
 
     .. image:: img/sp230516_151521.png
 
-#. Scroll back to the top of the page, where you will see the live camera feed. You can adjust the settings on the left side of the interface.
+#. ページの上部にスクロールすると、ライブカメラフィードが表示されます。インターフェイスの左側で設定を調整できます。
 
     .. image:: img/sp230516_180520.png
 
 .. note:: 
 
-    * This ESP32 module supports Face Detection. To enable it, set the resolution to 240x240 and toggle the Face Detection option at the bottom of the interface.
-    * This ESP32 module does not support Face Recognition.
+    * このESP32モジュールは顔検出をサポートしています。有効にするには、解像度を240x240に設定し、インターフェイスの下部にある顔検出オプションを切り替えます。
+    * このESP32モジュールは顔認識をサポートしていません。

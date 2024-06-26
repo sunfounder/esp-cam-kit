@@ -1,38 +1,37 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！他の愛好家たちと一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**：購入後の問題や技術的な課題を、コミュニティとチームの助けを借りて解決します。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く入手できます。
+    - **特別割引**：最新製品の限定割引を享受できます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
-Video 12: Using WS2812 RGB Strip
+Video 12: WS2812 RGBストリップの使用方法
 =============================================================================
 
-This tutorial is perfect to learn how to utilize the WS2812 LED strip with ESP32 for creating various colors and controlling individual LEDs:
+このチュートリアルは、ESP32を使用してWS2812 LEDストリップを操作し、さまざまな色を作成し、個々のLEDを制御する方法を学ぶのに最適です。
 
-* **WS2812 LED Strip Introduction**: A flexible strip with adhesive back, 5050 LEDs, and individual control capabilities.
-* **Technical Details**: The WS2812 LEDs support 256 color levels and can be cascaded via a single wire. Each LED is 5mm x 5mm with a specified operating voltage and temperature range.
-* **Color Control**: Learn to create any color with RGB (Red, Green, Blue) combinations. Includes understanding of color codes in both binary and hexadecimal formats.
-* **Wiring Guide**: Simple wiring with power, ground, and data connections. The data line connects to pin 14 of the ESP32.
-* **Arduino Programming**: Detailed explanation of Arduino code for controlling the strip.
-* **Interactive Projects**: Step-by-step instructions for several projects like a walking light LED, back and forth light movement, and controlling individual LEDs with specific colors.
-* **Color Picker Tool**: How to use an RGB color picker to understand and choose specific colors for the LEDs.
+* **WS2812 LEDストリップの紹介**：粘着バック付きの柔軟なストリップ、5050 LED、および個別制御の機能。
+* **技術的詳細**：WS2812 LEDは256色レベルをサポートし、単一のワイヤーを介してカスケード接続が可能です。各LEDは5mm x 5mmで、指定された動作電圧と温度範囲があります。
+* **カラーコントロール**：RGB（赤、緑、青）の組み合わせで任意の色を作成する方法を学びます。バイナリ形式と16進数形式のカラーコードの理解を含みます。
+* **配線ガイド**：電源、グランド、データ接続のシンプルな配線。データラインはESP32のピン14に接続します。
+* **Arduinoプログラミング**：ストリップを制御するためのArduinoコードの詳細な説明。
+* **インタラクティブプロジェクト**：ウォーキングライトLED、前後のライト移動、および特定の色で個々のLEDを制御するプロジェクトのステップバイステップの指示。
+* **カラーピッカーツール**：RGBカラーピッカーを使用して、特定の色を理解し選択する方法。
 
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/CdYeKW2N-nY?si=9dKvXzDMonp31L0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_rgb_strip`
+

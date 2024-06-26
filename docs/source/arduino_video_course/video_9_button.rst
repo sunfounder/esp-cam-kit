@@ -1,37 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32の世界を他の愛好家たちと一緒に深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**：購入後の問題や技術的な課題を、コミュニティとチームの助けを借りて解決します。
+    - **学びと共有**：スキル向上のためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く入手できます。
+    - **特別割引**：最新製品の限定割引を享受できます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
-Video 9: Toggle LED with Push Button
+Video 9: プッシュボタンでLEDをトグル
 =============================================
 
-This tutorial is aimed at beginners, providing a practical guide to using a push button to control an LED with the ESP32.
+このチュートリアルは初心者向けで、ESP32を使用してプッシュボタンでLEDを制御する実践的なガイドを提供します。
 
-* **Project Focus**: Teaches how to read a push button's state and toggle an LED on and off.
-* **Components**: Includes ESP32, breadboard, jumper wires, resistors, LED, and push button.
-* **Wiring and Setup**: Provides wiring instructions for connecting the push button and LED to ESP32.
-* **Arduino Code**: Explains the code for button state reading and LED toggling.
-* **Practical Demonstration**: Showcases the LED being toggled using the push button.
+* **プロジェクトの焦点**：プッシュボタンの状態を読み取り、LEDのオンとオフを切り替える方法を教えます。
+* **コンポーネント**：ESP32、ブレッドボード、ジャンパーワイヤ、抵抗、LED、プッシュボタンを含みます。
+* **配線とセットアップ**：プッシュボタンとLEDをESP32に接続するための配線手順を提供します。
+* **Arduinoコード**：ボタンの状態を読み取り、LEDを切り替えるためのコードを説明します。
+* **実践デモ**：プッシュボタンを使用してLEDを切り替える様子を紹介します。
 
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/_tLesIbpB8U?si=5vzXjAwNdHTgWEgx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_button`

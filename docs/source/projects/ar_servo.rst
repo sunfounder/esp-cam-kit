@@ -1,30 +1,31 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounderのRaspberry Pi & Arduino & ESP32 Enthusiasts Communityへようこそ！Facebookで一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **なぜ参加するのか？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**：コミュニティとチームの助けを借りて、販売後の問題や技術的な課題を解決しましょう。
+    - **学び＆共有**：スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **限定プレビュー**：新製品の発表や予告編をいち早く入手しましょう。
+    - **特別割引**：最新製品の限定割引をお楽しみください。
+    - **フェスティブプロモーションとプレゼント**：プレゼントやホリデープロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今すぐ参加しましょう！
 
 .. _ar_servo:
 
-2.7 Driver a Servo
-======================
-A Servo is a type of position-based device known for its ability to maintain specific angles and deliver precise rotation. This makes it highly desirable for control systems that demand consistent angle adjustments. It's not surprising that Servos have found extensive use in high-end remote-controlled toys, from airplane models to submarine replicas and sophisticated remote-controlled robots.
+2.7 サーボモーターを駆動する
+============================
 
-In this intriguing adventure, we'll challenge ourselves to manipulate the Servo in a unique way - by making it sway! This project offers a brilliant opportunity to dive deeper into the dynamics of Servos, sharpening your skills in precise control systems and offering a deeper understanding of their operation.
+サーボは特定の角度を維持し、正確な回転を提供する能力で知られる位置ベースのデバイスの一種です。これにより、一貫した角度調整が求められる制御システムにおいて非常に有用です。サーボは、高級リモートコントロール玩具、飛行機モデル、潜水艦レプリカ、複雑なリモートコントロールロボットなどで広く使用されています。
 
-Are you ready to make the Servo dance to your tunes? Let's embark on this exciting journey!
+この興味深いプロジェクトでは、サーボを独特な方法で操作し、揺れ動かすことに挑戦します！このプロジェクトは、サーボの動力学を深く理解し、正確な制御システムのスキルを向上させ、その操作の理解を深める素晴らしい機会を提供します。
 
-**Required Components**
+サーボをあなたのメロディに合わせて踊らせる準備はできましたか？さあ、このエキサイティングな旅に出発しましょう！
 
-In this project, we need the following components. 
+**必要な部品**
+
+このプロジェクトでは、以下の部品が必要です。
 
 
 
@@ -32,50 +33,50 @@ In this project, we need the following components.
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - 部品紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Several Jump Wires
+    *   - 数本のジャンパーワイヤー
         - |link_wires_buy|
-    *   - Servo
+    *   - サーボモーター
         - |link_servo_buy|
 
 
-**Available Pins**
+**利用可能なピン**
 
-Here is a list of available pins on the ESP32 board for this project.
+このプロジェクトでESP32ボードに利用可能なピンの一覧です。
 
 .. list-table::
     :widths: 5 20 
 
-    * - Available Pins
+    * - 利用可能なピン
       - IO13, IO12, IO14, IO27, IO26, IO25, IO33, IO32, IO15, IO2, IO0, IO4, IO5, IO18, IO19, IO21, IO22, IO23
 
 
-**Schematic**
+**回路図**
 
 .. image:: img/circuit_4.3_servo.png
 
-**Wiring**
+**配線**
 
-* Orange wire is signal and connected to IO25.
-* Red wire is VCC and connected to 5V.
-* Brown wire is GND and connected to GND.
+* オレンジのワイヤーは信号で、IO25に接続します。
+* 赤のワイヤーはVCCで、5Vに接続します。
+* 茶色のワイヤーはGNDで、GNDに接続します。
 
 .. image:: img/4.3_swinging_servo_bb.png
 
-**Code**
+**コード**
 
-Download this code or copy this code to the Arduino IDE directly.
+このコードをダウンロードするか、Arduino IDEに直接コピーします。
 
 .. note::
 
     * :ref:`unknown_com_port`
-    * The ``ESP32Servo`` library is used here, you can install it from the **Library Manager**.
+    * ここでは ``ESP32Servo`` ライブラリを使用します。ライブラリマネージャーからインストールできます。
 
         .. image:: img/servo_lib.png
 
@@ -83,68 +84,68 @@ Download this code or copy this code to the Arduino IDE directly.
 
     <iframe src=https://create.arduino.cc/editor/sunfounder01/34c7969e-fee3-413c-9fe7-9d38ca6fb906/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Once you finish uploading the code, you can see the servo arm rotating in the range 0°~180°.
+コードのアップロードが完了すると、サーボアームが0°〜180°の範囲で回転するのが見えます。
 
-**How it works?**
+**仕組みはどうなっていますか？**
 
-#. Include the |link_esp32servo| library: This line imports the ESP32Servo library, which is required to control the servo motor.
+#. |link_esp32servo| ライブラリをインクルードします。この行は、サーボモーターを制御するために必要なESP32Servoライブラリをインポートします。
 
     .. code-block:: arduino
 
         #include <ESP32Servo.h>
 
-#. Define the servo and the pin it is connected to: This section declares a Servo object (``myServo``) and a constant integer (``servoPin``) to represent the pin that the servo motor is connected to (pin 25).
+#. サーボと接続ピンを定義します。このセクションでは、Servoオブジェクト（ ``myServo`` ）とサーボモーターが接続されているピン（ピン25）を表す定数整数（ ``servoPin`` ）を宣言します。
 
     .. code-block:: arduino
 
-        // Define the servo and the pin it is connected to
+        // サーボと接続ピンを定義する
         Servo myServo;
         const int servoPin = 25;
 
-#. Define the minimum and maximum pulse widths for the servo: This section sets the minimum and maximum pulse widths for the servo motor (0.5 ms and 2.5 ms, respectively).
+#. サーボの最小および最大パルス幅を定義します。このセクションでは、サーボモーターの最小および最大パルス幅（それぞれ0.5 msと2.5 ms）を設定します。
 
     .. code-block:: arduino
 
-        // Define the minimum and maximum pulse widths for the servo
+        // サーボの最小および最大パルス幅を定義する
         const int minPulseWidth = 500; // 0.5 ms
         const int maxPulseWidth = 2500; // 2.5 ms
 
 
-#. The ``setup`` function initializes the servo motor by attaching it to the specified pin and setting its pulse width range. It also sets the PWM frequency for the servo to the standard 50Hz.
+#. ``setup`` 関数は、サーボモーターを指定されたピンに接続し、そのパルス幅の範囲を設定することで初期化します。また、サーボのPWM周波数を標準の50Hzに設定します。
 
     .. code-block:: arduino
 
         void setup() {
-            // Attach the servo to the specified pin and set its pulse width range
+            // サーボを指定されたピンに接続し、そのパルス幅の範囲を設定する
             myServo.attach(servoPin, minPulseWidth, maxPulseWidth);
 
-            // Set the PWM frequency for the servo
-            myServo.setPeriodHertz(50); // Standard 50Hz servo
+            // サーボのPWM周波数を設定する
+            myServo.setPeriodHertz(50); // 標準の50Hzサーボ
         }
     
-    * ``attach (int pin, int min, int max)``: This function attaches the servo motor to the specified GPIO pin and sets the minimum and maximum pulse widths for the servo.
+    * ``attach (int pin, int min, int max)``: この関数は、サーボモーターを指定されたGPIOピンに接続し、サーボの最小および最大パルス幅を設定します。
 
-        * ``pin``: The GPIO pin number that the servo is connected to. 
-        * The ``min`` and ``max``: the minimum and maximum pulse widths, respectively, in microseconds. These values define the range of motion of the servo motor.
+        * ``pin``: サーボが接続されているGPIOピンの番号。
+        * ``min`` と ``max``: 最小および最大パルス幅（マイクロ秒単位）。これらの値はサーボモーターの動作範囲を定義します。
 
-    * ``setPeriodHertz(int hertz)``: This function sets the PWM frequency for the servo motor in hertz.
+    * ``setPeriodHertz(int hertz)``: この関数は、サーボモーターのPWM周波数をヘルツ単位で設定します。
 
-        * ``hertz``: The desired PWM frequency in hertz. The default PWM frequency for servos is 50Hz, which is suitable for most applications. 
+        * ``hertz``: 希望するPWM周波数（ヘルツ単位）。サーボのデフォルトのPWM周波数は50Hzであり、ほとんどのアプリケーションに適しています。 
 
 
-#. The ``loop`` function is the main part of the code that continuously runs. It rotates the servo motor from 0 to 180 degrees, then back to 0 degrees. This is done by mapping the angle to the corresponding pulse width and updating the servo motor with the new pulse width value.
+#. ``loop`` 関数はコードのメイン部分で、連続して実行されます。この関数は、サーボモーターを0度から180度まで回転させ、次に0度に戻します。これは、角度を対応するパルス幅にマッピングし、新しいパルス幅値でサーボモーターを更新することで行われます。
 
     .. code-block:: arduino
 
         void loop() {
-            // Rotate the servo from 0 to 180 degrees
+            // サーボを0度から180度まで回転させる
             for (int angle = 0; angle <= 180; angle++) {
                 int pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
                 myServo.writeMicroseconds(pulseWidth);
                 delay(15);
             }
     
-            // Rotate the servo from 180 to 0 degrees
+            // サーボを180度から0度まで回転させる
             for (int angle = 180; angle >= 0; angle--) {
                 int pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
                 myServo.writeMicroseconds(pulseWidth);
@@ -152,9 +153,8 @@ Once you finish uploading the code, you can see the servo arm rotating in the ra
             }
         }
 
-    * ``writeMicroseconds(int value)``: This function sets the pulse width of the servo motor in microseconds. 
+    * ``writeMicroseconds(int value)``: この関数は、サーボモーターのパルス幅をマイクロ秒単位で設定します。 
     
-        * ``value``: The desired pulse width in microseconds. 
+        * ``value``: 希望するパルス幅（マイクロ秒単位）。
         
-        The ``writeMicroseconds(int value)`` function takes an integer value as its argument, representing the desired pulse width in microseconds. This value should typically fall within the range specified by the minimum and maximum pulse widths (``minPulseWidth`` and ``maxPulseWidth``) defined earlier in the code. The function then sets the pulse width for the servo motor, causing it to move to the corresponding position.
-        
+        ``writeMicroseconds(int value)`` 関数は、引数として希望するパルス幅をマイクロ秒単位で受け取ります。この値は通常、コード内で定義された最小および最大パルス幅（ ``minPulseWidth`` と ``maxPulseWidth`` ）の範囲内でなければなりません。この関数は、サーボモーターのパルス幅を設定し、それによってサーボを対応する位置に移動させます。

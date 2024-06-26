@@ -1,29 +1,28 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32の世界を他の愛好家たちと一緒に深く探求しましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門的なサポート**：購入後の問題や技術的な課題を、コミュニティとチームの助けを借りて解決します。
+    - **学びと共有**：スキル向上のためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**：新製品の発表やプレビューをいち早く入手できます。
+    - **特別割引**：最新製品の限定割引を享受できます。
+    - **フェスティブプロモーションとギブアウェイ**：ギブアウェイやフェスティブプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探索し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして、今日参加しましょう！
 
- 
-Video 5: LED Fade - Controlling LED Brightness
+Video 5: LEDフェード - LEDの明るさを制御する
 =======================================================
 
-This tutorial covers controlling LED brightness by fading in or out using the SunFounder ESP32 module:
+このチュートリアルでは、SunFounder ESP32モジュールを使用してLEDの明るさをフェードインまたはフェードアウトする方法を説明します。
 
-* **LED Brightness Control**: Explains controlling LED brightness using PWM (Pulse Width Modulation). Discusses digital signals, duty cycles, and how varying duty cycles control LED brightness.
-* **Wiring Diagram and Setup**: Provides a detailed wiring diagram for connecting an LED with a 220 Ohm resistor to the ESP32. Demonstrates the physical setup on a breadboard.
-* **Code Explanation**: Describes the Arduino code for fading an LED. Covers functions like ``ledcSetup``, ``ledcAttachPin``, and ``ledcWrite``, explaining parameters and usage.
-* **Practical Demonstration**: Shows how to upload the code to ESP32, check the wiring, and observe the LED fading effect. Tips for adjusting fade speed and brightness levels.
+* **LEDの明るさ制御**：PWM（パルス幅変調）を使用してLEDの明るさを制御する方法を説明します。デジタル信号、デューティサイクル、およびデューティサイクルの変化がLEDの明るさをどのように制御するかを解説します。
+* **配線図とセットアップ**：220オームの抵抗を使ってESP32にLEDを接続するための詳細な配線図を提供し、ブレッドボード上での実際のセットアップを示します。
+* **コードの説明**：LEDをフェードさせるためのArduinoコードを説明します。 ``ledcSetup`` 、 ``ledcAttachPin`` 、および ``ledcWrite`` といった関数について、パラメータと使用方法を詳しく説明します。
+* **実際のデモンストレーション**：コードをESP32にアップロードし、配線を確認し、LEDのフェード効果を観察する方法を示します。フェード速度と明るさのレベルを調整するためのヒントも提供します。
 
-This comprehensive guide is ideal for beginners to learn about LED control with ESP32, offering step-by-step instructions, code details, and practical demonstrations.
+この包括的なガイドは、ESP32を使用したLED制御について初心者に学んでいただくのに最適で、ステップバイステップの指示、コードの詳細、および実際のデモンストレーションを提供します。
 
 **Video**
 
@@ -31,6 +30,6 @@ This comprehensive guide is ideal for beginners to learn about LED control with 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/O_tk0itHccs?si=rO9GmMaJpdHvDuEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_fading`

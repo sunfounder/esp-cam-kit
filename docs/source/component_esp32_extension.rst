@@ -1,27 +1,27 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Communityへようこそ！Facebookで仲間と一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **参加のメリット**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**：購入後の問題や技術的な課題をコミュニティとチームの助けを借りて解決。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換。
+    - **限定プレビュー**：新製品の発表や先行情報に早期アクセス。
+    - **特別割引**：最新製品の独占割引を享受。
+    - **イベントとプレゼント**：イベントやプレゼント企画に参加。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求と創造を楽しむ準備はできましたか？クリックして今日から参加しましょう：[|link_sf_facebook|]！
 
 .. _cpn_esp32_camera_extension:
 
-ESP32 Camera Extension
-=======================
+ESP32 カメラ拡張ボード
+==========================
 
-We have designed an expansion board that enables you to fully utilize the camera and SD card functionalities of the ESP32 WROOM 32E. By combining the OV2640 camera, Micro SD, and ESP32 WROOM 32E, you get an all-in-one expansion board.
+私たちは、ESP32 WROOM 32EのカメラとSDカード機能を最大限に活用できる拡張ボードを設計しました。OV2640カメラ、Micro SD、ESP32 WROOM 32Eを組み合わせることで、オールインワンの拡張ボードが完成しました。
 
-The board provides two types of GPIO headers - one with female headers, perfect for quick prototyping projects. The other type features screw terminals, ensuring stable wire connections and making it suitable for IoT projects.
+ボードには2種類のGPIOヘッダがあり、一つはクイックプロトタイピングプロジェクトに最適なメスヘッダ、もう一つは安定した配線接続を保証するスクリュー端子です。これにより、IoTプロジェクトにも適しています。
 
-Additionally, you can power your project using a single 3.7V 18650 battery. If the battery runs low, you can conveniently charge it by simply plugging in a 5V Micro USB cable. This makes it a great tool for outdoor projects and remote applications.
+さらに、単一の3.7V 18650バッテリーを使用してプロジェクトに電力を供給できます。バッテリーが低下した場合でも、5V Micro USBケーブルを接続するだけで簡単に充電できます。これにより、屋外プロジェクトやリモートアプリケーションに最適です。
 
 .. image:: img/esp32_camera_extension.jpg
     :width: 400
@@ -32,105 +32,104 @@ Additionally, you can power your project using a single 3.7V 18650 battery. If t
     :align: center
 
 
-Specification Table
+仕様表
 ------------------------
 
 .. list-table::
     :widths: 30 10 10 10 10
     :header-rows: 1
 
-    *   - Parameter
-        - Minimum Value
-        - Typical Value
-        - Maximum Value
-        - Unit
-    *   - Battery Shutdown Current
+    *   - パラメータ
+        - 最小値
+        - 標準値
+        - 最大値
+        - 単位
+    *   - バッテリーシャットダウン電流
         - \-
         - \-
         - 60
         - uA
-    *   - DC-DC Output Voltage
+    *   - DC-DC出力電圧
         - 4.9129
         - 5
         - 5.0889
         - V
-    *   - DC-DC Overtemperature Protection
+    *   - DC-DC過温度保護
         - \-
         - 150
         - \-
         - ℃
-    *   - Battery Charging Current
+    *   - バッテリー充電電流
         - \-
         - \-
         - 500
         - mA
-    *   - Charging Overtemperature Protection
+    *   - 充電過温度保護
         - \-
         - 130
         - \-
         - ℃
-    *   - Input Low Voltage Switching Threshold
+    *   - 入力低電圧スイッチングしきい値
         - \-
         - 3.4
         - \-
         - V
 
-
-Interface Introduction
+インターフェース紹介
 -------------------------
 
 .. image:: img/esp32_camera_extension_pinout.jpg
     :width: 800
     :align: center
 
-* **Power Switch**
-    * Controls the battery's power supply, toggling it on and off.
+* **電源スイッチ**
+    * バッテリーの電源供給を制御し、オンとオフを切り替えます。
 
-* **Charging Port**
-    * Upon connecting a 5V/0.5A Micro USB cable, the battery can be charged.
+* **充電ポート**
+    * 5V/0.5AのMicro USBケーブルを接続すると、バッテリーを充電できます。
 
-* **Battery Port**
-    * Features a PH2.0-2P interface, compatible with 3.7V 18650 lithium batterry.
-    * Provides power to both the ESP32 WROOM 32E and ESP32 Camera Extension.
+* **バッテリーポート**
+    * PH2.0-2Pインターフェースを備え、3.7Vの18650リチウムバッテリーに対応。
+    * ESP32 WROOM 32EとESP32カメラ拡張ボードに電力を供給します。
 
-* **ESP32 Pin Headers**
-    * Intended for the ESP32 WROOM 32E module. Pay close attention to its orientation; ensure both Micro USB ports face the same side to avoid incorrect placement.
+* **ESP32ピンヘッダー**
+    * ESP32 WROOM 32Eモジュール用です。向きを注意して、両方のMicro USBポートが同じ側に向くようにしてください。逆に配置しないように注意してください。
 
-* **GPIO Headers**
-    * **Female Headers**: Used to connect various components to the ESP32, perfect for quick prototyping projects.
-    * **Screw Terminal**: 3.5mm pitch 14pin screw terminal, ensuring stable wire connections and making it suitable for IoT projects.
+* **GPIOヘッダー**
+    * **メスヘッダー**：ESP32にさまざまなコンポーネントを接続するために使用され、迅速なプロトタイピングプロジェクトに最適です。
+    * **スクリュー端子**：ピッチ3.5mmの14ピンのスクリュー端子で、安定した配線接続を保証し、IoTプロジェクトに適しています。
 
-* **Indicator Lights**
-    * **PWR**: Lights up when the battery is powered or when a Micro USB is directly plugged into the ESP32.
-    * **CHG**: Illuminates upon connecting a Micro USB to the board's charging port, signifying charging onset. It will turn off once the battery is fully charged.
+* **インジケータライト**
+    * **PWR**：バッテリーが給電されているとき、またはMicro USBが直接ESP32に接続されているときに点灯します。
+    * **CHG**：Micro USBをボードの充電ポートに接続すると点灯し、充電開始を示します。バッテリーが完全に充電されると消灯します。
 
-* **Micro SD Connector**
-    * Spring-loaded slot for the easy insertion and ejection of Micro SD card.
+* **Micro SDコネクター**
+    * Micro SDカードの挿入と取り出しを容易にするスプリング付きスロットです。
 
-* **24-pin 0.5mm FFC / FPC connector**
-    * Designed for the OV2640 camera, making it suitable for various vision-related projects.
+* **24ピン0.5mm FFC / FPCコネクター**
+    * OV2640カメラ用に設計されており、さまざまなビジョン関連のプロジェクトに適しています。
 
 
-Pin Mapping Tables
+ピンマッピングテーブル
 --------------------------------
 
-The ESP32 WROOM 32E's pinout diagram can be found in :ref:`esp32_pinout`. 
+ESP32 WROOM 32Eのピン配置図は、:ref:`esp32_pinout` にあります。
 
-However, when the ESP32 WROOM 32E is inserted into the extension board, some of its pins may also be used to drive the Micro SD card or a camera. 
+ただし、ESP32 WROOM 32Eを拡張ボードに挿入すると、一部のピンがMicro SDカードやカメラを駆動するために使用される場合があります。
 
-Consequently, pull-up or pull-down resistors have be added to these pins. If you're using these pins as inputs, it's crucial to account for these resistors as they can affect input levels.
+したがって、これらのピンにはプルアップまたはプルダウン抵抗が追加されています。これらのピンを入力として使用する場合、これらの抵抗が入力レベルに影響を与える可能性があるため、注意が必要です。
 
 .. note::
 
-    The onboard 8M PSRAM provides ample RAM for the camera. PSRAM occupies IO16 and IO17. Therefore, the expansion header and expansion screw terminal do not extend IO16 and IO17.
+    オンボードの8M PSRAMはカメラに十分なRAMを提供します。PSRAMはIO16とIO17を占有します。したがって、拡張ヘッダーおよび拡張スクリュー端子はIO16およびIO17を拡張しません。
 
-Here's the pinout table for the right-side pins:
+右側のピンのピンマッピングテーブルは以下の通りです：
 
     .. image:: img/esp32_extension_pinout1.jpg
         :width: 100%
         :align: center
 
-Here's the pinout table for the left-side pins:
+左側のピンのピンマッピングテーブルは以下の通りです：
 
     .. image:: img/esp32_extension_pinout2.jpg
         :width: 100%
@@ -138,17 +137,17 @@ Here's the pinout table for the left-side pins:
 
     .. note::
 
-        There are some specific constraints:
+        いくつかの特定の制約があります：
 
-        * **IO33** is connected to a 4.7K pull-up resistor and a filtering capacitor, which prevents it from driving the WS2812 RGB Strip.
+        * **IO33** は4.7Kのプルアップ抵抗とフィルタリングコンデンサに接続されているため、WS2812 RGBストリップを駆動することはできません。
 
-**Micro SD Connector Pin Mapping Table**
+**Micro SDコネクターのピンマッピングテーブル**
 
 .. list-table::
     :widths: 10 10
     :header-rows: 1
 
-    *   - Micro SD Connector
+    *   - Micro SDコネクター
         - ESP32
     *   - D0
         - IO2
@@ -163,17 +162,16 @@ Here's the pinout table for the left-side pins:
     *   - CMD
         - IO15
 
-**FFC / FPC Connector Pin Mapping Table**
+**FFC / FPCコネクターのピンマッピングテーブル**
 
-The camera interface mainly uses the OV2640, compatible with the 8225 camera. The interface adopts an FFC connector with a 0.5mm pitch 24P flip-down connection.
-
+カメラインターフェースは主にOV2640を使用し、8225カメラと互換性があります。インターフェースは、ピッチ0.5mmの24Pフリップダウン接続のFFCコネクターを採用しています。
 
 .. list-table::
     :widths: 10 10 10
     :header-rows: 1
 
-    *   - Number
-        - FFC / FPC Connector
+    *   - 番号
+        - FFC / FPCコネクター
         - ESP32
     *   - 1
         - Y0
@@ -247,30 +245,29 @@ The camera interface mainly uses the OV2640, compatible with the 8225 camera. Th
     *   - 24
         - NC
         - NC
-
-Interface Insertion Guide
+        
+インターフェース挿入ガイド
 -------------------------------
 
-**Upload Code**
+**コードのアップロード**
 
-    When you need to upload code to the ESP32 WROOM 32E, connect it to your computer using a Micro USB cable.
+    ESP32 WROOM 32Eにコードをアップロードするには、Micro USBケーブルを使用してコンピュータに接続します。
 
     .. image:: img/plugin_esp32.png
         :width: 600
         :align: center
 
-**Inserting the Micro SD Card**
+**Micro SDカードの挿入**
 
-    Gently push in the Micro SD card to secure it in place. Pushing it again will eject it.
+    Micro SDカードをやさしく押し込んで固定します。もう一度押すとカードが排出されます。
 
     .. image:: img/insert_sd.png
         :width: 600
         :align: center
 
-**Attaching the Camera**
+**カメラの取り付け**
 
-    When connecting the camera, ensure the black stripe of the FPC cable is facing upwards and is fully inserted 
-    into the connector.
+    カメラを接続する際は、FPCケーブルの黒いストライプが上向きで、コネクタに完全に挿入されていることを確認してください。
 
     .. raw:: html
 
@@ -279,15 +276,15 @@ Interface Insertion Guide
             Your browser does not support the video tag.
         </video>
 
-**Battery Power and Charging**
+**バッテリーの電源と充電**
 
-    Carefully insert the battery cable into the battery port, avoiding applying too much force to prevent pushing up the battery terminal. If the terminal is pushed up, it's okay as long as the pins are not broken; you can simply press it back into position.
+    バッテリーケーブルをバッテリーポートに慎重に挿入し、端子を押し上げないように注意します。端子が押し上げられても、ピンが壊れていなければ、元の位置に押し戻せば問題ありません。
 
     .. image:: img/plugin_battery.png
         :width: 500
         :align: center
 
-    If the battery is drained, plug in a 5V/0.5A Micro USB to charge it.
+    バッテリーが消耗した場合、5V/0.5AのMicro USBを接続して充電します。
 
     .. image:: img/battery_charge.png
         :width: 500

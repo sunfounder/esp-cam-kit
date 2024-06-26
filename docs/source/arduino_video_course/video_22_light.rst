@@ -1,38 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**: 購入後の問題や技術的な課題を、コミュニティやチームのサポートで解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を享受しましょう。
+    - **お祭りプロモーションとプレゼント**: プレゼントやお祭りプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 22: Feeling The light
+Video 22: 光を感じる
 ====================================================
 
-Learn how to measure and interpret light intensity using a Light Dependent Resistor (LDR) with ESP32, from circuit setup to programming and readings analysis.
+光依存抵抗（LDR）を使用してESP32で光の強度を測定し、解釈する方法を学びましょう。回路設定からプログラミング、読取値の分析までをカバーします。
 
-* **LDR Functionality**: Understand how LDRs react to light and their application in measuring light intensity.
-* **Circuit Setup**: Step-by-step guide on connecting LDR to ESP32, including breadboard arrangement and component connections.
-* **Programming ESP32**: Detailed instructions on writing and uploading code to ESP32 using Arduino IDE to read and interpret light intensity.
-* **Analog-to-Digital Conversion**: Insights into how ESP32 converts analog signals from LDR into digital values for light intensity analysis.
-* **Reading and Analysis**: Demonstrating the process of reading analog values and converting them to voltage for precise light intensity measurement.
-* **Practical Application**: Tips on using these measurements for practical applications, like controlling devices based on light levels.
+* **LDRの機能**: LDRが光に反応する仕組みと、光の強度を測定するための応用方法を理解します。
+* **回路設定**: LDRをESP32に接続するためのステップバイステップのガイド。ブレッドボードの配置と部品の接続を含みます。
+* **ESP32のプログラミング**: Arduino IDEを使用して、光の強度を読み取り、解釈するためのコードの記述とアップロードの詳細な手順。
+* **アナログからデジタルへの変換**: ESP32がLDRからのアナログ信号を光の強度分析のためのデジタル値に変換する仕組みを紹介します。
+* **読取値と分析**: アナログ値を読み取り、それを電圧に変換して光の強度を正確に測定するプロセスを実演します。
+* **実用例**: これらの測定結果を使って、光のレベルに基づいてデバイスを制御するなどの実用的な応用方法のヒント。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/sXWlnOHAo6M?si=gQDkF6WcsCL0_Cpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_photoresistor`
-
 

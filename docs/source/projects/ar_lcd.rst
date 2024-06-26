@@ -1,82 +1,77 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32についての探求を仲間と共に深めましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティとチームの助けを借りて、購入後の問題や技術的な課題を解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **独占プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の限定割引を楽しめます。
+    - **フェスティブプロモーションとギブアウェイ**: ギブアウェイやホリデープロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 一緒に探求し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして今日参加しましょう！
 
 .. _ar_lcd1602:
 
-2.5 I2C Interface
-==========================
+2.5 I2Cインターフェース
+===========================
 
-In this lesson, we'll delve into the capabilities of the I2C interface, a cornerstone for communication between microcontrollers and various peripherals. Our focus will be on utilizing the ESP32’s I2C interface to drive an LCD1602 module for character display.You will learn how to initialize the LCD module, configure display parameters, and send text data to be shown on the screen. Whether you aim to display custom messages, sensor readings, or interactive menus, mastering the LCD1602 will expand your ability to create informative and interactive displays.
+このレッスンでは、マイクロコントローラとさまざまな周辺機器間の通信の基盤であるI2Cインターフェースの機能について詳しく説明します。ここでは、ESP32のI2Cインターフェースを使用して、LCD1602モジュールを駆動し、文字を表示する方法に焦点を当てます。LCDモジュールの初期化、表示パラメータの設定、およびテキストデータの送信方法を学びます。カスタムメッセージ、センサーの読み取り値、またはインタラクティブなメニューを表示することを目指している場合でも、LCD1602をマスターすることで、情報豊かでインタラクティブなディスプレイを作成する能力が広がります。
 
-**Available Pins**
+**使用可能なピン**
 
-Here is a list of available pins on the ESP32 board for this project.
+このプロジェクトで使用するESP32ボードの使用可能なピンの一覧です。
 
 .. list-table::
     :widths: 5 15
     :header-rows: 1
 
-    *   - Available Pins
-        - Usage Description
+    *   - 使用可能なピン
+        - 使用説明
 
     *   - IO21
         - SDA
     *   - IO22
         - SCL
 
-**Required Components**
+**必要なコンポーネント**
 
-In this project, we need the following components. 
-
-
+このプロジェクトで必要なコンポーネントは次のとおりです。
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - コンポーネント紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Several Jump Wires
+    *   - ジャンパーワイヤー
         - |link_wires_buy|
     *   - I2C LCD1602
         - |link_i2clcd1602_buy|
 
-
-
-    
-**Schematic**
+**回路図**
 
 .. image:: img/circuit_2.6_lcd.png
 
-**Wiring**
+**配線図**
 
 .. image:: img/2.6_i2clcd1602_bb.png
     :width: 800
 
-**Code**
+**コード**
 
-#. Download this code or copy this code to the Arduino IDE directly.
-    
+#. このコードをダウンロードするか、Arduino IDEに直接コピーします。
+
 .. note::
     
     * :ref:`unknown_com_port`
-    * The ``LiquidCrystal I2C`` library is used here, you can install it from the **Library Manager**.
+    * ここでは ``LiquidCrystal I2C`` ライブラリを使用しています。 **ライブラリマネージャ** からインストールできます。
 
         .. image:: img/lcd_lib.png
 
@@ -84,86 +79,84 @@ In this project, we need the following components.
 
     <iframe src=https://create.arduino.cc/editor/sunfounder01/31e33e53-67b2-4e29-b78b-f647fd45fb0b/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-When this program is uploaded, the I2C LCD1602 will display the welcome message, "Hello, Sunfounder!", for 3 seconds. After that, the screen will show a "COUNT:" label and the count value, which increments every second.
-
+このプログラムがアップロードされると、I2C LCD1602は3秒間 "Hello, Sunfounder!" のウェルカムメッセージを表示します。その後、画面には「COUNT:」ラベルとカウント値が表示され、毎秒増加します。
 
 .. note:: 
 
-    If the code and wiring are correct, but the LCD still fails to display any content, you can adjust the potentiometer on the back to increase the contrast.
+    コードと配線が正しくてもLCDが表示しない場合、背面のポテンショメータを調整してコントラストを上げることができます。
 
-**How it works?**
+**どのように動作しますか？**
 
-By calling the library ``LiquidCrystal_I2C.h``, you can easily drive the LCD. 
+``LiquidCrystal_I2C.h``ライブラリを呼び出すことで、簡単にLCDを駆動できます。
 
 .. code-block:: arduino
 
     #include <LiquidCrystal_I2C.h>
 
-Library Functions：
+ライブラリの関数：
 
-
-* Creates a new instance of the ``LiquidCrystal_I2C`` class that represents a particular LCD attached to your Arduino board.
+* Arduinoボードに接続された特定のLCDを表す ``LiquidCrystal_I2C`` クラスの新しいインスタンスを作成します。
 
     .. code-block:: arduino
 
         LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows)
 
-    * ``lcd_AddR``: The address of the LCD defaults to 0x27.
-    * ``lcd_cols``: The LCD1602 has 16 columns.
-    * ``lcd_rows``: The LCD1602 has 2 rows.
+    * ``lcd_Addr``: LCDのアドレス。デフォルトは0x27です。
+    * ``lcd_cols``: LCD1602には16列があります。
+    * ``lcd_rows``: LCD1602には2行があります。
 
-* Initialize the lcd.
+* LCDを初期化します。
 
     .. code-block:: arduino
 
         void init()
 
-* Turn the (optional) backlight on.
+* (オプションの)バックライトを点灯させます。
 
     .. code-block:: arduino
 
         void backlight()
 
-* Turn the (optional) backlight off.
+* (オプションの)バックライトを消灯させます。
 
     .. code-block:: arduino
 
         void nobacklight()
 
-* Turn the LCD display on.
+* LCDディスプレイをオンにします。
 
     .. code-block:: arduino
 
         void display()
 
-* Turn the LCD display off quickly.
+* LCDディスプレイをすばやくオフにします。
 
     .. code-block:: arduino
 
         void nodisplay()
 
-* Clear display, set cursor position to zero.
+* ディスプレイをクリアし、カーソル位置をゼロに設定します。
 
     .. code-block:: arduino
 
         void clear()
 
-* Set the cursor position to col,row.
+* カーソル位置を指定した列と行に設定します。
 
     .. code-block:: arduino
 
         void setCursor(uint8_t col,uint8_t row)
 
-* Prints text to the LCD.
+* テキストをLCDに表示します。
 
     .. code-block:: arduino
 
         void print(data,BASE)
 
-    * ``data``: The data to print (char, byte, int, long, or string).
-    * ``BASE (optional)``: The base in which to print numbers.
+    * ``data``: 表示するデータ (char, byte, int, long, または string)。
+    * ``BASE (optional)``: 数値を表示する際の基数。
 
-        * ``BIN`` for binary (base 2)
-        * ``DEC`` for decimal (base 10)
-        * ``OCT`` for octal (base 8)
-        * ``HEX`` for hexadecimal (base 16).
+        * ``BIN`` バイナリ (基数2)
+        * ``DEC`` デシマル (基数10)
+        * ``OCT`` オクタル (基数8)
+        * ``HEX`` 16進数 (基数16)

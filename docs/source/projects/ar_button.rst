@@ -1,116 +1,110 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts CommunityのFacebookページへようこそ！Raspberry Pi、Arduino、ESP32について、他の愛好者と一緒に深く掘り下げましょう。
 
-    **Why Join?**
+    **なぜ参加するのか？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家サポート**: 購入後の問題や技術的な課題をコミュニティやチームの助けを借りて解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **独占プレビュー**: 新製品の発表やプレビューにいち早くアクセスできます。
+    - **特別割引**: 最新の製品に対する独占割引を楽しめます。
+    - **フェスティブプロモーションとギブアウェイ**: プレゼントやホリデープロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備ができましたか？クリックして今日参加してください！ [|link_sf_facebook|]
 
 .. _ar_button:
 
-2.3 Digital Input
+2.3 デジタル入力
 =========================
 
-In this interactive project, we explore the use of digital input through button controls to manipulate an LED.The operation is simple but powerful. We will monitor the state of a button; when pressed, it will register a high voltage level, known as a 'high state'. This change in state will act as a trigger for an LED to illuminate.By learning to read this digital input, you will gain a fundamental understanding of how microcontrollers can interact with external devices. This project not only introduces basic electronic concepts but also sets the stage for more complex control systems involving multiple inputs and outputs.
+このインタラクティブなプロジェクトでは、ボタン操作を通じてLEDを制御するデジタル入力の使用方法を探ります。この操作はシンプルですが強力です。ボタンの状態を監視し、押されたときに高電圧レベル（「ハイステート」として知られる）を登録します。この状態変化がLEDを点灯させるトリガーとなります。このデジタル入力の読み取りを学ぶことで、マイクロコントローラーが外部デバイスとどのように相互作用できるかの基本を理解することができます。このプロジェクトは基本的な電子工学の概念を紹介するだけでなく、複数の入力および出力を含むより複雑な制御システムへのステップともなります。
 
-**Available Pins**
+**利用可能なピン**
 
-* **Available Pins**
+* **利用可能なピン**
 
-    Here is a list of available pins on the ESP32 board for this project.
+    ここでは、このプロジェクトに使用するESP32ボードの利用可能なピンのリストを示します。
 
     .. list-table::
         :widths: 5 20
 
-        *   - For Input
+        *   - 入力用
             - IO14, IO25, I35, I34, I39, I36, IO18, IO19, IO21, IO22, IO23
-        *   - For Output
+        *   - 出力用
             - IO13, IO12, IO14, IO27, IO26, IO25, IO33, IO32, IO15, IO2, IO0, IO4, IO5, IO18, IO19, IO21, IO22, IO23
     
-* **Conditional Usage Pins (Input)**
+* **条件付き使用ピン（入力）**
 
-    The following pins have built-in pull-up or pull-down resistors, so external resistors are not required when **using them as input pins**:
-
+    以下のピンには内蔵のプルアップまたはプルダウン抵抗があるため、**入力ピンとして使用する場合**には外部抵抗は必要ありません。
 
     .. list-table::
         :widths: 5 15
         :header-rows: 1
 
-        *   - Conditional Usage Pins
-            - Description
+        *   - 条件付き使用ピン
+            - 説明
         *   - IO13, IO15, IO2, IO4
-            - Pulling up with a 47K resistor defaults the value to high.
+            - 47Kの抵抗でプルアップするとデフォルトで高値になります。
         *   - IO27, IO26, IO33
-            - Pulling up with a 4.7K resistor defaults the value to high.
+            - 4.7Kの抵抗でプルアップするとデフォルトで高値になります。
         *   - IO32
-            - Pulling down with a 1K resistor defaults the value to low.
+            - 1Kの抵抗でプルダウンするとデフォルトで低値になります。
 
-* **Strapping Pins (Input)**
+* **ストラップピン（入力）**
 
-    Strapping pins are a special set of pins that are used to determine specific boot modes during device startup 
-    (i.e., power-on reset).
+    ストラップピンは、デバイスの起動時（電源オンリセット時）に特定のブートモードを決定するために使用される特別なピンセットです。
      
     .. list-table::
         :widths: 5 15
 
-        *   - Strapping Pins
-            - IO5, IO0, IO2, IO12, IO15 
+        *   - ストラップピン
+            - IO5, IO0, IO2, IO12, IO15
     
-    Generally, it is **not recommended to use them as input pins**. If you wish to use these pins, consider the potential impact on the booting process. For more details, please refer to the :ref:`esp32_strapping` section.
+    一般的には、これらのピンを**入力ピンとして使用することは推奨されません**。これらのピンを使用する場合は、ブートプロセスへの影響を考慮してください。詳細については、 :ref:`esp32_strapping` セクションを参照してください。
 
+**必要なコンポーネント**
 
-**Required Components**
-
-In this project, we need the following components. 
-
-
+このプロジェクトでは、以下のコンポーネントが必要です。
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - コンポーネント紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Breadboard
+    *   - ブレッドボード
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - いくつかのジャンプワイヤー
         - |link_wires_buy|
-    *   - Resistor
+    *   - 抵抗
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
-    *   - Button
+    *   - ボタン
         - |link_button_buy|
 
-
-**Schematic**
+**回路図**
 
 .. image:: img/circuit_5.1_button.png
 
-To ensure proper functionality, connect one side of the button pin to 3.3V and the other side to IO14. When the button is pressed, IO14 will be set to high, causing the LED to light up. When the button is released, IO14 will return to its suspended state, which may be either high or low. To ensure a stable low level when the button is not pressed, IO14 should be connected to GND through a 10K pull-down resistor.
+正常に機能するためには、ボタンの一方のピンを3.3Vに、もう一方のピンをIO14に接続します。ボタンを押すと、IO14がハイになり、LEDが点灯します。ボタンを離すと、IO14は浮動状態に戻り、ハイまたはローのどちらかになります。ボタンを押していないときに安定したロー状態を保つために、IO14を10Kのプルダウン抵抗を通じてGNDに接続します。
 
-**Wiring**
+**配線図**
 
 .. image:: img/5.1_button_bb.png
 
 .. note::
     
-    A four-pin button is designed in an H shape. When the button is not pressed, the left and right pins are disconnected, and current cannot flow between them. However, when the button is pressed, the left and right pins are connected, creating a pathway for current to flow.
+    四ピンのボタンはH型に設計されています。ボタンを押していないときは、左右のピンは切断され、電流は流れません。しかし、ボタンを押すと、左右のピンが接続され、電流が流れる経路が作られます。
 
-**Code**
+**コード**
 
-Download this code or copy this code to the Arduino IDE directly.
+このコードをダウンロードするか、Arduino IDEに直接コピーします。
     
 .. note::
     
@@ -120,69 +114,60 @@ Download this code or copy this code to the Arduino IDE directly.
 
     <iframe src=https://create.arduino.cc/editor/sunfounder01/702c5a70-78e7-4a8b-a0c7-10c0acebfc12/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Once the code is uploaded successfully, the LED lights up when you press the button and goes off when you release it.
+コードが正常にアップロードされると、ボタンを押すとLEDが点灯し、離すと消灯します。
 
-At the same time you can open the Serial Monitor in the upper right corner to observe the value of the button, when the button is pressed, "1" will be printed, otherwise "0" will be printed.
+同時に、右上隅のシリアルモニタを開いてボタンの値を観察することができます。ボタンを押すと「1」が表示され、それ以外の場合は「0」が表示されます。
 
 .. image:: img/button_serial.png
 
 
-**How it works**
+**動作の仕組み**
 
-The previous projects all involved outputting signals, either in the form of digital or PWM signals.
+前のプロジェクトはすべて、デジタル信号またはPWM信号の形式で信号を出力するものでした。
 
-This project involves receiving input signals from external component to the ESP32 board. You can view the input signal through the Serial Monitor in Arduino IDE.
+このプロジェクトでは、外部コンポーネントからESP32ボードへの入力信号を受信します。Arduino IDEのシリアルモニタを通じて入力信号を確認できます。
 
 
-#. In the ``setup()`` function, the button pin is initialized as an ``input`` and the LED pin is initialized as an ``output``. The Serial communication is also initiated with a baud rate of 115200.
+#. ``setup()`` 関数では、ボタンピンを ``input`` として、LEDピンを ``output`` として初期化します。また、シリアル通信を115200ボーの速度で開始します。
 
     .. code-block:: arduino
 
         void setup() {
             Serial.begin(115200);
-            // initialize the button pin as an input
+            // ボタンピンを入力として初期化
             pinMode(buttonPin, INPUT);
-            // initialize the LED pin as an output
+            // LEDピンを出力として初期化
             pinMode(ledPin, OUTPUT);
         }
     
-    * ``Serial.begin(speed)``: Sets the data rate in bits per second (baud) for serial data transmission.
+    * ``Serial.begin(speed)``: シリアルデータ送信のためのビット毎秒（ボー）でのデータレートを設定します。
 
-        * ``speed``: in bits per second (baud). Allowed data types: ``long``.
+        * ``speed``: ビット毎秒（ボー）での速度。許可されるデータ型: ``long``。
 
-#. In the ``loop()`` function, the state of the button is read and stored in the variable ``buttonState``. The value of ``buttonState`` is printed to the Serial Monitor using ``Serial.println()``.
+#. ``loop()`` 関数では、ボタンの状態を読み取り、変数 ``buttonState`` に保存します。 ``buttonState`` の値を ``Serial.println()`` を使用してシリアルモニタに出力します。
 
     .. code-block:: arduino
 
         void loop() {
-            // read the state of the button value
+            // ボタンの状態を読み取る
             buttonState = digitalRead(buttonPin);
             Serial.println(buttonState);
             delay(100);
-            // if the button is pressed, the buttonState is HIGH
+            // ボタンが押されると、buttonStateはHIGHになります
             if (buttonState == HIGH) {
-                // turn LED on
+                // LEDを点灯
                 digitalWrite(ledPin, HIGH);
 
             } else {
-                // turn LED off
+                // LEDを消灯
                 digitalWrite(ledPin, LOW);
             }
         }
 
-    If the button is pressed and the ``buttonState`` is HIGH, the LED is turned on by setting the ``ledPin`` to ``HIGH``. Else, turn the LED off.
+    ボタンが押されて ``buttonState`` がHIGHの場合、 ``ledPin`` をHIGHに設定してLEDを点灯させます。それ以外の場合はLEDを消灯します。
 
-    * ``int digitalRead(uint8_t pin);``: To read the state of a given pin configured as INPUT, the function digitalRead is used. This function will return the logical state of the selected pin as ``HIGH`` or ``LOW``.
+    * ``int digitalRead(uint8_t pin);``: 入力として設定されたピンの状態を読み取るために使用します。この関数は、選択されたピンの論理状態を ``HIGH`` または ``LOW`` として返します。
 
-        * ``pin`` select GPIO
+        * ``pin``: GPIOピンを選択します。
 
-    * ``Serial.println()``: Prints data to the serial port as human-readable ASCII text followed by a carriage return character (ASCII 13, or '\r') and a newline character (ASCII 10, or '\n').
-
-
-
-
-
-
-
-
-
+    * ``Serial.println()``: データをシリアルポートに人間が読めるASCIIテキストとして出力し、キャリッジリターン文字（ASCII 13, または '\r'）と改行文字（ASCII 10, または '\n'）を付加します。

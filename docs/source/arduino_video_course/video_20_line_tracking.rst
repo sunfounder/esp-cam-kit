@@ -1,37 +1,34 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由は？**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門家のサポート**: 購入後の問題や技術的な課題を、コミュニティやチームのサポートで解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を享受しましょう。
+    - **お祭りプロモーションとプレゼント**: プレゼントやお祭りプロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 20: Line Tracking
-==============================
+Video 20: ライントラッキング
+==================================
 
-This tutorial demonstrates how to use the ESP32 module with a line detection module for robotics applications, including real-time line following and auditory feedback via a buzzer.
+このチュートリアルでは、ESP32モジュールとライン検出モジュールを使用して、ロボティクスアプリケーションにおけるリアルタイムのライン追跡とブザーによる聴覚フィードバックを実現する方法を紹介します。
 
-* **Starter Kit Overview**: Components and capabilities of the SunFounder ESP32 starter kit.
-* **Line Detection Mechanism**: How the line detection module uses infrared to distinguish between different colored lines on surfaces.
-* **Setup Instructions**: Step-by-step guide on wiring and coding the ESP32 with the line detection module and buzzer.
-* **Sensitivity Adjustment**: Tips for adjusting the line detection module's sensitivity for optimal performance.
-* **Practical Demonstration**: Showcasing the module's ability to follow a line and provide auditory feedback when detecting lines.
+* **スターターキットの概要**: SunFounder ESP32スターターキットのコンポーネントと機能。
+* **ライン検出メカニズム**: ライン検出モジュールが赤外線を使用して表面上の異なる色のラインを区別する方法。
+* **セットアップ手順**: ESP32とライン検出モジュールおよびブザーの配線とコーディングのステップバイステップガイド。
+* **感度調整**: 最適な性能を得るためのライン検出モジュールの感度調整のヒント。
+* **実践デモ**: ラインを追跡し、ラインを検出したときに聴覚フィードバックを提供するモジュールの能力を紹介。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/BSPkTJqxnVc?si=d4wIHGeyoZjsSn2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_line_track`
-
-

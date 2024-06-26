@@ -1,37 +1,35 @@
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Communityへようこそ！Facebookで仲間と一緒にRaspberry Pi、Arduino、ESP32の世界を深く探求しましょう。
 
-    **Why Join?**
+    **参加のメリット**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**：購入後の問題や技術的な課題をコミュニティとチームの助けを借りて解決。
+    - **学びと共有**：スキルを向上させるためのヒントやチュートリアルを交換。
+    - **限定プレビュー**：新製品の発表や先行情報に早期アクセス。
+    - **特別割引**：最新製品の独占割引を享受。
+    - **イベントとプレゼント**：イベントやプレゼント企画に参加。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求と創造を楽しむ準備はできましたか？クリックして今日から参加しましょう：[|link_sf_facebook|]！
 
-Battery
+バッテリー
 ================
 
 .. image:: img/18650_battery.png
     :width: 200
     :align: center
 
-This is an 18650 type lithium-ion battery featuring a voltage of 3.7V and a capacity of 800mAh. It is equipped with a 15CM long 22AWG wire, with the positive lead in white and the negative in black, and a white PH2.0 2P terminal.
+このバッテリーは18650型リチウムイオンバッテリーで、電圧3.7V、容量800mAhを特徴としています。15CM長の22AWGワイヤが付属しており、正極が白、負極が黒、白のPH2.0 2P端子が装備されています。
 
-**Features**
+**特徴**
 
-* **Battery Type**: Lithium-Ion Battery
-* **Size**: 18650
-* **Cell Voltage**: 3.7V
-* **Number of Cells**: 1
-* **Cell Capacity**: 800mAh
-* **Wire Color**: Positive (White), Negative (Black)
-* **Wire Length**: 15CM
-* **Wire Gauge**: 22AWG
-* **Terminal Color**: White
-* **Terminal Specifications**: PH2.0 2P
-
-
+* **バッテリータイプ**：リチウムイオンバッテリー
+* **サイズ**：18650
+* **セル電圧**：3.7V
+* **セル数**：1
+* **セル容量**：800mAh
+* **ワイヤ色**：正極（白）、負極（黒）
+* **ワイヤ長**：15CM
+* **ワイヤゲージ**：22AWG
+* **端子色**：白
+* **端子仕様**：PH2.0 2P

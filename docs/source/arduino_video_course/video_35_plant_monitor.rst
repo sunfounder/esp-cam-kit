@@ -1,39 +1,36 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 35: Plant Monitor
+Video 35: 植物モニター
 ====================================================
 
-This tutorial demonstrates how to build a smart plant monitoring system using an ESP32 board, which measures temperature, humidity, soil moisture, and light, and displays the data on an LCD. It also includes a manual water pump control feature.
+このチュートリアルでは、温度、湿度、土壌湿度、光を測定し、LCDにデータを表示するESP32ボードを使用したスマート植物モニタリングシステムの構築方法を示します。また、手動の水ポンプ制御機能も含まれています。
 
-* **Comprehensive Monitoring**: Utilizes DHT11, soil moisture sensor, and LDR to monitor plant health indicators.
-* **LCD Display Integration**: Shows real-time data readings on an LCD screen for easy monitoring.
-* **Water Pump Control**: Includes a manual push button to activate a water pump for plant watering.
-* **ESP32 and Component Overview**: Explains the functionality of each component and their integration.
-* **Practical Demonstration**: Shows the system in action, providing a clear example of its capabilities.
-* **Arduino Code and Setup**: Walks through the Arduino code required for the project, including setup and sensor readings.
+* **総合モニタリング**: DHT11、土壌湿度センサー、およびLDRを利用して植物の健康指標を監視します。
+* **LCDディスプレイ統合**: リアルタイムのデータ読み取りをLCD画面に表示し、簡単に監視できます。
+* **水ポンプ制御**: 手動のプッシュボタンを使用して、水ポンプを作動させ植物に水を供給します。
+* **ESP32とコンポーネントの概要**: 各コンポーネントの機能とその統合について説明します。
+* **実践デモンストレーション**: システムが実際に動作する様子を示し、その機能を明確にします。
+* **Arduinoコードとセットアップ**: プロジェクトに必要なArduinoコード、セットアップ、およびセンサーの読み取り方法を説明します。
 
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/SdgvQlIllPA?si=DcM2kaQfjW2bM1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_plant_monitor`
-
-

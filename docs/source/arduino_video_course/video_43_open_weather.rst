@@ -1,40 +1,35 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 43: IoT Internet Weather Station
+Video 43: IoTインターネット天気ステーション
 =================================================
 
-Learn how to create a real-time weather station using the SunFounder ESP32 IoT Learning Kit and the OpenWeatherMap API, from setting up hardware to displaying weather data on an LCD screen.
+SunFounder ESP32 IoT学習キットとOpenWeatherMap APIを使用してリアルタイムの天気ステーションを作成する方法を学びます。ハードウェアのセットアップからLCDスクリーンへの天気データの表示までをカバーします。
 
+* **OpenWeatherMap API**: OpenWeatherMap APIを通じて気温や湿度などの天気データにアクセスします。
+* **ハードウェアセットアップ**: 提供された配線図に従って、ESP32ボード、拡張ボード、ジャンパーワイヤー、およびLCDスクリーンを接続します。
+* **コードの説明**: Wi-Fiセットアップ、APIリクエスト、JSON解析、およびLCDへの天気データ表示のためのArduinoコードを理解します。
+* **ESP32ボードとポートの選択**: Arduino IDEでコードをアップロードするために、ESP32ボードと正しいポートを選択する方法を学びます。
+* **ディスプレイ用コードの修正**: LCDスクリーンに天気情報を正確に表示するためにコードを調整し、気温の値を処理します。
+* **デモンストレーション**: LCDスクリーンにリアルタイムの天気データを表示する天気ステーションを実際に見ることができます。
 
-* **OpenWeatherMap API**: Access weather data like temperature and humidity through the OpenWeatherMap API.
-* **Hardware setup**: Connect the ESP32 board, extension board, jumper wires, and LCD screen following the provided wiring diagram.
-* **Code explanation**: Understand the Arduino code for Wi-Fi setup, API requests, JSON parsing, and displaying weather data on the LCD.
-* **Selecting ESP32 board and port**: Learn how to choose the ESP32 board and the correct port in Arduino IDE for uploading the code.
-* **Modifying code for display**: Adjust the code to accurately display weather information on the LCD screen, including handling temperature values.
-* **Demonstration**: See the weather station in action, displaying real-time weather data on the LCD screen.
-
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/B73KTaBaqhs?si=fPAfiOrDh8geeZks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`iot_owm`
-
-

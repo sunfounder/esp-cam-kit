@@ -1,32 +1,30 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 55: How to measure 12V, 24V or 100V DC voltage 
+Video 55: 12V、24V、または100V DC電圧の測定方法
 ===============================================================
 
-Learn how to use ESP32 to measure DC voltage with this detailed video tutorial from Robojax.
+Robojaxの詳細なビデオチュートリアルで、ESP32を使用してDC電圧を測定する方法を学びましょう。
 
-* **Introduction to the ESP32 Starter Kit**: An overview of. the ESP32 Starter Kit from SunFounder, highlighting the features of the ESP32 microcontroller with built-in Wi-Fi and Bluetooth.
-* **Project Overview**: Explanation of how to measure any DC voltage using a voltage divider circuit and the ESP32. Includes a discussion on the need for and use of two resistors to create a voltage divider.
-* **Voltage Divider Circuit**: Detailed explanation of how to use two resistors to safely measure higher voltages. Includes calculations for selecting appropriate resistor values.
-* **Arduino Code Explanation**: Comprehensive guide on the Arduino code used for voltage measurement. Covers setting up the code, initializing the serial monitor, and using functions to calculate and display voltage values.
-* **Selecting ESP32 Board and Port**: Step-by-step instructions on how to select the ESP32 board and COM port in the Arduino IDE, along with troubleshooting tips for identifying the correct port.
-* **30V Voltage Measurement Demonstration**: Practical demonstration of measuring 30V using the ESP32. Shows the setup, connection, and reading of voltage values on the serial monitor. Also covers averaging multiple measurements for more stable readings.
+* **ESP32スターターキットの紹介**: SunFounderのESP32スターターキットの概要。Wi-FiとBluetoothが内蔵されたESP32マイクロコントローラーの特徴を紹介します。
+* **プロジェクト概要**: 電圧分圧回路とESP32を使用して任意のDC電圧を測定する方法を説明します。電圧分圧器を作成するために2つの抵抗を使用する必要性と使用方法について説明します。
+* **電圧分圧回路**: より高い電圧を安全に測定するために2つの抵抗を使用する方法の詳細な説明。適切な抵抗値を選択するための計算も含まれています。
+* **Arduinoコードの説明**: 電圧測定に使用されるArduinoコードの包括的なガイド。コードの設定、シリアルモニタの初期化、および電圧値を計算して表示するための関数の使用方法をカバーします。
+* **ESP32ボードとポートの選択**: Arduino IDEでESP32ボードとCOMポートを選択する手順と、正しいポートを特定するためのトラブルシューティングのヒントを提供します。
+* **30V電圧測定の実演**: ESP32を使用して30Vを測定する実演。セットアップ、接続、およびシリアルモニタでの電圧値の読み取りを示します。より安定した測定値を得るための複数回の測定の平均化もカバーします。
 
-
-**Video**
+**ビデオ**
 
 .. raw:: html
 

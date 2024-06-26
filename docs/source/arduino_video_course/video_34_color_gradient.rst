@@ -1,38 +1,35 @@
- .. note::
+.. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32愛好者コミュニティへようこそ！他の愛好者と一緒にRaspberry Pi、Arduino、ESP32についてさらに深く学びましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティやチームの助けを借りて、購入後の問題や技術的な課題を解決します。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換します。
+    - **限定プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の特別割引を受けることができます。
+    - **プロモーションとプレゼント**: プレゼントやプロモーションに参加できます。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 私たちと一緒に探求し、創造する準備はできましたか？ [|link_sf_facebook|] をクリックして、今すぐ参加してください！
 
- 
-Video 34: Color Gradient
+Video 34: カラーグラデーション
 ====================================================
 
-Learn to create vibrant color gradients using an ESP32 board, an RGB LED, and a potentiometer, showcasing how to wire and program the components for dynamic color changes.
+ESP32ボード、RGB LED、およびポテンショメータを使用して鮮やかなカラーグラデーションを作成する方法を学び、ダイナミックな色変化のための配線とプログラミングの方法を紹介します。
 
-* **RGB LED Basics**: Introduction to RGB LED functionality, including anode/cathode configurations.
-* **Wiring Setup**: Step-by-step guide for connecting the RGB LED and potentiometer to the ESP32.
-* **Arduino Programming**: Detailed code explanation for translating potentiometer input into a wide range of colors using PWM.
-* **Color Theory Application**: Demonstrating how to mix red, green, and blue to achieve various hues and gradients.
-* **Potentiometer Control**: How to use a potentiometer to seamlessly adjust the color output of the RGB LED.
-* **Practical Demonstration**: Live demonstration of changing the RGB LED colors by adjusting the potentiometer, highlighting the project's interactive nature.
+* **RGB LEDの基本**: アノード/カソード構成を含むRGB LEDの機能紹介。
+* **配線セットアップ**: RGB LEDとポテンショメータをESP32に接続するためのステップバイステップガイド。
+* **Arduinoプログラミング**: PWMを使用してポテンショメータの入力を広範囲の色に変換するためのコードの詳細な説明。
+* **カラー理論の応用**: 赤、緑、青を混ぜてさまざまな色相やグラデーションを実現する方法のデモンストレーション。
+* **ポテンショメータ制御**: ポテンショメータを使用してRGB LEDのカラー出力をシームレスに調整する方法。
+* **実践デモンストレーション**: プロジェクトのインタラクティブな性質を強調するために、ポテンショメータを調整してRGB LEDの色を変えるライブデモ。
 
-**Video**
+**ビデオ**
 
 .. raw:: html
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/a62-5Kc6JU0?si=Y5m4NLmShAxcPNJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+**関連オンラインチュートリアル**
 
 * :ref:`ar_color_gradient`
-
-

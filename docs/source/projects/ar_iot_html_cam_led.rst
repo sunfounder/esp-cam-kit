@@ -1,57 +1,53 @@
-
  .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebookへようこそ！Raspberry Pi、Arduino、ESP32についての探求を仲間と共に深めましょう。
 
-    **Why Join?**
+    **参加する理由**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **専門サポート**: コミュニティとチームの助けを借りて、購入後の問題や技術的な課題を解決しましょう。
+    - **学びと共有**: スキルを向上させるためのヒントやチュートリアルを交換しましょう。
+    - **独占プレビュー**: 新製品の発表やプレビューに早期アクセスできます。
+    - **特別割引**: 最新製品の限定割引を楽しめます。
+    - **フェスティブプロモーションとギブアウェイ**: ギブアウェイやホリデープロモーションに参加しましょう。
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 一緒に探求し、創造する準備はできましたか？[|link_sf_facebook|]をクリックして今日参加しましょう！
 
 .. _iot_html_cam:
 
+2.14 カスタムビデオストリーミングウェブサーバー
+===================================================
 
-2.14 Custom Video Streaming Web Server
-========================================
+このプロジェクトでは、最初からウェブページを作成し、ビデオストリームを再生するようにカスタマイズする方法を学びます。さらに、LEDの明るさを制御するONおよびOFFボタンなどのインタラクティブなボタンを組み込むことができます。
 
-The Custom Video Streaming Web Server project offers an opportunity to learn how to create a web page from scratch and customize it to play video streams. Additionally, you can incorporate interactive buttons, such as ON and OFF, to control the LED's brightness.
+このプロジェクトを通じて、ウェブ開発、HTML、CSS、およびJavaScriptの実践的な経験を得ることができます。リアルタイムでビデオストリームを表示する応答性の高いウェブページを作成する方法を学びます。さらに、インタラクティブなボタンを統合してLEDの状態を制御し、動的なユーザー体験を提供する方法も学びます。
 
-By building this project, you will gain hands-on experience in web development, HTML, CSS, and JavaScript. You will learn how to create a responsive web page that can display video streams in real-time. Moreover, you will discover how to integrate interactive buttons to control the LED's state, providing a dynamic user experience.
+**必要なコンポーネント**
 
-**Required Components**
-
-In this project, we need the following components. 
-
-
+このプロジェクトでは、以下のコンポーネントが必要です。
 
 .. list-table::
     :widths: 30 20
     :header-rows: 1
 
-    *   - COMPONENT INTRODUCTION
-        - PURCHASE LINK
+    *   - コンポーネント紹介
+        - 購入リンク
 
     *   - :ref:`cpn_esp32_wroom_32e`
         - |link_esp32_wroom_32e_buy|
     *   - :ref:`cpn_esp32_camera_extension`
         - \-
-    *   - Breadboard
+    *   - ブレッドボード
         - |link_breadboard_buy|
-    *   - Several Jump Wires
+    *   - ジャンパーワイヤー
         - |link_wires_buy|
-    *   - Resistor
+    *   - 抵抗
         - |link_resistor_buy|
     *   - LED
         - |link_led_buy|
 
-**How to do?**
+**手順**
 
-#. First plug in the camera.
+#. まずカメラを接続します。
 
     .. raw:: html
 
@@ -60,15 +56,15 @@ In this project, we need the following components.
             Your browser does not support the video tag.
         </video>
 
-#. Build the circuit.
+#. 回路を構築します。
 
     .. image:: img/iot_3_html_led_bb.png
 
-#. Then, connect ESP32-WROOM-32E to the computer using the USB cable.
+#. 次に、USBケーブルを使用してESP32-WROOM-32Eをコンピュータに接続します。
 
     .. image:: img/plugin_esp32.png
 
-#. Open the code.
+#. コードを開きます。
 
     .. note::
         
@@ -78,7 +74,7 @@ In this project, we need the following components.
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/a5e33c30-63dc-4987-94c3-89bc6a599e24/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-#. Locate the following lines and modify them with your ``<SSID>`` and ``<PASSWORD>``.
+#. 以下の行を見つけて、 ``<SSID>`` と ``<PASSWORD>`` で修正します。
 
     .. code-block::  Arduino
 
@@ -86,19 +82,19 @@ In this project, we need the following components.
         const char* ssid = "<SSID>";
         const char* password = "<PASSWORD>";
 
-#. After selecting the correct board (ESP32 Dev Module) and port, click the **Upload** button.
+#. 正しいボード（ESP32 Dev Module）とポートを選択した後、 **Upload** ボタンをクリックします。
 
-#. You will see a successful WiFi connection message and the assigned IP address in the Serial Monitor.
+#. シリアルモニタにWiFi接続成功メッセージと割り当てられたIPアドレスが表示されます。
 
     .. code-block:: 
 
         WiFi connected
         Camera Stream Ready! Go to: http://192.168.18.77
 
-#. Enter the IP address in your web browser. You will be directed to the web page shown below, where you can use the customized ON and OFF buttons to control the LED.
+#. ウェブブラウザにIPアドレスを入力します。カスタマイズされたONおよびOFFボタンを使用してLEDを制御できるウェブページが表示されます。
 
     .. image:: img/sp230510_180503.png 
 
-#. Insert a battery into the expansion board and remove the USB cable. Now you can place the device anywhere you desire within the Wi-Fi range.
+#. 拡張ボードにバッテリーを挿入し、USBケーブルを取り外します。これで、デバイスをWi-Fi範囲内の任意の場所に配置できます。
 
     .. image:: img/plugin_battery.png
