@@ -361,5 +361,13 @@ rst_epilog += """
 .. |link_dht11_buy| raw:: html
 
     <a href="https://www.sunfounder.com/products/dht11-temperature-and-humidity-sensor-module" target="_blank">BUY</a> 
-        
+
+.. |link_ESP32_Camera_Pro_Kit| raw:: html
+
+    <a href="https://www.sunfounder.com/products/sunfounder-esp32-camera-pro-kit?_pos=1&_sid=7f4c59e2b&_ss=r" target="_blank">Purchase Link for ESP32 Camera Pro Kit</a>
+
+.. |link_Camera_Pro_Kit| raw:: html
+
+    <a href="https://www.sunfounder.com/products/sunfounder-esp32-camera-pro-kit?_pos=1&_sid=7f4c59e2b&_ss=r" target="_blank">ESP32 Camera Pro Kit</a>
+
 """
