@@ -364,7 +364,7 @@ rst_epilog += """
     
 .. |link_ESP32_Camera_Pro_Kit| raw:: html
 
-    <a href="https://www.sunfounder.com/products/sunfounder-esp32-camera-pro-kit?_pos=1&_sid=7f4c59e2b&_ss=r" target="_blank">Purchase Link for ESP32 Camera Pro Kit</a>
+    <a href="https://www.sunfounder.com/products/sunfounder-esp32-camera-pro-kit?_pos=1&_sid=7f4c59e2b&_ss=r" target="_blank">Kauflink für ESP32 Camera Pro Kit</a>
 
 .. |link_Camera_Pro_Kit| raw:: html
 
