@@ -106,19 +106,19 @@ rst_epilog = """
 
 .. |link_spanish_tutorials| raw:: html
 
-    <a href="https://docs.sunfounder.com/projects/esp32-starter-kit-es/es/latest/index.html" target="_blank">Lecciones en línea de español</a>
+    <a href="https://docs.sunfounder.com/projects/esp-cam-kit/es/latest/index.html" target="_blank">Lecciones en línea de español</a>
 
 .. |link_german_tutorials| raw:: html
 
-    <a href="https://docs.sunfounder.com/projects/esp32-camera-pro-kit/de/latest/" target="_blank">Deutsch Online-Kurs</a>
+    <a href="https://docs.sunfounder.com/projects/esp-cam-kit/de/latest/" target="_blank">Deutsch Online-Kurs</a>
 
 .. |link_jp_tutorials| raw:: html
 
-    <a href="https://docs.sunfounder.com/projects/esp32-camera-pro-kit/ja/latest/" target="_blank">日本語オンライン教材</a>
+    <a href="https://docs.sunfounder.com/projects/esp-cam-kit/ja/latest/" target="_blank">日本語オンライン教材</a>
 
 .. |link_en_tutorials| raw:: html
 
-    <a href="https://docs.sunfounder.com/projects/esp32-camera-pro-kit/en/latest/" target="_blank">English Online-tutorials</a>
+    <a href="https://docs.sunfounder.com/projects/esp-cam-kit/en/latest/" target="_blank">English Online-tutorials</a>
 
 .. |link_thonny| raw:: html
 
