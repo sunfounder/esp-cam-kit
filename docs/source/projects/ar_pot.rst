@@ -103,7 +103,7 @@ Nachdem der Code erfolgreich hochgeladen wurde, drehen Sie das Potentiometer und
 
     .. code-block:: arduino
 
-        const int potPin = 14; // Potentiometer an GPIO14 angeschlossen
+        const int potPin = 35; // Potentiometer an GPIO35 angeschlossen
         const int ledPin = 26; // LED an GPIO26 angeschlossen
 
         // PWM-Einstellungen
@@ -121,12 +121,11 @@ Nachdem der Code erfolgreich hochgeladen wurde, drehen Sie das Potentiometer und
             Serial.begin(115200);
 
             // PWM konfigurieren
-            ledcSetup(channel, freq, resolution);
-            ledcAttachPin(ledPin, channel);
+            ledcAttach(ledPin, freq, resolution);
         }
 
     * In der ``setup()``-Funktion wird die serielle Kommunikation mit einer Baudrate von 115200 gestartet.
-    * Die Funktion ``ledcSetup()`` wird aufgerufen, um den PWM-Kanal mit der angegebenen Frequenz und Auflösung einzurichten, und die Funktion ``ledcAttachPin()`` wird aufgerufen, um den angegebenen LED-Pin mit dem PWM-Kanal zu verbinden.
+    * Die Funktion ``ledcAttach()`` wird aufgerufen, um den angegebenen LED-Pin mit der angegebenen Frequenz und Auflösung einzurichten.
 
 #. Hauptschleife (wird wiederholt ausgeführt) in der ``loop()``-Funktion.
 

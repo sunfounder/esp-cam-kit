@@ -19,6 +19,9 @@ This ESP32 Camera Pro kit is designed to empower a variety of projects, from rob
 <a id="update"></a>
 ## Update:
 
+2024-08-21：
+- Due to the ESP32 board being upgraded to version 3.0, some functions have had their names and usage modified. Update the code accordingly or add a prompt to downgrade the version.
+
 2024-05-17:
 - First Release
 

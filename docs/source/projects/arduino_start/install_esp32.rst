@@ -19,17 +19,17 @@ Um den Mikrocontroller ESP32 zu programmieren, müssen wir das ESP32-Board-Paket
 
 **ESP32-Board installieren**
 
-#. Öffnen Sie die Arduino IDE. Gehen Sie zu **Datei** und wählen Sie **Voreinstellungen** aus dem Dropdown-Menü.
+.. #. Öffnen Sie die Arduino IDE. Gehen Sie zu **Datei** und wählen Sie **Voreinstellungen** aus dem Dropdown-Menü.
 
-    .. image:: img/install_esp321.png
+..     .. image:: img/install_esp321.png
 
-#. Im Fenster „Voreinstellungen“ finden Sie das Feld **Zusätzliche Boardverwalter-URLs**. Klicken Sie darauf, um das Textfeld zu aktivieren.
+.. #. Im Fenster „Voreinstellungen“ finden Sie das Feld **Zusätzliche Boardverwalter-URLs**. Klicken Sie darauf, um das Textfeld zu aktivieren.
 
-    .. image:: img/install_esp322.png
+..     .. image:: img/install_esp322.png
 
-#. Fügen Sie die folgende URL in das Feld **Zusätzliche Boardverwalter-URLs** ein: https://espressif.github.io/arduino-esp32/package_esp32_index.json. Diese URL verweist auf die Paketindexdatei für die ESP32-Boards. Klicken Sie auf den **OK**-Button, um die Änderungen zu speichern.
+.. #. Fügen Sie die folgende URL in das Feld **Zusätzliche Boardverwalter-URLs** ein: https://espressif.github.io/arduino-esp32/package_esp32_index.json. Diese URL verweist auf die Paketindexdatei für die ESP32-Boards. Klicken Sie auf den **OK**-Button, um die Änderungen zu speichern.
 
-    .. image:: img/install_esp323.png
+..     .. image:: img/install_esp323.png
 
 #. Im Fenster **Boardverwalter** geben Sie **ESP32** in die Suchleiste ein. Klicken Sie auf den **Installieren**-Button, um den Installationsprozess zu starten. Dies lädt das ESP32-Board-Paket herunter und installiert es.
 

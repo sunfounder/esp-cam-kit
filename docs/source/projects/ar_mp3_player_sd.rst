@@ -79,6 +79,17 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
         * Die ``ESP8266Audio``-Bibliothek wird hier verwendet. Sehen Sie sich das Tutorial unter :ref:`install_lib_man` an, um sie zu installieren.
         * :download:`ESP8266Audio </_static/zip/ESP8266Audio.zip>`
 
+    .. warning::
+
+        Wenn Sie ein ESP32-Entwicklungsboard Version 3.0.0 oder höher verwenden, können während des Kompilierungsprozesses Fehler auftreten.
+        Dieses Problem tritt normalerweise auf, weil neuere Versionen des Boards die ``ESP8266Audio``-Bibliothek nicht mehr unterstützen.
+        Um dieses Beispiel ordnungsgemäß auszuführen, wird empfohlen, die Firmware-Version Ihres ESP32-Boards auf 2.0.17 herunterzustufen.
+        Nachdem Sie dieses Beispiel abgeschlossen haben, aktualisieren Sie wieder auf die neueste Version.
+
+        .. image:: ../faq/img/version_2.0.17.png
+
+
+
     .. raw:: html
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/13f5c757-9622-4735-aa1a-fdbe6fc46273/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>

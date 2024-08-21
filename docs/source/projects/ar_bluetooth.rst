@@ -193,7 +193,7 @@ Hier ist eine kurze Zusammenfassung des Codes:
         class MyCharacteristicCallbacks : public BLECharacteristicCallbacks {
             void onWrite(BLECharacteristic *pCharacteristic) {
                 // Wenn Daten empfangen werden, die Daten abrufen und in receivedText speichern und die Zeit aufzeichnen
-                std::string value = pCharacteristic->getValue();
+                std::string value = std::string(pCharacteristic->getValue().c_str());
                 receivedText = String(value.c_str());
                 lastMessageTime = millis();
                 Serial.print("Received: ");

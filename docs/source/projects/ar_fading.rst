@@ -97,34 +97,29 @@ Nachdem der Code erfolgreich hochgeladen wurde, können Sie sehen, wie die LED a
     * ``brightness``: Der aktuelle Helligkeitsgrad der LED (initial auf 0 gesetzt).
     * ``fadeAmount``: Der Betrag, um den sich die Helligkeit der LED bei jedem Schritt ändert (auf 5 gesetzt).
 
-#. Initialisieren des PWM-Kanals und Konfigurieren des LED-Pins.
+#. Konfigurieren des LED-Pins.
 
     .. code-block:: arduino
 
         void setup() {
-            ledcSetup(0, 5000, 8); // Konfigurieren des PWM-Kanals (0) mit 5000Hz Frequenz und 8-Bit-Auflösung
-            ledcAttachPin(ledPin, 0); // Verbinden des LED-Pins mit dem PWM-Kanal
+            ledcSetup(ledPin, 5000, 8); // Konfigurieren des PWM-Kanals (0) mit 5000Hz Frequenz und 8-Bit-Auflösung
         }
 
     Hier verwenden wir das |link_ledc| (LED Control)-Peripheriegerät, das hauptsächlich zur Steuerung der Helligkeit von LEDs entwickelt wurde, aber auch zur Erzeugung von PWM-Signalen für andere Zwecke verwendet werden kann.
 
-    * ``uint32_t ledcSetup(uint8_t channel, uint32_t freq, uint8_t resolution_bits);``: Diese Funktion wird verwendet, um die LEDC-Kanal-Frequenz und -Auflösung einzustellen. Sie gibt die ``Frequenz`` zurück, die für den LEDC-Kanal konfiguriert wurde. Wenn 0 zurückgegeben wird, ist ein Fehler aufgetreten und der LEDC-Kanal wurde nicht konfiguriert.
+    * ``bool ledcAttach(uint8_t pin, uint32_t freq, uint8_t resolution_bits);``: Diese Funktion wird verwendet, um die LEDC-Pins-Frequenz und -Auflösung einzustellen. Sie gibt die ``Frequenz`` zurück, die für den LEDC-Pins konfiguriert wurde. Wenn 0 zurückgegeben wird, ist ein Fehler aufgetreten und der LEDC-Pins wurde nicht konfiguriert.
             
-        * ``channel``: Wählt den zu konfigurierenden LEDC-Kanal aus.
-        * ``freq``: Wählt die PWM-Frequenz aus.
-        * ``resolution_bits``: Wählt die Auflösung für den LEDC-Kanal aus. Der Bereich liegt zwischen 1-14 Bit (1-20 Bit für ESP32).
-
-    * ``void ledcAttachPin(uint8_t pin, uint8_t chan);``: Diese Funktion wird verwendet, um den Pin an den LEDC-Kanal anzuschließen.
-
         * ``pin``: Wählt den GPIO-Pin aus.
-        * ``chan``: Wählt den LEDC-Kanal aus.
+        * ``freq``: Wählt die PWM-Frequenz aus.
+        * ``resolution_bits``: Wählt die Auflösung für den LEDC-Pins aus. Der Bereich liegt zwischen 1-14 Bit (1-20 Bit für ESP32).
+
 
 #. Die Funktion ``loop()`` enthält die Hauptlogik des Programms und läuft kontinuierlich. Sie aktualisiert die Helligkeit der LED, invertiert die Fade-Menge, wenn die Helligkeit den Mindest- oder Höchstwert erreicht, und fügt eine Verzögerung ein.
 
     .. code-block:: arduino
 
         void loop() {
-            ledcWrite(0, brightness); // Schreiben des neuen Helligkeitswerts auf den PWM-Kanal
+            ledcWrite(ledPin, brightness); // Schreiben des neuen Helligkeitswerts auf den PWM-Pins
             brightness = brightness + fadeAmount;
 
             if (brightness <= 0 || brightness >= 255) {
@@ -134,7 +129,7 @@ Nachdem der Code erfolgreich hochgeladen wurde, können Sie sehen, wie die LED a
             delay(50); // Warten für 20 Millisekunden
             }
 
-    * ``void ledcWrite(uint8_t chan, uint32_t duty);``: Diese Funktion wird verwendet, um die Duty-Cycle für den LEDC-Kanal einzustellen.
+    * ``void ledcWrite(uint8_t pin, uint32_t duty);``: Diese Funktion wird verwendet, um die Duty-Cycle für den LEDC-Pins einzustellen.
         
-        * ``chan``: Wählt den LEDC-Kanal für die Duty-Cycle-Einstellung aus.
-        * ``duty``: Wählt die Duty-Cycle aus, die für den ausgewählten Kanal eingestellt werden soll.
+        * ``pin``: Wählt den LEDC-Pins für die Duty-Cycle-Einstellung aus.
+        * ``duty``: Wählt die Duty-Cycle aus, die für den ausgewählten Pins eingestellt werden soll.
