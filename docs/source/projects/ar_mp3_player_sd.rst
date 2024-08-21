@@ -89,7 +89,7 @@ In this project, we need the following components.
         To properly run this example, it is recommended to downgrade your ESP32 board's firmware version to 2.0.17. 
         After completing this example, upgrade back to the latest version.
 
-        .. image:: ../../faq/img/version_2.0.17.png
+        .. image:: ../faq/img/version_2.0.17.png
 
     .. raw:: html
 
