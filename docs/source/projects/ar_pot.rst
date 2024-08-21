@@ -105,13 +105,12 @@ After the code is uploaded successfully, rotate the potentiometer and you will s
 
     .. code-block:: arduino
 
-        const int potPin = 14; // Potentiometer connected to GPIO14
+        const int potPin = 35; // Potentiometer connected to GPIO35
         const int ledPin = 26; // LED connected to GPIO26
 
         // PWM settings
         const int freq = 5000; // PWM frequency
         const int resolution = 12; // PWM resolution (bits)
-        const int channel = 0; // PWM channel
 
     Here the PWM resolution is set to 12 bits and the range is 0-4095.
 
@@ -123,13 +122,12 @@ After the code is uploaded successfully, rotate the potentiometer and you will s
             Serial.begin(115200);
 
             // Configure PWM
-            ledcSetup(channel, freq, resolution);
-            ledcAttachPin(ledPin, channel);
+            ledcAttach(ledPin, freq, resolution);
         }
 
     * In the ``setup()`` function, the Serial communication is started at a baud rate of 115200. 
-    * The ``ledcSetup()`` function is called to set up the PWM channel with the specified frequency and resolution, and the ``ledcAttachPin()`` function is called to associate the specified LED pin with the PWM channel.
-
+    * The ``ledcAttach()`` function is used to setup the LEDC pin frequency and resolution. It will return ``frequency`` configured for LEDC pin. 
+            
 #. Main loop (executed repeatedly) in the loop() function.
 
     .. code-block:: arduino
