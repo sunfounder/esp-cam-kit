@@ -102,13 +102,12 @@
 
     .. code-block:: arduino
 
-        const int potPin = 14; // ポテンショメータはGPIO14に接続
+        const int potPin = 35; // ポテンショメータはGPIO35に接続
         const int ledPin = 26; // LEDはGPIO26に接続
 
         // PWM設定
         const int freq = 5000; // PWM周波数
         const int resolution = 12; // PWM解像度（ビット）
-        const int channel = 0; // PWMチャネル
 
     ここでは、PWMの解像度を12ビットに設定し、範囲は0-4095です。
 
@@ -119,15 +118,14 @@
         void setup() {
             Serial.begin(115200);
 
-            // PWMを設定
-            ledcSetup(channel, freq, resolution);
-            ledcAttachPin(ledPin, channel);
+            // Configure PWM
+            ledcAttach(ledPin, freq, resolution);
         }
 
     * ``setup()`` 関数では、シリアル通信を115200ボーレートで開始します。
-    * ``ledcSetup()`` 関数を使用して、指定された周波数と解像度でPWMチャネルを設定し、 ``ledcAttachPin()`` 関数を使用して指定されたLEDピンをPWMチャネルに関連付けます。
+    * 指定されたLEDピンを指定された周波数と解像度で設定するために ``ledcAttach()`` 関数が呼び出されます。
 
-#. メインループ（繰り返し実行）を``loop()``関数で設定します。
+#. メインループ（繰り返し実行）を ``loop()``関数で設定します。
 
     .. code-block:: arduino
 
@@ -136,7 +134,7 @@
             int potValue = analogRead(potPin); // ポテンショメータの値を読み取る
             uint32_t voltage_mV = analogReadMilliVolts(potPin); // ミリボルト単位で電圧を読み取る
             
-            ledcWrite(channel, potValue);
+            ledcWrite(ledPin, potValue);
             
             Serial.print("ポテンショメータの値: ");
             Serial.print(potValue);

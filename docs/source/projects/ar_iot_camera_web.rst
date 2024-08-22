@@ -67,13 +67,13 @@
         <iframe src=https://create.arduino.cc/editor/sunfounder01/15e00b39-34e1-49f9-b039-f10053d31407/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
         
 
-#. 以下の行を見つけて、 ``<SSID>`` と ``<PASSWORD>`` で修正します。
+#. 以下の行を見つけて、 ``SSID`` と ``PASSWORD`` で修正します。
 
     .. code-block::  Arduino
 
         // Replace the next variables with your SSID/Password combination
-        const char* ssid = "<SSID>";
-        const char* password = "<PASSWORD>";
+        const char* ssid = "SSID";
+        const char* password = "PASSWORD";
 
 #. 次に、 **PSRAM** を有効にします。
 

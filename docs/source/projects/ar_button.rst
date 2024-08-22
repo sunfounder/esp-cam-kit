@@ -114,6 +114,8 @@
 
     <iframe src=https://create.arduino.cc/editor/sunfounder01/702c5a70-78e7-4a8b-a0c7-10c0acebfc12/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
+シリアル通信のボーレートを115200に設定することを忘れないでください。
+
 コードが正常にアップロードされると、ボタンを押すとLEDが点灯し、離すと消灯します。
 
 同時に、右上隅のシリアルモニタを開いてボタンの値を観察することができます。ボタンを押すと「1」が表示され、それ以外の場合は「0」が表示されます。

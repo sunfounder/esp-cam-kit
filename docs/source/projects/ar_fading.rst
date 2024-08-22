@@ -104,29 +104,24 @@ ESP32 WROOM 32EのPWM機能を使用することで、LEDの明るさを滑ら�
     .. code-block:: arduino
 
         void setup() {
-            ledcSetup(0, 5000, 8); // PWMチャネル（0）を5000Hzの周波数と8ビットの解像度で設定
-            ledcAttachPin(ledPin, 0); // LEDピンをPWMチャネルに接続
+            ledcAttach(ledPin, 5000, 8); // Configure the PWM pin with 5000Hz frequency and 8-bit resolution
         }
 
     ここでは、|link_ledc| （LED制御）周辺機器を使用しています。これは主にLEDの強度を制御するために設計されていますが、他の目的のためにPWM信号を生成することもできます。
 
-    * ``uint32_t ledcSetup(uint8_t channel, uint32_t freq, uint8_t resolution_bits);``: この関数はLEDCチャネルの周波数と解像度を設定します。LEDCチャネルが設定されると、 ``frequency`` が返されます。0が返された場合、エラーが発生し、ledcチャネルは設定されません。
-            
-        * ``channel``: 設定するLEDCチャネルを選択。
+* ``bool ledcAttach(uint8_t pin, uint32_t freq, uint8_t resolution_bits);``: This function is used to setup the LEDC pin frequency and resolution. It will return ``frequency`` configured for LEDC pin.
+
+        * ``pin``: GPIOピンを選択。
         * ``freq``: PWMの周波数を選択。
         * ``resolution_bits``: ledcチャネルの解像度を選択します。範囲は1-14ビット（ESP32では1-20ビット）。
 
-    * ``void ledcAttachPin(uint8_t pin, uint8_t chan);``: この関数はピンをLEDCチャネルに接続します。
-
-        * ``pin``: GPIOピンを選択。
-        * ``chan``: LEDCチャネルを選択。
 
 #. ``loop()`` 関数には、プログラムのメインロジックが含まれており、連続して実行されます。LEDの明るさを更新し、明るさが最小値または最大値に達したときにフェード量を反転させ、遅延を導入します。
 
     .. code-block:: arduino
 
         void loop() {
-            ledcWrite(0, brightness); // PWMチャネルに新しい明るさの値を書き込む
+            ledcWrite(ledPin, brightness); // PWMチャネルに新しい明るさの値を書き込む
             brightness = brightness + fadeAmount;
 
             if (brightness <= 0 || brightness >= 255) {
@@ -136,7 +131,7 @@ ESP32 WROOM 32EのPWM機能を使用することで、LEDの明るさを滑ら�
             delay(50); // 20ミリ秒待機
             }
 
-    * ``void ledcWrite(uint8_t chan, uint32_t duty);``: この関数はLEDCチャネルのデューティを設定します。
+    * ``void ledcWrite(uint8_t pin, uint32_t duty);``: この関数はLEDCチャネルのデューティを設定します。
         
-        * ``chan``: デューティを書き込むLEDCチャネルを選択。
+        * ``pin``: デューティを書き込むLEDCチャネルを選択。
         * ``duty``: 選択されたチャネルに設定するデューティを選択。

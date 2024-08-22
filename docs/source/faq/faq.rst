@@ -21,5 +21,5 @@ FAQ
     blynk_mobile
     format_sd_card
     unknown_port
-
+    compilation_error
 

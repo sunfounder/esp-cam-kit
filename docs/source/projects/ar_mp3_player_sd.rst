@@ -79,6 +79,17 @@ ESP32で音楽の世界へようこそ！このプロジェクトは、オーデ
         * ``ESP8266Audio`` ライブラリを使用しています。インストール方法は :ref:`install_lib_man` を参照してください。
         * :download:`ESP8266Audio </_static/zip/ESP8266Audio.zip>`
 
+
+
+    .. warning::
+
+        ESP32開発ボードのバージョン3.0.0以上を使用している場合、コンパイルプロセス中にエラーが発生することがあります。
+        この問題は、ボードの新しいバージョンが「ESP8266Audio」ライブラリをサポートしなくなったためです。
+        この例を正しく実行するには、ESP32ボードのファームウェアバージョンを2.0.17にダウングレードすることをお勧めします。
+        この例を完了した後、最新バージョンに再度アップグレードしてください。
+
+        .. image:: ../faq/img/version_2.0.17.png
+
     .. raw:: html
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/13f5c757-9622-4735-aa1a-fdbe6fc46273/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>

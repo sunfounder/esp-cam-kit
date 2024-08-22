@@ -195,7 +195,7 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
         class MyCharacteristicCallbacks : public BLECharacteristicCallbacks {
             void onWrite(BLECharacteristic *pCharacteristic) {
                 // データが受信されたときにデータを取得し、receivedTextに保存し、時間を記録
-                std::string value = pCharacteristic->getValue();
+                std::string value = std::string(pCharacteristic->getValue().c_str());
                 receivedText = String(value.c_str());
                 lastMessageTime = millis();
                 Serial.print("Received: ");

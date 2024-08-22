@@ -74,13 +74,13 @@
 
         <iframe src=https://create.arduino.cc/editor/sunfounder01/a5e33c30-63dc-4987-94c3-89bc6a599e24/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-#. 以下の行を見つけて、 ``<SSID>`` と ``<PASSWORD>`` で修正します。
+#. 以下の行を見つけて、 ``SSID`` と ``PASSWORD`` で修正します。
 
     .. code-block::  Arduino
 
         // Replace the next variables with your SSID/Password combination
-        const char* ssid = "<SSID>";
-        const char* password = "<PASSWORD>";
+        const char* ssid = "SSID";
+        const char* password = "PASSWORD";
 
 #. 正しいボード（ESP32 Dev Module）とポートを選択した後、 **Upload** ボタンをクリックします。
 
