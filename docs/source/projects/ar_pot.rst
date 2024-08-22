@@ -137,7 +137,7 @@ After the code is uploaded successfully, rotate the potentiometer and you will s
             int potValue = analogRead(potPin); // read the value of the potentiometer
             uint32_t voltage_mV = analogReadMilliVolts(potPin); // Read the voltage in millivolts
             
-            ledcWrite(channel, potValue);
+            ledcWrite(ledPin, potValue);
             
             Serial.print("Potentiometer Value: ");
             Serial.print(potValue);
