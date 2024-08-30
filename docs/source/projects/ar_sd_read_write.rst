@@ -50,7 +50,7 @@ In this project, we need the following components.
 
     .. image:: img/plugin_esp32.png
 
-#. Select the appropriate port and board in the Arduino IDE and upload the code to your ESP32.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.Select the appropriate port and board in the Arduino IDE and upload the code to your ESP32.
 
     .. note::
 

@@ -68,7 +68,7 @@ This circuit works on a simple principle, and the current direction is shown in 
 
 **Upload Code**
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.
 
     .. note::
         

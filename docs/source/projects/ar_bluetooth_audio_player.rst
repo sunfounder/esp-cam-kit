@@ -70,7 +70,7 @@ In this project, we need the following components.
 
     .. image:: img/7.3_bluetooth_audio_player_bb.png
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.
 
     .. note::
         

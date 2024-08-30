@@ -86,7 +86,7 @@ When you rotate the potentiometer, the value of I35 will change. By programming,
 
 **Code**
 
-Download this code or copy this code to the Arduino IDE directly.
+|link_download_this_code| or copy this code to the Arduino IDE directly.
 
 .. note::
 

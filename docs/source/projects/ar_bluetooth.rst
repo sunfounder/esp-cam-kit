@@ -53,7 +53,7 @@ Here are the step-by-step instructions to set up Bluetooth communication between
 
     .. image:: img/bluetooth_lightblue.png
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.
 
     .. note::
         

@@ -110,7 +110,7 @@ To ensure proper functionality, connect one side of the button pin to 3.3V and t
 
 **Code**
 
-Download this code or copy this code to the Arduino IDE directly.
+|link_download_this_code| or copy this code to the Arduino IDE directly.
     
 .. note::
     

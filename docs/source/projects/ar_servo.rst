@@ -70,7 +70,7 @@ Here is a list of available pins on the ESP32 board for this project.
 
 **Code**
 
-Download this code or copy this code to the Arduino IDE directly.
+|link_download_this_code| or copy this code to the Arduino IDE directly.
 
 .. note::
 

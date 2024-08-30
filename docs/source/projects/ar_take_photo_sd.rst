@@ -67,7 +67,7 @@ It is also important to ensure that the SD card is properly mounted before savin
 
     .. image:: img/plugin_esp32.png
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.
 
     .. note::
 

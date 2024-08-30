@@ -75,7 +75,7 @@ This project is the same circuit as the first project :ref:`ar_blink`, but the s
 
 **Code**
 
-#. Download this code or copy this code to the Arduino IDE directly.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.
     
 .. note::
     

@@ -68,7 +68,7 @@ In this project, we need the following components.
 
     .. image:: img/plugin_esp32.png
 
-#. Open the code.
+#. |link_download_this_code| or copy this code to the Arduino IDE directly.
 
     .. note::
         

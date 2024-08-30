@@ -102,6 +102,10 @@ gettext_compact = False # Support for generating the contents of the folders ins
 
 rst_epilog = """
 
+.. |link_download_this_code| raw:: html
+
+    <a href="https://github.com/sunfounder/esp-cam-kit/archive/refs/heads/main.zip">Download this code</a>
+
 .. |link_sf_facebook| raw:: html
 
     <a href="https://bit.ly/raphaelkit">here</a>
