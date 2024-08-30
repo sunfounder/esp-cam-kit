@@ -62,12 +62,12 @@ ESP32の内蔵DACを使用する際には、出力電圧レベルが1.1Vに制�
 
     .. image:: img/7.3_bluetooth_audio_player_bb.png
 
-#. このコードをダウンロードするか、直接Arduino IDEにコピーします。
+#. |link_download_this_code|、直接Arduino IDEにコピーします。
 
     .. note::
         
         * :ref:`unknown_com_port`
-        * ここでは「ESP32-A2DP」ライブラリが使用されています。詳細は :ref:`install_lib_man`を参照してください。
+        * ここでは「ESP32-A2DP」ライブラリが使用されています。詳細は :ref:`install_lib_man` を参照してください。
         * :download:`ESP32-A2DP </_static/zip/ESP32-A2DP.zip>`
 
     .. warning::

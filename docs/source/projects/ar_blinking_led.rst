@@ -68,7 +68,7 @@
 
 **コードのアップロード**
 
-#. このコードをダウンロードするか、直接Arduino IDEにコピーしてください。
+#. |link_download_this_code|、直接Arduino IDEにコピーしてください。
 
     .. note::
         

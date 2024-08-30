@@ -69,7 +69,7 @@ ESP32で音楽の世界へようこそ！このプロジェクトは、オーデ
 
     .. image:: img/plugin_esp32.png
 
-#. このコードをダウンロードするか、直接Arduino IDEにコピーします。
+#. |link_download_this_code|、直接Arduino IDEにコピーします。
 
     コード行 ``file = new AudioFileSourceSD_MMC("/To Alice.mp3")`` を変更して、ファイル名とパスを反映させます。
 

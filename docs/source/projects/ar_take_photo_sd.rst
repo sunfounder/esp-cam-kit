@@ -66,7 +66,7 @@ ESP32-CAMを使用する際は、スケッチをアップロードするため�
 
     .. image:: img/plugin_esp32.png
 
-#. このコードをダウンロードするか、Arduino IDEに直接コピーします。
+#. |link_download_this_code|、Arduino IDEに直接コピーします。
 
     .. note::
 

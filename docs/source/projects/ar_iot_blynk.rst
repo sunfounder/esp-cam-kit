@@ -225,7 +225,7 @@ Blynkアプリを介してシステムが「外出モード」に設定される
         :width: 700
         :align: center
 
-#. このコードをダウンロードするか、Arduino IDEに直接コピーします。
+#. |link_download_this_code|、Arduino IDEに直接コピーします。
 
     .. raw:: html
 

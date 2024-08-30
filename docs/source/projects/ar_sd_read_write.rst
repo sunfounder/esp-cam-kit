@@ -47,7 +47,7 @@ SDカードのマウント、ファイルの作成、データの書き込み、
 
     .. image:: img/plugin_esp32.png
 
-#. Arduino IDEで適切なポートとボードを選択し、ESP32にコードをアップロードします。
+#. |link_download_this_code|、Arduino IDEに直接コピーします。Arduino IDEで適切なポートとボードを選択し、ESP32にコードをアップロードします。
 
     .. note::
 

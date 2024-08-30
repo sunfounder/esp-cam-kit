@@ -73,7 +73,7 @@ L293Dは、エレクトロニクスやロボティクスプロジェクトでよ
 
 **コード**
 
-#. このコードをダウンロードするか、直接Arduino IDEにコピーします。
+#. |link_download_this_code|、直接Arduino IDEにコピーします。
 
 .. note::
 

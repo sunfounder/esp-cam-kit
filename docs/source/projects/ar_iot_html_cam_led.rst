@@ -64,7 +64,7 @@
 
     .. image:: img/plugin_esp32.png
 
-#. コードを開きます。
+#. |link_download_this_code|、Arduino IDEに直接コピーします。
 
     .. note::
         

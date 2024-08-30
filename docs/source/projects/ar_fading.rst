@@ -72,7 +72,7 @@ ESP32 WROOM 32EのPWM機能を使用することで、LEDの明るさを滑ら�
 
 **コード**
 
-#. このコードをダウンロードするか、直接Arduino IDEにコピーします。
+#. |link_download_this_code|、直接Arduino IDEにコピーします。
     
 .. note::
     
