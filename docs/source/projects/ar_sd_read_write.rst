@@ -47,7 +47,7 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
     .. image:: img/plugin_esp32.png
 
-#. Wählen Sie den entsprechenden Port und das Board in der Arduino IDE und laden Sie den Code auf Ihr ESP32 hoch.
+#. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.Wählen Sie den entsprechenden Port und das Board in der Arduino IDE und laden Sie den Code auf Ihr ESP32 hoch.
 
     .. note::
 

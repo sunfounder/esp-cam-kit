@@ -106,7 +106,7 @@ Um eine ordnungsgemäße Funktion sicherzustellen, verbinden Sie eine Seite des 
 
 **Code**
 
-Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
+|link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
     
 .. note::
     

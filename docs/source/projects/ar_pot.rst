@@ -84,7 +84,7 @@ Wenn Sie das Potentiometer drehen, ändert sich der Wert von I35. Durch Programm
 
 **Code**
 
-Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
+|link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
 .. note::
 

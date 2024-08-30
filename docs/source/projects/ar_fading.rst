@@ -71,7 +71,7 @@ Dieses Projekt verwendet denselben Schaltkreis wie das erste Projekt :ref:`ar_bl
 
 **Code**
 
-#. Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
+#. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
     
 .. note::
     

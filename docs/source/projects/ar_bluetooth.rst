@@ -51,7 +51,7 @@ Hier sind die Schritt-für-Schritt-Anweisungen, um die Bluetooth-Kommunikation z
 
     .. image:: img/bluetooth_lightblue.png
 
-#. Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
+#. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
     .. note::
         

@@ -69,7 +69,7 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
     .. image:: img/plugin_esp32.png
 
-#. Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
+#. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
     Ändern Sie die Zeile des Codes ``file = new AudioFileSourceSD_MMC("/To Alice.mp3")``; entsprechend dem Namen und Pfad Ihrer Datei.
 

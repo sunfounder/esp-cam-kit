@@ -66,7 +66,7 @@ Hier ist eine Liste der verfügbaren Pins auf dem ESP32-Board für dieses Projek
 
 **Code**
 
-Laden Sie diesen Code herunter oder kopieren Sie ihn direkt in die Arduino IDE.
+|link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
 .. note::
 
