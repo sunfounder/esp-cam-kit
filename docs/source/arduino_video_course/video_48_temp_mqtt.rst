@@ -31,7 +31,7 @@ Lerne, wie du ein ESP32 IoT-Projekt mit MQTT und Adafruit IO einrichtest, vom Ha
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/M9BQweAsHJM?si=k2H0AhWg47AvMR1j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_adafruit_io`
+.. * :ref:`ar_adafruit_io`
 

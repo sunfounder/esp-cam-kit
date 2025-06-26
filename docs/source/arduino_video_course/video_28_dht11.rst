@@ -30,6 +30,6 @@ Lerne, wie du einen DHT11 Temperatur- und Feuchtigkeitssensor mit einem ESP32-Mi
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/qRUFZX4eDJg?si=4Z-AxGCIZqiOMj-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_dht11`
+.. * :ref:`ar_dht11`

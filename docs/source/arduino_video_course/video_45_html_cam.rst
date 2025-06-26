@@ -31,7 +31,7 @@ Lerne, wie du mit der ESP32-Kameraerweiterungsplatine Video einrichtest und stre
     <iframe width="700" height="500" src="https://www.youtube.com/embed/73DJFPa_pnA?si=JTOUonD5PR4K7y54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`iot_html_cam`
+.. * :ref:`iot_html_cam`
 

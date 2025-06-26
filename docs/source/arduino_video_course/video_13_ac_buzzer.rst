@@ -31,6 +31,6 @@ Hier lernst du, wie man einen aktiven Summer mit dem ESP32-Modul zur Tonerzeugun
 
     <iframe width="600" height="300" src="https://www.youtube.com/embed/TcH8Bx9yC7Q?si=3ewcYvDMR5onTkra" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_ac_buz`
+.. * :ref:`ar_ac_buz`

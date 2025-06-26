@@ -30,6 +30,6 @@ In diesem Tutorial lernst du, wie du mit dem SunFounder ESP32 IoT Lernkit eigene
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0IFBAF6gSAo?si=35LADAAA_xJsDejw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_pa_buz`
+.. * :ref:`ar_pa_buz`

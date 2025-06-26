@@ -30,6 +30,6 @@ Lerne, wie man ein ESP32-Board anschließt und programmiert, um Infrarotsignale 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/VxFZfp61Ci8?si=Upj9-a4zUiv8s6mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_receiver`
+.. * :ref:`ar_receiver`

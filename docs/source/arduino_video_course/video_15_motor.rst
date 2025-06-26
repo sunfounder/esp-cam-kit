@@ -29,6 +29,6 @@ Dieses Tutorial behandelt die Steuerung eines Gleichstrommotors mit ESP32 und de
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ei_SIh1xH1U?si=m4yPixL2KD-_fO_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_motor`
+.. * :ref:`ar_motor`

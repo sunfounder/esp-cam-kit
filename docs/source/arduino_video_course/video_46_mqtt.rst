@@ -30,7 +30,7 @@ Lerne, wie du einen ESP32-Mikrocontroller mit einem Temperatursensor, einer LED 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/XwTCfnHDASg?si=G1BCxFaUY5uaZdQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_iot_mqtt`
+.. * :ref:`ar_iot_mqtt`
 

@@ -30,6 +30,6 @@ Lerne, wie du Fotos mit der SunFounder ESP32 Kameraerweiterungsplatine aufnimmst
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/1Sjx9tDOF-k?si=1RYiFu4FB88sRsAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_take_photo_sd`
+.. * :ref:`ar_take_photo_sd`

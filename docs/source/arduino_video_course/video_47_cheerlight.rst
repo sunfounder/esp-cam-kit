@@ -30,7 +30,7 @@ Lerne, wie du ein IoT CheerLights-System mit einem ESP32-Mikrocontroller erstell
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/DFznGiD61g4?si=Hh8IuUVNnsotEBIJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`iot_cheerlights`
+.. * :ref:`iot_cheerlights`
 

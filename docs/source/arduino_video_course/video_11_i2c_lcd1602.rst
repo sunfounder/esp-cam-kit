@@ -32,6 +32,6 @@ Lerne, wie du LCD-Bildschirme mit dem ESP32 zur Anzeige von Text und anderen Inf
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/QLnM1aNMtb0?si=Afj_ReGRlPIofQpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_lcd1602`
+.. * :ref:`ar_lcd1602`

@@ -30,6 +30,6 @@ Lerne, wie du eine Echtzeit-Wetterstation mit dem SunFounder ESP32 IoT Learning 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/B73KTaBaqhs?si=fPAfiOrDh8geeZks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`iot_owm`
+.. * :ref:`iot_owm`

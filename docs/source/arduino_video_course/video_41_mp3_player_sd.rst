@@ -30,6 +30,6 @@ Lerne, wie du Audiodateien von einer Micro-SD-Karte mit dem SunFounder ESP32 Lea
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0nWDw8Sb72w?si=jyCTggAywXcD-fjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_mp3_player_sd`
+.. * :ref:`ar_mp3_player_sd`

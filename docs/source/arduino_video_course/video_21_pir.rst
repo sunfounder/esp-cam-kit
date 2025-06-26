@@ -29,6 +29,6 @@ Lerne, wie man ein System zur Erkennung menschlicher Bewegung mit einem PIR-Sens
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/h_DWTRgqb0Q?si=48s0fbZFgkACx0C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_pir`
+.. * :ref:`ar_pir`

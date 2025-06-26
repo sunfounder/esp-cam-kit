@@ -30,6 +30,6 @@ Lerne, wie man die Temperatur genau mit einem NTC-Thermistor und einem ESP32-Mik
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/zJh-gWY0DmE?si=Kp72PpqBiEWpluIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_thermistor`
+.. * :ref:`ar_thermistor`

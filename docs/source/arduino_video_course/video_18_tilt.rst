@@ -30,6 +30,6 @@ Dieses Video-Tutorial zeigt, wie man einen ESP32-Mikrocontroller mit einem Neigu
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/zbBTWvGywJg?si=bn4SxnzJbdN4j_fp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_tilt`
+.. * :ref:`ar_tilt`

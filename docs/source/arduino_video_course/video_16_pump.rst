@@ -29,6 +29,6 @@ Dieses Tutorial zeigt, wie man eine 5V-DC-Wasserpumpe mit dem ESP32 und dem L293
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/64z83Mm-Kpc?si=x2K_9GfoC1lMC2JH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_pump`
+.. * :ref:`ar_pump`

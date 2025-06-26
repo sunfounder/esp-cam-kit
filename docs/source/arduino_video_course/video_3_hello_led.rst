@@ -30,6 +30,6 @@ Dieses Tutorial vermittelt dir nicht nur das Wissen, das du für das "Hello LED"
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/jTJ-JL2gEuQ?si=zyEet96mvJ2KDrzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_blink`
+.. * :ref:`ar_blink`

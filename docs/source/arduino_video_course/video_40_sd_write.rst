@@ -29,6 +29,6 @@ Lerne, wie du Micro-SD-Karten effektiv mit dem SunFounder ESP32 IoT Learning Kit
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/IoK1KvO2EwI?si=YEMa0se8Si2ln5-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Verwandte Online-Tutorials**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_sd_write`
+.. * :ref:`ar_sd_write`
