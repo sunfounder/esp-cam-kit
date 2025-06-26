@@ -31,7 +31,7 @@ WS2812 LEDストリップを使用してインタラクティブな流れるラ�
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/VRzX0PUZbLM?si=ImFHwfyEhez4LR1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_flowing_light`
+.. * :ref:`ar_flowing_light`
 

@@ -30,7 +30,7 @@ SunFounder ESP32ラーニングキットを使用して、SDカードからオ�
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0nWDw8Sb72w?si=jyCTggAywXcD-fjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_mp3_player_sd`
+.. * :ref:`ar_mp3_player_sd`
 

@@ -30,6 +30,6 @@ Video 3: 「Hello LED」プロジェクト
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/jTJ-JL2gEuQ?si=zyEet96mvJ2KDrzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_blink`
+.. * :ref:`ar_blink`

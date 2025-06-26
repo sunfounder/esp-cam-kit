@@ -30,6 +30,6 @@ Video 14: カスタム音楽ノートの再生
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0IFBAF6gSAo?si=35LADAAA_xJsDejw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_pa_buz`
+.. * :ref:`ar_pa_buz`

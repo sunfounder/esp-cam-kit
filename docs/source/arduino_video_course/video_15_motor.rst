@@ -29,6 +29,6 @@ Video 15: ESP32とL293DによるDCモーター速度制御
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ei_SIh1xH1U?si=m4yPixL2KD-_fO_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_motor`
+.. * :ref:`ar_motor`

@@ -31,6 +31,6 @@ Video 33: デジタルサイコロ
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/9mpHQWvZ0WI?si=WxNtw7uIJddDzE-R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_dice`
+.. * :ref:`ar_dice`

@@ -29,6 +29,6 @@ Video 16: ESP32とL293Dを使用したミニ水ポンプ
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/64z83Mm-Kpc?si=x2K_9GfoC1lMC2JH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_pump`
+.. * :ref:`ar_pump`

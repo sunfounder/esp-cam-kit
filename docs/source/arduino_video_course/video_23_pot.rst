@@ -28,7 +28,7 @@ Video 23: ポテンショメータの電圧読取
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/QSYTEytRKHI?si=0pX6U4YBnnTNMBSJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_potentiometer`
+.. * :ref:`ar_potentiometer`
 

@@ -28,7 +28,7 @@ Video 26: ジョイスティックの使用方法
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ViDQ11bsvSw?si=CbfzwFRY6bbYub9_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_joystick`
+.. * :ref:`ar_joystick`
 

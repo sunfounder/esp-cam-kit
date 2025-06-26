@@ -29,6 +29,6 @@ Video 17: サーボモーターの制御
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/qGcOaNlyV0Y?si=uP5MSsavoBHbqD1K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_servo`
+.. * :ref:`ar_servo`

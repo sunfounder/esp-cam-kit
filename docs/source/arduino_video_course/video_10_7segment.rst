@@ -31,6 +31,6 @@ Video 10: 7セグメントディスプレイでデジタルカウンターを作
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/6VLU5ODueL0?si=6m12jzuYMoTYUVIF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_7_segment`
+.. * :ref:`ar_7_segment`

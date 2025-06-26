@@ -30,6 +30,6 @@ ESP32カメラ拡張ボードを使ってビデオを設定し、ストリーミ
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/TSIO1mQXn4U?si=V06fuei03Th9Fqtz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`iot_camera_web`
+.. * :ref:`iot_camera_web`

@@ -29,7 +29,7 @@ ESP32モジュールと赤外線障害物回避センサーを使用して障害
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/yMa2FOhpesU?si=80Z-WK_FstxI8DeT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_ir_obstacle`
+.. * :ref:`ar_ir_obstacle`
 

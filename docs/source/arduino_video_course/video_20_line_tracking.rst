@@ -29,6 +29,6 @@ Video 20: ライントラッキング
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/BSPkTJqxnVc?si=d4wIHGeyoZjsSn2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_line_track`
+.. * :ref:`ar_line_track`

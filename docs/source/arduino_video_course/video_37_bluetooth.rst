@@ -30,6 +30,6 @@ ESP32モジュールとスマートフォン間でBluetooth Low Energy (BLE)通�
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/kA_IJtytxbs?si=_N1Xewi0qor7_nib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_bluetooth`
+.. * :ref:`ar_bluetooth`

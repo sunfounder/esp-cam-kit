@@ -30,6 +30,6 @@ Video 18: 傾き検知
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/zbBTWvGywJg?si=bn4SxnzJbdN4j_fp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_tilt`
+.. * :ref:`ar_tilt`

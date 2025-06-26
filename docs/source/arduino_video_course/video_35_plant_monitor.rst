@@ -31,6 +31,6 @@ Video 35: 植物モニター
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/SdgvQlIllPA?si=DcM2kaQfjW2bM1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_plant_monitor`
+.. * :ref:`ar_plant_monitor`

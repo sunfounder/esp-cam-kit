@@ -31,7 +31,7 @@ Video 12: WS2812 RGBストリップの使用方法
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/CdYeKW2N-nY?si=9dKvXzDMonp31L0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_rgb_strip`
+.. * :ref:`ar_rgb_strip`
 

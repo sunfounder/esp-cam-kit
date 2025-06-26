@@ -30,6 +30,6 @@ ESP32、DAC、およびオーディオアンプを使用してBluetoothオーデ
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/8_g_m9qkfp4?si=iyb8oj5_MYEBTt57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`bluetooth_audio_player`
+.. * :ref:`bluetooth_audio_player`

@@ -30,6 +30,6 @@ ESP32ボード、RGB LED、およびポテンショメータを使用して鮮�
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/a62-5Kc6JU0?si=Y5m4NLmShAxcPNJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_color_gradient`
+.. * :ref:`ar_color_gradient`

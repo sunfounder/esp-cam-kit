@@ -32,6 +32,6 @@ ESP32モジュールを使用して、モバイルアプリからのBluetoothコ
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ptcTdG0V_DY?si=-rC8jL8OnlXr_hsr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_bluetooth_led`
+.. * :ref:`ar_bluetooth_led`

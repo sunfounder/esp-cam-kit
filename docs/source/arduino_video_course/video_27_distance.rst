@@ -30,7 +30,7 @@ Video 27: 距離測定
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/g3_Tj1_x2_U?si=mbVSC7rL7A1SvG-f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_ultrasonic`
+.. * :ref:`ar_ultrasonic`
 

@@ -30,6 +30,6 @@ SunFounder ESP32 IoT学習キットとOpenWeatherMap APIを使用してリアル
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/B73KTaBaqhs?si=fPAfiOrDh8geeZks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`iot_owm`
+.. * :ref:`iot_owm`

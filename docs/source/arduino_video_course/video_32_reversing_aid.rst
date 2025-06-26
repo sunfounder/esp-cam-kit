@@ -31,6 +31,6 @@ ESP32を使用して、超音波センサーによる距離測定、LCDでの視
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/K_4aX5oH3zg?si=biAp9O9HuJDlJJJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_reversing_aid`
+.. * :ref:`ar_reversing_aid`

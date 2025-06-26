@@ -30,6 +30,6 @@ Video 6: RGB LEDの制御
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/O_tk0itHccs?si=rO9GmMaJpdHvDuEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_rgb`
+.. * :ref:`ar_rgb`

@@ -30,7 +30,7 @@ Video 24: 土壌湿度の測定
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/MW-7a5Z0IT0?si=yq4MWeZ_z8Ucwt0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**関連オンラインチュートリアル**
+.. **Verwandte Online-Tutorials**
 
-* :ref:`ar_moisture`
+.. * :ref:`ar_moisture`
 
