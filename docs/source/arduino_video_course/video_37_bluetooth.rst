@@ -31,8 +31,8 @@ Learn how to set up Bluetooth Low Energy (BLE) communication between an ESP32 mo
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/kA_IJtytxbs?si=_N1Xewi0qor7_nib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_bluetooth`
+.. * :ref:`ar_bluetooth`
 
 

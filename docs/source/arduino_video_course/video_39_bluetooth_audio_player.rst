@@ -31,8 +31,8 @@ Learn how to build a Bluetooth audio player using ESP32, DAC, and an audio ampli
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/8_g_m9qkfp4?si=iyb8oj5_MYEBTt57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`bluetooth_audio_player`
+.. * :ref:`bluetooth_audio_player`
 
 

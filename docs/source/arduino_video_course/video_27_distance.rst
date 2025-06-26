@@ -31,8 +31,8 @@ Learn how to use an ultrasonic sensor with an ESP32 microcontroller for accurate
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/g3_Tj1_x2_U?si=mbVSC7rL7A1SvG-f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_ultrasonic`
+.. * :ref:`ar_ultrasonic`
 
 

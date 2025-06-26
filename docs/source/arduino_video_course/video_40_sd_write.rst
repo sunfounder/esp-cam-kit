@@ -30,8 +30,8 @@ Learn how to effectively utilize micro SD cards with the SunFounder ESP32 IoT Le
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/IoK1KvO2EwI?si=YEMa0se8Si2ln5-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_sd_write`
+.. * :ref:`ar_sd_write`
 
 

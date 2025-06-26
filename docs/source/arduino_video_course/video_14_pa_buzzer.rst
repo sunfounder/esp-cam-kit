@@ -32,6 +32,6 @@ In this tutorial, you'll learn how to use the SunFounder ESP32 IoT Learning Kit 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/0IFBAF6gSAo?si=35LADAAA_xJsDejw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_pa_buz`
+.. .. * :ref:`ar_pa_buz`

@@ -33,8 +33,8 @@ Learn how to set up and stream video with the ESP32 camera extension board, cove
     <iframe width="700" height="500" src="https://www.youtube.com/embed/73DJFPa_pnA?si=JTOUonD5PR4K7y54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`iot_html_cam`
+.. * :ref:`iot_html_cam`
 
 

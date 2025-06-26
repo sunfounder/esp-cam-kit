@@ -31,8 +31,8 @@ Learn how to connect and program an ESP32 board to decode infrared signals from 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/VxFZfp61Ci8?si=Upj9-a4zUiv8s6mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_receiver`
+.. * :ref:`ar_receiver`
 
 

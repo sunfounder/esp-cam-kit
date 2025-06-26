@@ -30,8 +30,8 @@ This tutorial demonstrates how to use the ESP32 module with a line detection mod
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/BSPkTJqxnVc?si=d4wIHGeyoZjsSn2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_line_track`
+.. .. * :ref:`ar_line_track`
 
 

@@ -30,8 +30,8 @@ Learn how to use an ESP32 module and an infrared obstacle avoidance sensor to de
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/yMa2FOhpesU?si=80Z-WK_FstxI8DeT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_ir_obstacle`
+.. .. * :ref:`ar_ir_obstacle`
 
 

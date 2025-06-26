@@ -31,8 +31,8 @@ Learn how to measure and interpret light intensity using a Light Dependent Resis
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/sXWlnOHAo6M?si=gQDkF6WcsCL0_Cpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_photoresistor`
+.. * :ref:`ar_photoresistor`
 
 

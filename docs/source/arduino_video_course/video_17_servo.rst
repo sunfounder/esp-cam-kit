@@ -31,6 +31,6 @@ Learn how to control a servo motor using ESP32 and a potentiometer in this compr
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/qGcOaNlyV0Y?si=uP5MSsavoBHbqD1K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_servo`
+.. .. * :ref:`ar_servo`

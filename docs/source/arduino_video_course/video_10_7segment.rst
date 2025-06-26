@@ -32,6 +32,6 @@ This tutorial is designed for learners who want to explore digital displays and 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/6VLU5ODueL0?si=6m12jzuYMoTYUVIF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_7_segment`
+.. .. * :ref:`ar_7_segment`

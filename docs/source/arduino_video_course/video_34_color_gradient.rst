@@ -31,8 +31,8 @@ Learn to create vibrant color gradients using an ESP32 board, an RGB LED, and a 
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/a62-5Kc6JU0?si=Y5m4NLmShAxcPNJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_color_gradient`
+.. * :ref:`ar_color_gradient`
 
 

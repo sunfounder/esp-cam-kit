@@ -32,6 +32,6 @@ This tutorial teaches how to control a 5V DC water pump with ESP32 and L293D mot
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/64z83Mm-Kpc?si=x2K_9GfoC1lMC2JH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_pump`
+.. .. * :ref:`ar_pump`

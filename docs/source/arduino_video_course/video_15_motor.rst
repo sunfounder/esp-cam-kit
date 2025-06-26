@@ -32,6 +32,6 @@ This tutorial covers controlling a DC motor using ESP32 and the L293D motor driv
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ei_SIh1xH1U?si=m4yPixL2KD-_fO_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_motor`
+.. .. * :ref:`ar_motor`

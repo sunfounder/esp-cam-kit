@@ -32,8 +32,8 @@ This tutorial demonstrates how to build a smart plant monitoring system using an
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/SdgvQlIllPA?si=DcM2kaQfjW2bM1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_plant_monitor`
+.. * :ref:`ar_plant_monitor`
 
 

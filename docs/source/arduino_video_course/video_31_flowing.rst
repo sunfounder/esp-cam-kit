@@ -32,8 +32,8 @@ Learn how to create an interactive flowing light effect using a WS2812 LED strip
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/VRzX0PUZbLM?si=ImFHwfyEhez4LR1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_flowing_light`
+.. * :ref:`ar_flowing_light`
 
 

@@ -32,6 +32,6 @@ This tutorial is aimed at beginners, providing a practical guide to using a push
     <iframe width="700" height="500" src="https://www.youtube.com/embed/_tLesIbpB8U?si=5vzXjAwNdHTgWEgx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-**Related On-line Tutorials**
+.. .. **Related On-line Tutorials**
 
-* :ref:`ar_button`
+.. .. * :ref:`ar_button`

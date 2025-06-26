@@ -33,8 +33,8 @@ This tutorial shows how to build a digital dice using an ESP32 board and a 7-seg
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/9mpHQWvZ0WI?si=WxNtw7uIJddDzE-R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_dice`
+.. * :ref:`ar_dice`
 
 

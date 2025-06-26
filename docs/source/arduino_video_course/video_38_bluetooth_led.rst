@@ -35,8 +35,8 @@ This tutorial is perfect for beginners interested in exploring wireless communic
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/ptcTdG0V_DY?si=-rC8jL8OnlXr_hsr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_bluetooth_led`
+.. * :ref:`ar_bluetooth_led`
 
 

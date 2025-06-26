@@ -32,8 +32,8 @@ Learn how to create a vehicle reversing aid using ESP32, featuring distance meas
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/K_4aX5oH3zg?si=biAp9O9HuJDlJJJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_reversing_aid`
+.. * :ref:`ar_reversing_aid`
 
 

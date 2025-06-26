@@ -32,8 +32,8 @@ Learn how to set up a DHT11 temperature and humidity sensor with an ESP32 microc
 
     <iframe width="700" height="500" src="https://www.youtube.com/embed/qRUFZX4eDJg?si=4Z-AxGCIZqiOMj-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Related On-line Tutorials**
+.. **Related On-line Tutorials**
 
-* :ref:`ar_dht11`
+.. * :ref:`ar_dht11`
 
 
