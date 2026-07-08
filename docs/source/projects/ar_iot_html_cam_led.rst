@@ -68,15 +68,11 @@ In this project, we need the following components.
 
     .. image:: img/plugin_esp32.png
 
-#. |link_download_this_code| or copy this code to the Arduino IDE directly.
+#. |link_download_this_code|. After downloading, extract the zip file and open the ``2.14_custom_video_streaming_web_server.ino`` file in the Arduino IDE.
 
     .. note::
-        
-        * :ref:`unknown_com_port`
- 
-    .. raw:: html
 
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/a5e33c30-63dc-4987-94c3-89bc6a599e24/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        * :ref:`unknown_com_port`
 
 #. Locate the following lines and modify them with your ``SSID`` and ``PASSWORD``.
 
@@ -99,6 +95,6 @@ In this project, we need the following components.
 
     .. image:: img/sp230510_180503.png 
 
-#. Insert a battery into the expansion board and remove the USB cable. Now you can place the device anywhere you desire within the Wi-Fi range.
+.. #. Insert a battery into the expansion board and remove the USB cable. Now you can place the device anywhere you desire within the Wi-Fi range.
 
-    .. image:: img/plugin_battery.png
+..     .. image:: img/plugin_battery.png

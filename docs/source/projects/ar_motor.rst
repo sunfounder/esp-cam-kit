@@ -85,35 +85,38 @@ Here is a list of available pins on the ESP32 board for this project.
     * :ref:`unknown_com_port`
     
     
-.. raw:: html
-    
-  <iframe src=https://create.arduino.cc/editor/sunfounder01/13364fc5-5094-4a84-90ce-07a5f85556dc/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+.. code-block:: arduino
+
+    #define motor1A 13
+    #define motor2A 14
+
+    // the setup function runs once when you press reset or power the board
+    void setup() {
+      // initialize digital pin as an output.
+      pinMode(motor1A, OUTPUT);
+      pinMode(motor2A, OUTPUT);
+    }
+
+    // the loop function runs over and over again forever
+    void loop() {
+
+      // Rotate
+      digitalWrite(motor1A, HIGH);
+      digitalWrite(motor2A, LOW);
+      delay(2000);
+
+      // Rotate in the opposite direction
+      digitalWrite(motor1A, LOW);
+      digitalWrite(motor2A, HIGH);
+      delay(2000);
+
+      // Stop
+      digitalWrite(motor1A, LOW);
+      digitalWrite(motor2A, LOW);
+      delay(3000);
+    }
 
 
 
 Once the code is successfully uploaded, you will observe the motor rotating clockwise for one second, then counter-clockwise for one second, followed by a two-second pause. This sequence of actions will continue in an endless loop.
 
-
-**Learn More**
-
-In addition to simply making the motor rotate clockwise and counterclockwise, you can also control the speed of the motor's rotation by using pulse-width modulation (PWM) on the control pin, as shown below.
-
-.. note::
-
-    * Open the ``4.1_motor_pwm.ino`` file under the path of ``esp32-starter-kit-main\c\codes\4.1_motor_pwm``.
-    * After selecting the board (ESP32 Dev Module) and the appropriate port, click the **Upload** button.
-    * :ref:`unknown_com_port`
-    
-    
-.. raw:: html
-
-  <iframe src=https://create.arduino.cc/editor/sunfounder01/32c262fd-9975-4137-9973-8b62d7240fee/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
-
-
-The previous code directly sets the two pins of the motor to high or low voltage levels to control the motor's rotation and stopping.
-
-Here we use the |link_ledc| (LED control) peripheral to generate PWM signals to control the motor's speed. Through two ``for`` loops, the duty cycle of channel A is increased or decreased from 0 to 255 while keeping channel B at 0.
-
-This way, you can observe the motor gradually increasing its speed to 255, then decreasing to 0, infinitely looping like this.
-
-If you want the motor to rotate in the opposite direction, simply swap the values of channel A and channel B.

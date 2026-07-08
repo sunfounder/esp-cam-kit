@@ -21,7 +21,7 @@ We have designed an expansion board that enables you to fully utilize the camera
 
 The board provides two types of GPIO headers - one with female headers, perfect for quick prototyping projects. The other type features screw terminals, ensuring stable wire connections and making it suitable for IoT projects.
 
-Additionally, you can power your project using a single 3.7V 18650 battery. If the battery runs low, you can conveniently charge it by simply plugging in a 5V Micro USB cable. This makes it a great tool for outdoor projects and remote applications.
+Additionally, you can power your project using a single 3.7V battery. If the battery runs low, you can conveniently charge it by simply plugging in a 5V Micro USB cable. This makes it a great tool for outdoor projects and remote applications.
 
 .. image:: img/esp32_camera_extension.jpg
     :width: 400
@@ -90,7 +90,7 @@ Interface Introduction
     * Upon connecting a 5V/0.5A Micro USB cable, the battery can be charged.
 
 * **Battery Port**
-    * Features a PH2.0-2P interface, compatible with 3.7V 18650 lithium batterry.
+    * Features a PH2.0-2P interface, compatible with 3.7V lithium batterry.
     * Provides power to both the ESP32 WROOM 32E and ESP32 Camera Extension.
 
 * **ESP32 Pin Headers**
@@ -279,16 +279,16 @@ Interface Insertion Guide
             Your browser does not support the video tag.
         </video>
 
-**Battery Power and Charging**
+.. **Battery Power and Charging**
 
-    Carefully insert the battery cable into the battery port, avoiding applying too much force to prevent pushing up the battery terminal. If the terminal is pushed up, it's okay as long as the pins are not broken; you can simply press it back into position.
+..     Carefully insert the battery cable into the battery port, avoiding applying too much force to prevent pushing up the battery terminal. If the terminal is pushed up, it's okay as long as the pins are not broken; you can simply press it back into position.
 
-    .. image:: img/plugin_battery.png
-        :width: 500
-        :align: center
+..     .. image:: img/plugin_battery.png
+..         :width: 500
+..         :align: center
 
-    If the battery is drained, plug in a 5V/0.5A Micro USB to charge it.
+..     If the battery is drained, plug in a 5V/0.5A Micro USB to charge it.
 
-    .. image:: img/battery_charge.png
-        :width: 500
-        :align: center
+..     .. image:: img/battery_charge.png
+..         :width: 500
+..         :align: center

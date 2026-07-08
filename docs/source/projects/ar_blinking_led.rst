@@ -70,14 +70,26 @@ This circuit works on a simple principle, and the current direction is shown in 
 
 #. |link_download_this_code| or copy this code to the Arduino IDE directly.
 
-    .. note::
-        
-        * :ref:`unknown_com_port`
+   .. code-block:: arduino
 
-    .. raw:: html
+        const int ledPin = 26;  // The GPIO pin for the LED
 
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/1bff2463-40ad-43c1-8815-9f448bab3735/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
-    
+        // the setup function runs once when you press reset or power the board
+        void setup() {
+            // initialize digital pin ledPin as an output.
+            pinMode(ledPin, OUTPUT);
+        }
+
+        // the loop function runs over and over again forever
+        void loop() {
+            digitalWrite(ledPin, HIGH);   // turn the LED on (HIGH is the voltage level)
+            delay(1000);                       // wait for a second
+            digitalWrite(ledPin, LOW);    // turn the LED off by making the voltage LOW
+            delay(1000);                       // wait for a second
+        }
+
+
+
 #. Then connect the ESP32 WROOM 32E to your computer using a Micro USB cable. 
 
     * :ref:`unknown_com_port`

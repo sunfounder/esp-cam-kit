@@ -116,9 +116,38 @@ To ensure proper functionality, connect one side of the button pin to 3.3V and t
     
     * :ref:`unknown_com_port`
  
-.. raw:: html
+.. code-block:: arduino
 
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/702c5a70-78e7-4a8b-a0c7-10c0acebfc12/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+    // set pin numbers
+    const int buttonPin = 14;  // Button pin
+    const int ledPin = 26;     // LED pin
+
+    // variable for storing the button status
+    int buttonState = 0;
+
+    void setup() {
+      Serial.begin(115200);
+      // initialize the button pin as an input
+      pinMode(buttonPin, INPUT);
+      // initialize the LED pin as an output
+      pinMode(ledPin, OUTPUT);
+    }
+
+    void loop() {
+      // read the state of the button value
+      buttonState = digitalRead(buttonPin);
+      Serial.println(buttonState);
+      delay(100);
+      // if the button is pressed
+      if (buttonState == HIGH) {
+        // turn LED on
+        digitalWrite(ledPin, HIGH);
+
+      } else {
+        // turn LED off
+        digitalWrite(ledPin, LOW);
+      }
+    }
 
 
 Remember to Set the serial communication baud rate to 115200.

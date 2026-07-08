@@ -87,9 +87,36 @@ In this project, we need the following components.
 
         .. image:: ../faq/img/version_2.0.17.png
 
-    .. raw:: html
+    .. code-block:: arduino
 
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/7bb7d6dd-72d4-4529-bb42-033b38558347/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        // ==> Example to use built in DAC of ESP32
+
+        // R,L connect to GPIO25
+
+        #include "BluetoothA2DPSink.h"
+
+        BluetoothA2DPSink a2dp_sink;
+
+        void setup() {
+          const i2s_config_t i2s_config = {
+            .mode = (i2s_mode_t)(I2S_MODE_MASTER | I2S_MODE_TX | I2S_MODE_DAC_BUILT_IN),
+            .sample_rate = 44100,                          // corrected by info from bluetooth
+            .bits_per_sample = (i2s_bits_per_sample_t)16,  //the DAC module will only take the 8bits from MSB
+            .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
+            .communication_format = (i2s_comm_format_t)I2S_COMM_FORMAT_STAND_MSB,
+            .intr_alloc_flags = 0,  // default interrupt priority
+            .dma_buf_count = 8,
+            .dma_buf_len = 64,
+            .use_apll = false
+          };
+
+          a2dp_sink.set_i2s_config(i2s_config);
+          a2dp_sink.start("ESP32_Bluetooth");
+        }
+
+
+        void loop() {
+        }
         
 #. After selecting the correct board and port, click on the Upload button.
 
