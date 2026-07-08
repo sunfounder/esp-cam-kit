@@ -73,16 +73,46 @@
 
 |link_download_this_code|、Arduino IDEに直接コピーします。
 
-.. note::
+   .. code-block:: arduino
 
-    * :ref:`unknown_com_port`
-    * ここでは ``ESP32Servo`` ライブラリを使用します。ライブラリマネージャーからインストールできます。
+        #include <ESP32Servo.h>
 
-        .. image:: img/servo_lib.png
+        // Define the servo and the pin it is connected to
+        Servo myServo;
+        const int servoPin = 25;
 
-.. raw:: html
+        // Define the minimum and maximum pulse widths for the servo
+        const int minPulseWidth = 500; // 0.5 ms
+        const int maxPulseWidth = 2500; // 2.5 ms
 
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/34c7969e-fee3-413c-9fe7-9d38ca6fb906/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        void setup() {
+          // Attach the servo to the specified pin and set its pulse width range
+          myServo.attach(servoPin, minPulseWidth, maxPulseWidth);
+
+          // Set the PWM frequency for the servo
+          myServo.setPeriodHertz(50); // Standard 50Hz servo
+        }
+
+        void loop() {
+          // Rotate the servo from 0 to 180 degrees
+          for (int angle = 0; angle <= 180; angle++) {
+            int pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
+            myServo.writeMicroseconds(pulseWidth);
+            delay(15);
+          }
+
+          // Rotate the servo from 180 to 0 degrees
+          for (int angle = 180; angle >= 0; angle--) {
+            int pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
+            myServo.writeMicroseconds(pulseWidth);
+            delay(15);
+          }
+        }
+
+* :ref:`unknown_com_port`
+* ここでは ``ESP32Servo`` ライブラリを使用します。ライブラリマネージャーからインストールできます。
+
+    .. image:: img/servo_lib.png
 
 コードのアップロードが完了すると、サーボアームが0°〜180°の範囲で回転するのが見えます。
 

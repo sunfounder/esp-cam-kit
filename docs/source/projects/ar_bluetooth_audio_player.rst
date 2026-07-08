@@ -64,13 +64,38 @@ ESP32の内蔵DACを使用する際には、出力電圧レベルが1.1Vに制�
 
 #. |link_download_this_code|、直接Arduino IDEにコピーします。
 
-    .. note::
-        
-        * :ref:`unknown_com_port`
-        * ここでは「ESP32-A2DP」ライブラリが使用されています。詳細は :ref:`install_lib_man` を参照してください。
-        * :download:`ESP32-A2DP </_static/zip/ESP32-A2DP.zip>`
+   .. code-block:: arduino
 
-    .. warning::
+        // ==> Example to use built in DAC of ESP32
+
+        // R,L connect to GPIO25
+
+        #include "BluetoothA2DPSink.h"
+
+        BluetoothA2DPSink a2dp_sink;
+
+        void setup() {
+          const i2s_config_t i2s_config = {
+            .mode = (i2s_mode_t)(I2S_MODE_MASTER | I2S_MODE_TX | I2S_MODE_DAC_BUILT_IN),
+            .sample_rate = 44100,                          // corrected by info from bluetooth
+            .bits_per_sample = (i2s_bits_per_sample_t)16,  //the DAC module will only take the 8bits from MSB
+            .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
+            .communication_format = (i2s_comm_format_t)I2S_COMM_FORMAT_STAND_MSB,
+            .intr_alloc_flags = 0,  // default interrupt priority
+            .dma_buf_count = 8,
+            .dma_buf_len = 64,
+            .use_apll = false
+          };
+
+          a2dp_sink.set_i2s_config(i2s_config);
+          a2dp_sink.start("ESP32_Bluetooth");
+        }
+
+
+        void loop() {
+        }
+
+   .. warning::
 
         ESP32開発ボードのバージョン3.0.0以上を使用している場合、コンパイルプロセス中にエラーが発生することがあります。
         この問題は、ボードの新しいバージョンが「ESP32-A2DP」ライブラリをサポートしなくなったためです。
@@ -78,10 +103,6 @@ ESP32の内蔵DACを使用する際には、出力電圧レベルが1.1Vに制�
         この例を完了した後、最新バージョンに再度アップグレードしてください。
 
         .. image:: ../faq/img/version_2.0.17.png
-
-    .. raw:: html
-
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/7bb7d6dd-72d4-4529-bb42-033b38558347/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
         
 #. 正しいボードとポートを選択した後、アップロードボタンをクリックします。
 

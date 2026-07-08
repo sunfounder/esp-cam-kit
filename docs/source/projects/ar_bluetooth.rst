@@ -55,13 +55,105 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
 
 #. |link_download_this_code|、直接Arduino IDEにコピーしてください。
 
-    .. note::
-        
-        * :ref:`unknown_com_port`
+   .. code-block:: arduino
 
-    .. raw:: html
-        
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/388f6d9d-65bf-4eaa-b29a-7cebf0b92f74/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        #include "BLEDevice.h"
+        #include "BLEServer.h"
+        #include "BLEUtils.h"
+        #include "BLE2902.h"
+
+        // Define the Bluetooth device name
+        const char *bleName = "ESP32_Bluetooth";
+
+        // Define the received text and the time of the last message
+        String receivedText = "";
+        unsigned long lastMessageTime = 0;
+
+        // Define the UUIDs of the service and characteristics
+        #define SERVICE_UUID           "your_service_uuid_here"
+        #define CHARACTERISTIC_UUID_RX "your_rx_characteristic_uuid_here"
+        #define CHARACTERISTIC_UUID_TX "your_tx_characteristic_uuid_here"
+
+        // Define the Bluetooth characteristic
+        BLECharacteristic *pCharacteristic;
+
+        void setup() {
+          Serial.begin(115200);  // Initialize the serial port
+          setupBLE();            // Initialize the Bluetooth BLE
+        }
+
+        void loop() {
+          // When the received text is not empty and the time since the last message is over 1 second
+          // Send a notification and print the received text
+          if (receivedText.length() > 0 && millis() - lastMessageTime > 1000) {
+            Serial.print("Received message: ");
+            Serial.println(receivedText);
+            pCharacteristic->setValue(receivedText.c_str());
+            pCharacteristic->notify();
+            receivedText = "";
+          }
+
+          // Read data from the serial port and send it to BLE characteristic
+          if (Serial.available() > 0) {
+            String str = Serial.readStringUntil('\n');
+            const char *newValue = str.c_str();
+            pCharacteristic->setValue(newValue);
+            pCharacteristic->notify();
+          }
+        }
+
+        // Define the BLE server callbacks
+        class MyServerCallbacks : public BLEServerCallbacks {
+          // Print the connection message when a client is connected
+          void onConnect(BLEServer *pServer) {
+            Serial.println("Connected");
+          }
+          // Print the disconnection message when a client is disconnected
+          void onDisconnect(BLEServer *pServer) {
+            Serial.println("Disconnected");
+          }
+        };
+
+        // Define the BLE characteristic callbacks
+        class MyCharacteristicCallbacks : public BLECharacteristicCallbacks {
+          void onWrite(BLECharacteristic *pCharacteristic) {
+            // When data is received, get the data and save it to receivedText, and record the time
+            std::string value = std::string(pCharacteristic->getValue().c_str());
+            receivedText = String(value.c_str());
+            lastMessageTime = millis();
+            Serial.print("Received: ");
+            Serial.println(receivedText);
+          }
+        };
+
+        // Initialize the Bluetooth BLE
+        void setupBLE() {
+          BLEDevice::init(bleName);                        // Initialize the BLE device
+          BLEServer *pServer = BLEDevice::createServer();  // Create the BLE server
+          // Print the error message if the BLE server creation fails
+          if (pServer == nullptr) {
+            Serial.println("Error creating BLE server");
+            return;
+          }
+          pServer->setCallbacks(new MyServerCallbacks());  // Set the BLE server callbacks
+
+          // Create the BLE service
+          BLEService *pService = pServer->createService(SERVICE_UUID);
+          // Print the error message if the BLE service creation fails
+          if (pService == nullptr) {
+            Serial.println("Error creating BLE service");
+            return;
+          }
+          // Create the BLE characteristic for sending notifications
+          pCharacteristic = pService->createCharacteristic(CHARACTERISTIC_UUID_TX, BLECharacteristic::PROPERTY_NOTIFY);
+          pCharacteristic->addDescriptor(new BLE2902());  // Add the descriptor
+          // Create the BLE characteristic for receiving data
+          BLECharacteristic *pCharacteristicRX = pService->createCharacteristic(CHARACTERISTIC_UUID_RX, BLECharacteristic::PROPERTY_WRITE);
+          pCharacteristicRX->setCallbacks(new MyCharacteristicCallbacks());  // Set the BLE characteristic callbacks
+          pService->start();                                                 // Start the BLE service
+          pServer->getAdvertising()->start();                                // Start advertising
+          Serial.println("Waiting for a client connection...");              // Wait for a client connection
+        }
 
 #. UUIDの競合を避けるために、|link_uuid| を使用して新しいUUIDを3つランダムに生成し、以下のコード行に入力することをお勧めします。
 
@@ -74,6 +166,8 @@ ESP32 WROOM 32EのBluetooth機能を使用するには、適切なソフトウ�
     .. image:: img/uuid_generate.png
 
 #. 正しいボードとポートを選択し、 **Upload** ボタンをクリックします。
+
+    * :ref:`unknown_com_port`
 
     .. image:: img/bluetooth_upload.png
 

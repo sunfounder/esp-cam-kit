@@ -75,14 +75,38 @@ L293Dは、エレクトロニクスやロボティクスプロジェクトでよ
 
 #. |link_download_this_code|、直接Arduino IDEにコピーします。
 
-.. note::
+    .. code-block:: arduino
+
+        #define motor1A 13
+        #define motor2A 14
+
+        // the setup function runs once when you press reset or power the board
+        void setup() {
+          // initialize digital pin as an output.
+          pinMode(motor1A, OUTPUT);
+          pinMode(motor2A, OUTPUT);
+        }
+
+        // the loop function runs over and over again forever
+        void loop() {
+
+          // Rotate
+          digitalWrite(motor1A, HIGH);
+          digitalWrite(motor2A, LOW);
+          delay(2000);
+
+          // Rotate in the opposite direction
+          digitalWrite(motor1A, LOW);
+          digitalWrite(motor2A, HIGH);
+          delay(2000);
+
+          // Stop
+          digitalWrite(motor1A, LOW);
+          digitalWrite(motor2A, LOW);
+          delay(3000);
+        }
 
     * :ref:`unknown_com_port`
-    
-.. raw:: html
-    
-  <iframe src=https://create.arduino.cc/editor/sunfounder01/13364fc5-5094-4a84-90ce-07a5f85556dc/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
-
 
 コードが正常にアップロードされると、モーターが1秒間時計回りに回転し、次に1秒間反時計回りに回転し、2秒間の休止を経て、この動作が無限ループで続くのを観察できます。
 
@@ -96,11 +120,6 @@ L293Dは、エレクトロニクスやロボティクスプロジェクトでよ
     * ``esp32-starter-kit-main\c\codes\4.1_motor_pwm`` のパスの下にある ``4.1_motor_pwm.ino`` ファイルを開きます。
     * ボード（ESP32 Dev Module）と適切なポートを選択した後、 **Upload** ボタンをクリックします。
     * :ref:`unknown_com_port`
-    
-
-.. raw:: html
-
-  <iframe src=https://create.arduino.cc/editor/sunfounder01/32c262fd-9975-4137-9973-8b62d7240fee/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 以前のコードは、モーターの2つのピンを高または低の電圧レベルに直接設定して、モーターの回転と停止を制御していました。
 

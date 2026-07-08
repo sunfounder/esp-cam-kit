@@ -56,16 +56,11 @@
 
     .. image:: img/plugin_esp32.png
 
-#. |link_download_this_code|、Arduino IDEに直接コピーします。
+#. |link_download_this_code|. After downloading, extract the zip file and open the ``2.13_camera_web_server.ino`` file in the Arduino IDE.
 
     .. note::
 
         * :ref:`unknown_com_port`
-
-    .. raw:: html
-
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/15e00b39-34e1-49f9-b039-f10053d31407/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
-        
 
 #. 以下の行を見つけて、 ``SSID`` と ``PASSWORD`` で修正します。
 

@@ -31,7 +31,7 @@ SunFounder |link_Camera_Pro_Kit|
     
     ご希望の言語のリンクをクリックして、ドキュメントにアクセスしてください。
 
-.. image:: img/battery_charge.png
+.. image:: img/esp32_camera.png
 
 .. toctree::
     :maxdepth: 1
@@ -39,7 +39,6 @@ SunFounder |link_Camera_Pro_Kit|
     About this Kit <self>
     component_esp32
     component_esp32_extension
-    component_battery
     component_camera
     projects/projects
     arduino_video_course/arduino_video_course

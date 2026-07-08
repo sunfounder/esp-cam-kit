@@ -68,16 +68,40 @@
 
 #. |link_download_this_code|、Arduino IDEに直接コピーします。
 
-.. note::
-    
-    * :ref:`unknown_com_port`
-    * ここでは ``LiquidCrystal I2C`` ライブラリを使用しています。 **ライブラリマネージャ** からインストールできます。
+    .. code-block:: arduino
 
-        .. image:: img/lcd_lib.png
+        #include <Wire.h>
+        #include <LiquidCrystal_I2C.h>
 
-.. raw:: html
+        //SDA->21,SCL->22
+        LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/31e33e53-67b2-4e29-b78b-f647fd45fb0b/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        int count = 0;
+
+        void setup()
+        {
+          lcd.init();// initialize the lcd
+          lcd.backlight(); // Turns on the LCD backlight.
+          lcd.print("Hello, world!");   // Print a message to the LCD.
+          delay(3000);
+        }
+
+        void loop()
+        {
+          lcd.clear();
+          lcd.setCursor(0, 0); // Sets the cursor position to the first row and first column (0, 0).
+          lcd.print("COUNT: ");
+          lcd.print(count); // Prints the current value of the count variable.
+          delay(1000);
+          count++; // Increments the counter by 1.
+        }
+
+    .. note::
+
+        * :ref:`unknown_com_port`
+        * ここでは ``LiquidCrystal I2C`` ライブラリを使用しています。 **ライブラリマネージャ** からインストールできます。
+
+            .. image:: img/lcd_lib.png
 
 このプログラムがアップロードされると、I2C LCD1602は3秒間 "Hello, Sunfounder!" のウェルカムメッセージを表示します。その後、画面には「COUNT:」ラベルとカウント値が表示され、毎秒増加します。
 

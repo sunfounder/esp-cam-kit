@@ -67,21 +67,64 @@ ESP32で音楽の世界へようこそ！このプロジェクトは、オーデ
 
 #. ESP32-WROOM-32EをUSBケーブルでコンピュータに接続します。
 
+    * :ref:`unknown_com_port`
+
     .. image:: img/plugin_esp32.png
 
 #. |link_download_this_code|、直接Arduino IDEにコピーします。
 
     コード行 ``file = new AudioFileSourceSD_MMC("/To Alice.mp3")`` を変更して、ファイル名とパスを反映させます。
 
-    .. note::
+   .. code-block:: arduino
 
-        * :ref:`unknown_com_port`
-        * ``ESP8266Audio`` ライブラリを使用しています。インストール方法は :ref:`install_lib_man` を参照してください。
-        * :download:`ESP8266Audio </_static/zip/ESP8266Audio.zip>`
+        #include "AudioFileSourceSD_MMC.h"
+        #include "AudioOutputI2S.h"
+        #include "AudioGeneratorMP3.h"
+        #include "SD_MMC.h"
+        #include "FS.h"
 
+        // Declare pointers for the MP3 generator, file source, and output.
+        AudioGeneratorMP3 *mp3;
+        AudioFileSourceSD_MMC *file;
+        AudioOutputI2S *out;
 
+        void setup() {
+          // Start the serial communication.
+          Serial.begin(115200);
+          delay(1000);
 
-    .. warning::
+          // Initialize the SD card. If it fails, print an error message.
+          if (!SD_MMC.begin()) {
+            Serial.println("SD card mount failed!");
+          }
+
+          // Open the MP3 file from the SD card. Replace "/To Alice.mp3" with your own MP3 file name.
+          file = new AudioFileSourceSD_MMC("/To Alice.mp3");
+
+          // Set up the I2S output on ESP32's internal DAC.
+          out = new AudioOutputI2S(0, 1);
+
+          // Set the output to mono.
+          out->SetOutputModeMono(true);
+
+          // Initialize the MP3 generator with the file and output.
+          mp3 = new AudioGeneratorMP3();
+          mp3->begin(file, out);
+        }
+
+        void loop() {
+          // If the MP3 is running, loop it. Otherwise, stop it.
+          if (mp3->isRunning()) {
+            if (!mp3->loop()) mp3->stop();
+          }
+          // If the MP3 is not running, print a message and wait for 1 second.
+          else {
+            Serial.println("MP3 done");
+            delay(1000);
+          }
+        }
+
+   .. warning::
 
         ESP32開発ボードのバージョン3.0.0以上を使用している場合、コンパイルプロセス中にエラーが発生することがあります。
         この問題は、ボードの新しいバージョンが「ESP8266Audio」ライブラリをサポートしなくなったためです。
@@ -89,10 +132,6 @@ ESP32で音楽の世界へようこそ！このプロジェクトは、オーデ
         この例を完了した後、最新バージョンに再度アップグレードしてください。
 
         .. image:: ../faq/img/version_2.0.17.png
-
-    .. raw:: html
-
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/13f5c757-9622-4735-aa1a-fdbe6fc46273/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
         
 #. Arduino IDEで適切なポートとボードを選択し、コードをESP32にアップロードします。
 

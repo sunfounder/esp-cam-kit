@@ -105,14 +105,41 @@
 **コード**
 
 |link_download_this_code|、Arduino IDEに直接コピーします。
-    
-.. note::
-    
-    * :ref:`unknown_com_port`
- 
-.. raw:: html
 
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/702c5a70-78e7-4a8b-a0c7-10c0acebfc12/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+    .. code-block:: arduino
+
+        // set pin numbers
+        const int buttonPin = 14;  // Button pin
+        const int ledPin = 26;     // LED pin
+
+        // variable for storing the button status
+        int buttonState = 0;
+
+        void setup() {
+          Serial.begin(115200);
+          // initialize the button pin as an input
+          pinMode(buttonPin, INPUT);
+          // initialize the LED pin as an output
+          pinMode(ledPin, OUTPUT);
+        }
+
+        void loop() {
+          // read the state of the button value
+          buttonState = digitalRead(buttonPin);
+          Serial.println(buttonState);
+          delay(100);
+          // if the button is pressed
+          if (buttonState == HIGH) {
+            // turn LED on
+            digitalWrite(ledPin, HIGH);
+
+          } else {
+            // turn LED off
+            digitalWrite(ledPin, LOW);
+          }
+        }
+
+    * :ref:`unknown_com_port`
 
 シリアル通信のボーレートを115200に設定することを忘れないでください。
 
