@@ -67,17 +67,34 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 **Code**
 
 #. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
-    
-.. note::
-    
-    * :ref:`unknown_com_port`
-    * Die Bibliothek ``LiquidCrystal I2C`` wird hier verwendet und kann im **Library Manager** installiert werden.
 
-        .. image:: img/lcd_lib.png
+   .. code-block:: arduino
 
-.. raw:: html
+        #include <Wire.h>
+        #include <LiquidCrystal_I2C.h>
 
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/31e33e53-67b2-4e29-b78b-f647fd45fb0b/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        //SDA->21,SCL->22
+        LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
+
+        int count = 0;
+
+        void setup()
+        {
+          lcd.init();// initialize the lcd
+          lcd.backlight(); // Turns on the LCD backlight.
+          lcd.print("Hello, world!");   // Print a message to the LCD.
+          delay(3000);
+        }
+
+        void loop()
+        {
+          lcd.clear();
+          lcd.setCursor(0, 0); // Sets the cursor position to the first row and first column (0, 0).
+          lcd.print("COUNT: ");
+          lcd.print(count); // Prints the current value of the count variable.
+          delay(1000);
+          count++; // Increments the counter by 1.
+        }
 
 Wenn dieses Programm hochgeladen ist, zeigt das I2C LCD1602 für 3 Sekunden die Willkommensnachricht "Hello, Sunfounder!" an. Danach zeigt der Bildschirm das Label "COUNT:" und den Zählwert, der jede Sekunde um eins erhöht wird.
 

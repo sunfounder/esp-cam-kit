@@ -21,7 +21,7 @@ Wir haben eine Erweiterungsplatine entwickelt, die es Ihnen ermöglicht, die Kam
 
 Die Platine bietet zwei Arten von GPIO-Headern - einen mit Buchsenleisten, ideal für schnelle Prototyping-Projekte. Der andere Typ verfügt über Schraubklemmen, die stabile Drahtverbindungen gewährleisten und sie für IoT-Projekte geeignet machen.
 
-Darüber hinaus können Sie Ihr Projekt mit einer einzigen 3,7V 18650-Batterie betreiben. Wenn die Batterie leer ist, können Sie sie bequem aufladen, indem Sie einfach ein 5V Micro USB-Kabel anschließen. Dies macht sie zu einem großartigen Werkzeug für Outdoor-Projekte und Anwendungen in abgelegenen Bereichen.
+Darüber hinaus können Sie Ihr Projekt mit einer einzigen 3,7V Batterie betreiben. Wenn die Batterie leer ist, können Sie sie bequem aufladen, indem Sie einfach ein 5V Micro USB-Kabel anschließen. Dies macht sie zu einem großartigen Werkzeug für Outdoor-Projekte und Anwendungen in abgelegenen Bereichen.
 
 .. image:: img/esp32_camera_extension.jpg
     :width: 400
@@ -88,7 +88,7 @@ Einführung der Schnittstellen
     * Beim Anschluss eines 5V/0,5A Micro USB-Kabels kann die Batterie aufgeladen werden.
 
 * **Batterieanschluss**
-    * Verfügt über eine PH2.0-2P-Schnittstelle, kompatibel mit 3,7V 18650 Lithium-Batterie.
+    * Verfügt über eine PH2.0-2P-Schnittstelle, kompatibel mit 3,7V Lithium-Batterie.
     * Versorgt sowohl den ESP32 WROOM 32E als auch die ESP32 Kamera-Erweiterung mit Strom.
 
 * **ESP32 Pin-Header**
@@ -274,16 +274,16 @@ Anleitung zur Schnittstelleneinführung
             Your browser does not support the video tag.
         </video>
 
-**Batteriebetrieb und Laden**
+.. **Batteriebetrieb und Laden**
 
-    Stecken Sie das Batteriekabel vorsichtig in den Batterieanschluss, ohne zu viel Kraft anzuwenden, um zu vermeiden, dass das Batterieterminal nach oben gedrückt wird. Sollte das Terminal nach oben gedrückt werden, ist dies in Ordnung, solange die Pins nicht gebrochen sind; drücken Sie es einfach wieder in Position.
+..     Stecken Sie das Batteriekabel vorsichtig in den Batterieanschluss, ohne zu viel Kraft anzuwenden, um zu vermeiden, dass das Batterieterminal nach oben gedrückt wird. Sollte das Terminal nach oben gedrückt werden, ist dies in Ordnung, solange die Pins nicht gebrochen sind; drücken Sie es einfach wieder in Position.
 
-    .. image:: img/plugin_battery.png
-        :width: 500
-        :align: center
+..     .. image:: img/plugin_battery.png
+..         :width: 500
+..         :align: center
 
-    Wenn die Batterie entladen ist, schließen Sie ein 5V/0,5A Micro-USB-Kabel an, um sie aufzuladen.
+..     Wenn die Batterie entladen ist, schließen Sie ein 5V/0,5A Micro-USB-Kabel an, um sie aufzuladen.
 
-    .. image:: img/battery_charge.png
-        :width: 500
-        :align: center
+..     .. image:: img/battery_charge.png
+..         :width: 500
+..         :align: center

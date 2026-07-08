@@ -72,14 +72,25 @@ Dieses Projekt verwendet denselben Schaltkreis wie das erste Projekt :ref:`ar_bl
 **Code**
 
 #. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
-    
-.. note::
-    
-    * :ref:`unknown_com_port`
 
-.. raw:: html
+   .. code-block:: arduino
 
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/aa898b09-be86-473b-9bfe-317556c696bb/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        const int ledPin = 26;  // The GPIO pin for the LED
+        int brightness = 0;
+        int fadeAmount = 5;
+
+        void setup() {
+          ledcAttach(ledPin, 5000, 8);  // Attach the LED pin
+        }
+
+        void loop() {
+          ledcWrite(ledPin, brightness);  // Write the new brightness value to the PWM pin
+          brightness = brightness + fadeAmount;
+          if (brightness <= 0 || brightness >= 255) {
+            fadeAmount = -fadeAmount;
+          }
+          delay(50);  // Wait for 50 milliseconds
+        }
 
 Nachdem der Code erfolgreich hochgeladen wurde, können Sie sehen, wie die LED atmet.
 

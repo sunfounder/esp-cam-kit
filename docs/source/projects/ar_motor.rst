@@ -78,14 +78,36 @@ Hier ist eine Liste der für dieses Projekt verfügbaren Pins auf dem ESP32-Boar
 
 #. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
-.. note::
+   .. code-block:: arduino
 
-    * :ref:`unknown_com_port`
-    
-    
-.. raw:: html
-    
-  <iframe src=https://create.arduino.cc/editor/sunfounder01/13364fc5-5094-4a84-90ce-07a5f85556dc/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        #define motor1A 13
+        #define motor2A 14
+
+        // the setup function runs once when you press reset or power the board
+        void setup() {
+          // initialize digital pin as an output.
+          pinMode(motor1A, OUTPUT);
+          pinMode(motor2A, OUTPUT);
+        }
+
+        // the loop function runs over and over again forever
+        void loop() {
+
+          // Rotate
+          digitalWrite(motor1A, HIGH);
+          digitalWrite(motor2A, LOW);
+          delay(2000);
+
+          // Rotate in the opposite direction
+          digitalWrite(motor1A, LOW);
+          digitalWrite(motor2A, HIGH);
+          delay(2000);
+
+          // Stop
+          digitalWrite(motor1A, LOW);
+          digitalWrite(motor2A, LOW);
+          delay(3000);
+        }
 
 
 
@@ -103,9 +125,6 @@ Zusätzlich dazu, den Motor einfach im Uhrzeigersinn und gegen den Uhrzeigersinn
     * :ref:`unknown_com_port`
     
     
-.. raw:: html
-
-  <iframe src=https://create.arduino.cc/editor/sunfounder01/32c262fd-9975-4137-9973-8b62d7240fee/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 
 Der vorherige Code setzt die beiden Pins des Motors direkt auf hohe oder niedrige Spannungspegel, um die Drehung und das Anhalten des Motors zu steuern.

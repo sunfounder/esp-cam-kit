@@ -45,8 +45,7 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 ----------------------
 
 .. image:: img/iot_9_blynk_bb.png
-    :width: 60%
-    :align: center
+    :width: 400
 
 2. Blynk-Konfiguration
 -----------------------
@@ -57,29 +56,22 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 1. Gehen Sie zur [Blynk-Plattform](link_blynk) und wählen Sie **Sign Up FREE** oder **Enterprise Solution**.
 
     .. image:: img/09_blynk_access.png
-        :width: 600
-        :align: center
 
 2. Geben Sie Ihre E-Mail ein, um den Registrierungsprozess zu starten.
 
     .. image:: img/09_blynk_sign_in.png
-        :align: center
 
 3. Überprüfen Sie Ihre E-Mails und klicken Sie auf den Link **Create Password** in der E-Mail, um Ihr Passwort festzulegen.
 
     .. image:: img/09_blynk_password.png
-        :align: center
 
 4. Nach der Bestätigung beginnt eine **Blynk-Tour**, in der Sie schnell einige der Schlüsselfunktionen von Blynk kennenlernen können.
 
     .. image:: img/09_blynk_tour.png
-        :width: 600
-        :align: center
 
 5. Nach Abschluss der Blynk-Tour erscheint ein Fenster, in dem Sie zwischen der Option **Blueprints erkunden** oder **Quick Start** wählen können, um Ihr Gerät schnell zu verbinden. In diesem Fall wählen wir jedoch "Zuerst umsehen".
 
     .. image:: img/09_blynk_skip.png
-        :align: center
 
 **2.2 Vorlage erstellen**
 
@@ -87,19 +79,16 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
     .. image:: img/09_create_template_1_shadow.png
         :width: 600
-        :align: center
 
 2. Benennen Sie Ihre Vorlage, wählen Sie **ESP32** als Hardware, **WiFi** als **Verbindungstyp** und klicken Sie dann auf **Fertig**.
 
    .. image:: img/09_create_template_2_shadow.png
         :width: 600
-        :align: center
 
 3. Betreten Sie die Vorlage, wo Sie mit den nächsten Schritten aufgefordert werden. Klicken Sie auf **Vorlage konfigurieren**, um ein Titelbild hochzuladen, die Beschreibung zu verbessern und mehr. Folgen Sie den verbleibenden drei Schritten, um die Einrichtung abzuschließen.
 
     .. image:: img/09_blynk_temp_steps.png
         :width: 600
-        :align: center
 
 **2.3 Datenströme einrichten**
 
@@ -107,25 +96,21 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
    .. image:: img/09_blynk_new_datastream.png
         :width: 600
-        :align: center
 
 2. Klicken Sie auf **Neuen Datenstrom**, und wählen Sie im Popup **Virtueller Pin**.
 
    .. image:: img/09_blynk_datastream_virtual.png
         :width: 600
-        :align: center
 
 3. Benennen Sie den **Virtuellen Pin V0** als **AwayMode** und stellen Sie den **DATENTYP** auf **Integer** ein, mit **MIN**- und **MAX**-Werten als **0** und **1**.
 
    .. image:: img/09_create_template_shadow.png
         :width: 600
-        :align: center
 
 4. Erstellen Sie ähnlich einen weiteren **Virtuellen Pin** mit dem Namen **Current Status** und setzen Sie den **DATENTYP** auf **String**.
 
    .. image:: img/09_datastream_1_shadow.png
         :width: 600
-        :align: center
 
 **2.4 Das Web-Dashboard einrichten**
 
@@ -133,25 +118,21 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
    .. image:: img/09_web_dashboard_1_shadow.png
         :width: 600
-        :align: center
 
 2. Wenn Sie über ein Widget fahren, erscheinen drei Symbole. Verwenden Sie das **Einstellungen**-Symbol, um die Eigenschaften des Widgets zu konfigurieren.
 
    .. image:: img/09_blynk_dashboard_set.png
         :width: 600
-        :align: center
 
 3. Konfigurieren Sie das **Schalter-Widget** so, dass es mit dem Datenstrom **AwayMode(V0)** verknüpft ist. Stellen Sie **ONLABEL** und **OFFLABEL** so ein, dass sie **"weg von zu Hause"** bzw. **"zu Hause"** anzeigen.
 
    .. image:: img/09_web_dashboard_2_shadow.png
         :width: 600
-        :align: center
 
 4. Verknüpfen Sie in den Einstellungen des **Label-Widget** dieses mit dem Datenstrom **Current Status(V1)**.
 
    .. image:: img/09_web_dashboard_3_shadow.png
         :width: 600
-        :align: center
 
 **2.5 Ein Ereignis einrichten**
 
@@ -159,7 +140,6 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
    .. image:: img/09_blynk_event_add.png
         :width: 600
-        :align: center
     
 2. Benennen Sie das Ereignis und geben Sie dessen Code an. Wählen Sie **Warnung** für den **TYP** und geben Sie eine kurze Beschreibung für die Benachrichtigungs-E-Mail an. Stellen Sie die Benachrichtigungshäufigkeit nach Wunsch ein.
 
@@ -169,19 +149,16 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
    .. image:: img/09_event_1_shadow.png
         :width: 600
-        :align: center
 
 3. Gehen Sie zum Abschnitt **Benachrichtigungen**, um Benachrichtigungen zu aktivieren und E-Mail-Einstellungen zu konfigurieren.
 
    .. image:: img/09_event_2_shadow.png
         :width: 600
-        :align: center
 
 4. Definieren Sie unter **Einstellungen**, wie häufig ein Ereignis Benachrichtigungen auslöst und legen Sie Intervalle nach Ihren Vorlieben fest. Denken Sie daran, auf **Erstellen** zu klicken, um Ihre Einstellungen zu speichern.
 
    .. image:: img/09_event_3_shadow.png
         :width: 600
-        :align: center
 
 **2.6 Vorlage speichern**
 
@@ -189,7 +166,6 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
    .. image:: img/09_save_template_shadow.png
         :width: 600
-        :align: center
 
 **2.7 Ein Gerät erstellen**
 
@@ -197,25 +173,21 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
    .. image:: img/09_blynk_device_new.png
         :width: 600
-        :align: center
 
 2. Wählen Sie **Aus Vorlage** aus, um zu beginnen.
 
    .. image:: img/09_blynk_device_template.png
         :width: 600
-        :align: center
 
 3. Wählen Sie die Vorlage **Intrusion Alert System** und klicken Sie auf **Erstellen**.
 
    .. image:: img/09_blynk_device_template2.png
         :width: 600
-        :align: center
 
 4. Notieren Sie sich die **Vorlagen-ID**, den **Gerätenamen** und den **Authentifizierungs-Token** für die Integration Ihres ESP32.
 
    .. image:: img/09_blynk_device_code.png
         :width: 600
-        :align: center
 
 
 
@@ -226,13 +198,90 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 
     .. image:: img/09_blynk_add_library.png
         :width: 700
-        :align: center
 
 #. |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
-    .. raw:: html
+    .. code-block:: arduino
 
-        <iframe src=https://create.arduino.cc/editor/sunfounder01/16bca228-64d7-4519-ac3b-833afecfcc65/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        /* Comment this out to disable prints and save space */
+        #define BLYNK_PRINT Serial
+
+        #define BLYNK_TEMPLATE_ID "TMPxxxxxxx"
+        #define BLYNK_TEMPLATE_NAME "Intrusion Alert System"
+        #define BLYNK_AUTH_TOKEN "xxxxxxxxxxxxxxxx"
+
+        #include <WiFi.h>
+        #include <WiFiClient.h>
+        #include <BlynkSimpleEsp32.h>
+
+
+        // Define WiFi credentials
+        char ssid[] = "your_ssid";
+        char pass[] = "your_password";
+
+        // Define the PIR sensor pin and related variables
+        const int sensorPin = 14;
+        int state = 0;
+        int awayHomeMode = 0;
+
+        // Create Blynk Timer object
+        BlynkTimer timer;
+
+        void setup() {
+
+          pinMode(sensorPin, INPUT);  // Set PIR sensor pin as input
+          Serial.begin(115200);           // Start serial communication at 115200 baud rate for debugging
+
+          // Configure Blynk and connect to WiFi
+          Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
+
+          timer.setInterval(1000L, myTimerEvent);  // Setup a function to be called every second
+        }
+
+        void loop() {
+          Blynk.run();  // Run Blynk
+          timer.run();  // Run BlynkTimer
+        }
+
+        // This function is called every time the device is connected to the Blynk.Cloud
+        BLYNK_CONNECTED() {
+          Blynk.syncVirtual(V0);
+        }
+
+        // This function is called every time the Virtual Pin 0 state changes
+        BLYNK_WRITE(V0) {
+          awayHomeMode = param.asInt();  // Set incoming value from pin V0 to a variable
+
+          if (awayHomeMode == 1) {
+            Serial.println("The switch on Blynk has been turned on.");
+            Blynk.virtualWrite(V1, "Detecting signs of intrusion...");
+          } else {
+            Serial.println("The switch on Blynk has been turned off.");
+            Blynk.virtualWrite(V1, "Away home mode close");
+          }
+        }
+
+        void myTimerEvent() {
+          // Please don't send more that 10 values per second.
+          sendData();  // Call function to send sensor data to Blynk app
+        }
+
+        // Function to send sensor data to Blynk app
+        void sendData() {
+          if (awayHomeMode == 1) {
+            state = digitalRead(sensorPin);  // Read the state of the PIR sensor
+
+            Serial.print("state:");
+            Serial.println(state);
+
+            // If the sensor detects movement, send an alert to the Blynk app
+            if (state == HIGH) {
+              Serial.println("Somebody here!");
+              Blynk.virtualWrite(V1, "Somebody in your house! Please check!");
+              Blynk.logEvent("intrusion_detected");
+            }
+          }
+        }
 
 #. Ersetzen Sie die Platzhalter für ``BLYNK_TEMPLATE_ID``, ``BLYNK_TEMPLATE_NAME`` und ``BLYNK_AUTH_TOKEN`` durch Ihre eigenen eindeutigen IDs.
 
@@ -254,13 +303,11 @@ In diesem Projekt benötigen wir die folgenden Komponenten.
 #. Öffnen Sie den Seriellen Monitor (stellen Sie die Baudrate auf 115200 ein) und warten Sie auf eine erfolgreiche Verbindungsnachricht.
 
     .. image:: img/09_blynk_upload_code.png
-        :align: center
 
 #. Nach einer erfolgreichen Verbindung wird durch Aktivieren des Schalters in Blynk das Überwachungsmodul des PIR-Moduls gestartet. Wenn eine Bewegung erkannt wird (Zustand 1), erscheint die Nachricht "Somebody here!" und es wird eine Warnung an Ihre E-Mail gesendet.
 
     .. image:: img/09_blynk_code_alarm.png
         :width: 700
-        :align: center
 
 4. Code-Erklärung
 -----------------------------

@@ -32,7 +32,7 @@ Dieses ESP32 Kamera Pro Kit ist darauf ausgelegt, eine Vielzahl von Projekten zu
     Bitte klicken Sie auf die entsprechenden Links, um das Dokument in Ihrer bevorzugten Sprache zu öffnen.
 
 
-.. image:: img/battery_charge.png
+.. image:: img/esp32_camera.png
 
 .. toctree::
     :maxdepth: 1
@@ -40,7 +40,6 @@ Dieses ESP32 Kamera Pro Kit ist darauf ausgelegt, eine Vielzahl von Projekten zu
     About this Kit <self>
     component_esp32
     component_esp32_extension
-    component_battery
     component_camera
     projects/projects
     arduino_video_course/arduino_video_course

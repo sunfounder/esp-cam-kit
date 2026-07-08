@@ -86,13 +86,37 @@ Wenn Sie das Potentiometer drehen, ändert sich der Wert von I35. Durch Programm
 
 |link_download_this_code| herunter oder kopieren Sie ihn direkt in die Arduino IDE.
 
-.. note::
+   .. code-block:: arduino
 
-    * :ref:`unknown_com_port`
-   
-.. raw:: html
-     
-    <iframe src=https://create.arduino.cc/editor/sunfounder01/aadce2e7-fd5d-4608-a557-f1e4d07ba795/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+        const int potPin = 35; // Potentiometer connected to
+        const int ledPin = 26; // LED connected to
+
+        // PWM settings
+        const int freq = 5000; // PWM frequency
+        const int resolution = 12; // PWM resolution (bits)
+
+        void setup() {
+          Serial.begin(115200);
+
+          // Configure PWM
+          ledcAttach(ledPin, freq, resolution);
+        }
+
+        void loop() {
+
+          int potValue = analogRead(potPin); // read the value of the potentiometer
+          uint32_t voltage_mV = analogReadMilliVolts(potPin); // Read the voltage in millivolts
+
+          ledcWrite(ledPin, potValue);
+
+          Serial.print("Potentiometer Value: ");
+          Serial.print(potValue);
+          Serial.print(", Voltage: ");
+          Serial.print(voltage_mV / 1000.0); // Convert millivolts to volts
+          Serial.println(" V");
+
+          delay(100);
+        }
 
 Nachdem der Code erfolgreich hochgeladen wurde, drehen Sie das Potentiometer und sehen, wie sich die Helligkeit der LED entsprechend ändert. Gleichzeitig können Sie die Analog- und Spannungswerte des Potentiometers im seriellen Monitor sehen.
 
